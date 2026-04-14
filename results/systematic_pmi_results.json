@@ -1,0 +1,7019 @@
+{
+  "statistics": {
+    "total_bigrams": 200,
+    "median_boost": 4.254605710524002,
+    "mean_boost": 24.515425617262963,
+    "rank1_count": 1,
+    "boost_gt_1": 174,
+    "boost_gt_10": 50,
+    "boost_gt_100": 8,
+    "spearman_r": -0.03521338033450837,
+    "spearman_p": 0.620582806050069,
+    "pearson_r": -0.03383395754177807,
+    "pearson_p": 0.6343440806993499,
+    "wilcoxon_stat": 18087.0,
+    "wilcoxon_p": 7.372374858744941e-24
+  },
+  "results": [
+    {
+      "word1": "grandfather",
+      "word2": "frog",
+      "bigram": "grandfather frog",
+      "pmi": 16.31595722644324,
+      "freq": 21,
+      "mean_prob_compound": 2.999208946530274e-06,
+      "mean_prob_control": 1.8383909401453735e-05,
+      "boost_ratio": 0.1631431531256952,
+      "mean_rank_compound": 10522.75,
+      "mean_rank_control": 6512.0,
+      "best_rank_compound": 4875,
+      "top5_after_w1": [
+        [
+          "a",
+          0.1845283955335617
+        ],
+        [
+          "the",
+          0.04365812987089157
+        ],
+        [
+          "an",
+          0.041490450501441956
+        ],
+        [
+          "killed",
+          0.019423792138695717
+        ],
+        [
+          "also",
+          0.019124260172247887
+        ]
+      ]
+    },
+    {
+      "word1": "mock",
+      "word2": "turtle",
+      "bigram": "mock turtle",
+      "pmi": 15.096450196150366,
+      "freq": 56,
+      "mean_prob_compound": 6.621464806955135e-06,
+      "mean_prob_control": 2.5708221991216362e-05,
+      "boost_ratio": 0.2575621452630006,
+      "mean_rank_compound": 12522.25,
+      "mean_rank_control": 7668.25,
+      "best_rank_compound": 1834,
+      "top5_after_w1": [
+        [
+          "created",
+          0.07339409738779068
+        ],
+        [
+          "made",
+          0.04222393035888672
+        ],
+        [
+          "designed",
+          0.036038145422935486
+        ],
+        [
+          "a",
+          0.03594944626092911
+        ],
+        [
+          "taken",
+          0.01719643548130989
+        ]
+      ]
+    },
+    {
+      "word1": "audio",
+      "word2": "video",
+      "bigram": "audio video",
+      "pmi": 14.863598003168878,
+      "freq": 26,
+      "mean_prob_compound": 0.021442546751586633,
+      "mean_prob_control": 0.000260988379295668,
+      "boost_ratio": 82.15900956760548,
+      "mean_rank_compound": 240.625,
+      "mean_rank_control": 2132.0,
+      "best_rank_compound": 1,
+      "top5_after_w1": [
+        [
+          "recorded",
+          0.11220945417881012
+        ],
+        [
+          "played",
+          0.04829346761107445
+        ],
+        [
+          "taken",
+          0.038034889847040176
+        ],
+        [
+          "not",
+          0.033739492297172546
+        ],
+        [
+          "also",
+          0.025797616690397263
+        ]
+      ]
+    },
+    {
+      "word1": "orange",
+      "word2": "juice",
+      "bigram": "orange juice",
+      "pmi": 14.497421974267427,
+      "freq": 40,
+      "mean_prob_compound": 6.46826961858693e-05,
+      "mean_prob_control": 3.2713426417529945e-05,
+      "boost_ratio": 1.9772522560097276,
+      "mean_rank_compound": 2952.0,
+      "mean_rank_control": 4425.625,
+      "best_rank_compound": 227,
+      "top5_after_w1": [
+        [
+          "a",
+          0.07206948101520538
+        ],
+        [
+          "the",
+          0.04683643579483032
+        ],
+        [
+          "hes",
+          0.022210555151104927
+        ],
+        [
+          "not",
+          0.01618068292737007
+        ],
+        [
+          "also",
+          0.014129957184195518
+        ]
+      ]
+    },
+    {
+      "word1": "broadly",
+      "word2": "consistent",
+      "bigram": "broadly consistent",
+      "pmi": 13.79064176662628,
+      "freq": 21,
+      "mean_prob_compound": 0.000195879750435779,
+      "mean_prob_control": 2.9516896884018706e-05,
+      "boost_ratio": 6.636190491346463,
+      "mean_rank_compound": 4392.375,
+      "mean_rank_control": 8618.25,
+      "best_rank_compound": 154,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05870669335126877
+        ],
+        [
+          "the",
+          0.04042736440896988
+        ],
+        [
+          "not",
+          0.02903355471789837
+        ],
+        [
+          "hes",
+          0.013407622464001179
+        ],
+        [
+          "founded",
+          0.011916437186300755
+        ]
+      ]
+    },
+    {
+      "word1": "regulatory",
+      "word2": "approvals",
+      "bigram": "regulatory approvals",
+      "pmi": 13.729261758497627,
+      "freq": 32,
+      "mean_prob_compound": 3.4241424502035045e-05,
+      "mean_prob_control": 1.6868005950354537e-07,
+      "boost_ratio": 202.99627948207683,
+      "mean_rank_compound": 10509.25,
+      "mean_rank_control": 34428.125,
+      "best_rank_compound": 294,
+      "top5_after_w1": [
+        [
+          "not",
+          0.03732496127486229
+        ],
+        [
+          "set",
+          0.026352109387516975
+        ],
+        [
+          "a",
+          0.02025378681719303
+        ],
+        [
+          "also",
+          0.017201891168951988
+        ],
+        [
+          "designed",
+          0.015490896068513393
+        ]
+      ]
+    },
+    {
+      "word1": "newspaper",
+      "word2": "advertisement",
+      "bigram": "newspaper advertisement",
+      "pmi": 13.628183920138307,
+      "freq": 20,
+      "mean_prob_compound": 8.312699280921265e-06,
+      "mean_prob_control": 4.80669090574537e-06,
+      "boost_ratio": 1.7294016702811519,
+      "mean_rank_compound": 5620.125,
+      "mean_rank_control": 15214.5,
+      "best_rank_compound": 1655,
+      "top5_after_w1": [
+        [
+          "also",
+          0.06070670485496521
+        ],
+        [
+          "not",
+          0.03548184409737587
+        ],
+        [
+          "founded",
+          0.03187105804681778
+        ],
+        [
+          "the",
+          0.017291808500885963
+        ],
+        [
+          "forced",
+          0.016305366531014442
+        ]
+      ]
+    },
+    {
+      "word1": "dominant",
+      "word2": "stress",
+      "bigram": "dominant stress",
+      "pmi": 13.56704857676919,
+      "freq": 31,
+      "mean_prob_compound": 1.1715238439791165e-05,
+      "mean_prob_control": 1.0336622118245486e-05,
+      "boost_ratio": 1.1333720344784821,
+      "mean_rank_compound": 6080.125,
+      "mean_rank_control": 5346.75,
+      "best_rank_compound": 1894,
+      "top5_after_w1": [
+        [
+          "the",
+          0.1457289457321167
+        ],
+        [
+          "that",
+          0.05919510871171951
+        ],
+        [
+          "a",
+          0.04767177999019623
+        ],
+        [
+          "not",
+          0.01587814837694168
+        ],
+        [
+          "in",
+          0.014695646241307259
+        ]
+      ]
+    },
+    {
+      "word1": "nineteenth",
+      "word2": "century",
+      "bigram": "nineteenth century",
+      "pmi": 13.514604985940784,
+      "freq": 36,
+      "mean_prob_compound": 0.0006463952757655989,
+      "mean_prob_control": 3.1196823631063353e-06,
+      "boost_ratio": 207.19906725438838,
+      "mean_rank_compound": 2807.25,
+      "mean_rank_control": 10074.375,
+      "best_rank_compound": 36,
+      "top5_after_w1": [
+        [
+          "the",
+          0.2265046089887619
+        ],
+        [
+          "a",
+          0.16683444380760193
+        ],
+        [
+          "an",
+          0.03362788259983063
+        ],
+        [
+          "also",
+          0.020470861345529556
+        ],
+        [
+          "not",
+          0.016882607713341713
+        ]
+      ]
+    },
+    {
+      "word1": "incoming",
+      "word2": "orders",
+      "bigram": "incoming orders",
+      "pmi": 13.38376519247186,
+      "freq": 20,
+      "mean_prob_compound": 1.5289206629631735e-05,
+      "mean_prob_control": 4.808081726537239e-06,
+      "boost_ratio": 3.1798974100723036,
+      "mean_rank_compound": 4967.25,
+      "mean_rank_control": 8838.875,
+      "best_rank_compound": 1015,
+      "top5_after_w1": [
+        [
+          "a",
+          0.09089098125696182
+        ],
+        [
+          "not",
+          0.035234611481428146
+        ],
+        [
+          "the",
+          0.026081062853336334
+        ],
+        [
+          "an",
+          0.019830379635095596
+        ],
+        [
+          "greeted",
+          0.01244138740003109
+        ]
+      ]
+    },
+    {
+      "word1": "vegetable",
+      "word2": "oils",
+      "bigram": "vegetable oils",
+      "pmi": 13.100853037216384,
+      "freq": 51,
+      "mean_prob_compound": 2.8218129952239934e-05,
+      "mean_prob_control": 5.4207277609963356e-06,
+      "boost_ratio": 5.2055980666059884,
+      "mean_rank_compound": 6881.375,
+      "mean_rank_control": 20825.375,
+      "best_rank_compound": 439,
+      "top5_after_w1": [
+        [
+          "a",
+          0.037362705916166306
+        ],
+        [
+          "cooked",
+          0.025667628273367882
+        ],
+        [
+          "also",
+          0.02305997721850872
+        ],
+        [
+          "not",
+          0.019376862794160843
+        ],
+        [
+          "then",
+          0.018169855698943138
+        ]
+      ]
+    },
+    {
+      "word1": "eighteenth",
+      "word2": "century",
+      "bigram": "eighteenth century",
+      "pmi": 13.090634361891931,
+      "freq": 23,
+      "mean_prob_compound": 0.00045197493201953876,
+      "mean_prob_control": 3.1196823631063353e-06,
+      "boost_ratio": 144.87850986518305,
+      "mean_rank_compound": 3353.5,
+      "mean_rank_control": 10074.375,
+      "best_rank_compound": 52,
+      "top5_after_w1": [
+        [
+          "the",
+          0.22446653246879578
+        ],
+        [
+          "a",
+          0.14033153653144836
+        ],
+        [
+          "an",
+          0.028606601059436798
+        ],
+        [
+          "also",
+          0.023086756467819214
+        ],
+        [
+          "held",
+          0.01593898795545101
+        ]
+      ]
+    },
+    {
+      "word1": "unknown",
+      "word2": "destinations",
+      "bigram": "unknown destinations",
+      "pmi": 12.98635687621395,
+      "freq": 21,
+      "mean_prob_compound": 5.90675667488938e-07,
+      "mean_prob_control": 1.6905877031625494e-07,
+      "boost_ratio": 3.493907274872357,
+      "mean_rank_compound": 22017.625,
+      "mean_rank_control": 29483.125,
+      "best_rank_compound": 10630,
+      "top5_after_w1": [
+        [
+          "that",
+          0.05546712130308151
+        ],
+        [
+          "the",
+          0.04486110433936119
+        ],
+        [
+          "a",
+          0.0403001569211483
+        ],
+        [
+          "not",
+          0.03371137008070946
+        ],
+        [
+          "also",
+          0.0167811568826437
+        ]
+      ]
+    },
+    {
+      "word1": "maximum",
+      "word2": "rebate",
+      "bigram": "maximum rebate",
+      "pmi": 12.906566290305536,
+      "freq": 21,
+      "mean_prob_compound": 1.7827647758039689e-06,
+      "mean_prob_control": 6.58409599063603e-07,
+      "boost_ratio": 2.7076834516681343,
+      "mean_rank_compound": 15830.125,
+      "mean_rank_control": 20247.875,
+      "best_rank_compound": 5728,
+      "top5_after_w1": [
+        [
+          "set",
+          0.07567919790744781
+        ],
+        [
+          "$",
+          0.0638640746474266
+        ],
+        [
+          "raised",
+          0.025130603462457657
+        ],
+        [
+          "a",
+          0.024694034829735756
+        ],
+        [
+          "the",
+          0.018865080550312996
+        ]
+      ]
+    },
+    {
+      "word1": "housing",
+      "word2": "starts",
+      "bigram": "housing starts",
+      "pmi": 12.892014076152721,
+      "freq": 31,
+      "mean_prob_compound": 1.7066583062330665e-06,
+      "mean_prob_control": 2.8060469787760667e-06,
+      "boost_ratio": 0.6082073176755834,
+      "mean_rank_compound": 9857.5,
+      "mean_rank_control": 11640.5,
+      "best_rank_compound": 2627,
+      "top5_after_w1": [
+        [
+          "built",
+          0.047903262078762054
+        ],
+        [
+          "a",
+          0.028651520609855652
+        ],
+        [
+          "not",
+          0.028329821303486824
+        ],
+        [
+          "sold",
+          0.02308458276093006
+        ],
+        [
+          "also",
+          0.014786281622946262
+        ]
+      ]
+    },
+    {
+      "word1": "mar",
+      "word2": "mar",
+      "bigram": "mar mar",
+      "pmi": 12.824945106552935,
+      "freq": 32,
+      "mean_prob_compound": 0.0004268545591799011,
+      "mean_prob_control": 8.332876728900374e-05,
+      "boost_ratio": 5.122535386842689,
+      "mean_rank_compound": 488.125,
+      "mean_rank_control": 1336.375,
+      "best_rank_compound": 107,
+      "top5_after_w1": [
+        [
+          "a",
+          0.051338423043489456
+        ],
+        [
+          "not",
+          0.017550775781273842
+        ],
+        [
+          "the",
+          0.017471950501203537
+        ],
+        [
+          "also",
+          0.014737123623490334
+        ],
+        [
+          "made",
+          0.010410794056952
+        ]
+      ]
+    },
+    {
+      "word1": "managing",
+      "word2": "director",
+      "bigram": "managing director",
+      "pmi": 12.824104130113563,
+      "freq": 42,
+      "mean_prob_compound": 0.0002342919001989685,
+      "mean_prob_control": 7.436945054450916e-06,
+      "boost_ratio": 31.50378259938169,
+      "mean_rank_compound": 821.75,
+      "mean_rank_control": 6943.0,
+      "best_rank_compound": 127,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05451653152704239
+        ],
+        [
+          "also",
+          0.033507321029901505
+        ],
+        [
+          "not",
+          0.025954948738217354
+        ],
+        [
+          "the",
+          0.016376076266169548
+        ],
+        [
+          "an",
+          0.014790036715567112
+        ]
+      ]
+    },
+    {
+      "word1": "joint",
+      "word2": "ventures",
+      "bigram": "joint ventures",
+      "pmi": 12.634961828334053,
+      "freq": 31,
+      "mean_prob_compound": 6.785677619802755e-08,
+      "mean_prob_control": 2.678801372391071e-08,
+      "boost_ratio": 2.533102188814368,
+      "mean_rank_compound": 28439.625,
+      "mean_rank_control": 36838.125,
+      "best_rank_compound": 21235,
+      "top5_after_w1": [
+        [
+          "set",
+          0.033506665378808975
+        ],
+        [
+          "a",
+          0.02992653101682663
+        ],
+        [
+          "the",
+          0.025123300030827522
+        ],
+        [
+          "also",
+          0.022542385384440422
+        ],
+        [
+          "designed",
+          0.022353312000632286
+        ]
+      ]
+    },
+    {
+      "word1": "institutional",
+      "word2": "investors",
+      "bigram": "institutional investors",
+      "pmi": 12.481369049744885,
+      "freq": 25,
+      "mean_prob_compound": 1.095648183380149e-05,
+      "mean_prob_control": 8.674810687558931e-07,
+      "boost_ratio": 12.63022586707839,
+      "mean_rank_compound": 5835.0,
+      "mean_rank_control": 18638.125,
+      "best_rank_compound": 1166,
+      "top5_after_w1": [
+        [
+          "not",
+          0.05819941312074661
+        ],
+        [
+          "a",
+          0.03811543807387352
+        ],
+        [
+          "very",
+          0.02362726256251335
+        ],
+        [
+          "the",
+          0.019093109294772148
+        ],
+        [
+          "also",
+          0.015341628342866898
+        ]
+      ]
+    },
+    {
+      "word1": "fig",
+      "word2": "tree",
+      "bigram": "fig tree",
+      "pmi": 12.45297343553193,
+      "freq": 37,
+      "mean_prob_compound": 0.001581084624028506,
+      "mean_prob_control": 0.00020799181274533396,
+      "boost_ratio": 7.601667600081896,
+      "mean_rank_compound": 1743.875,
+      "mean_rank_control": 3900.5,
+      "best_rank_compound": 11,
+      "top5_after_w1": [
+        [
+          "a",
+          0.06389177590608597
+        ],
+        [
+          "also",
+          0.022765155881643295
+        ],
+        [
+          "made",
+          0.020123619586229324
+        ],
+        [
+          "not",
+          0.019057460129261017
+        ],
+        [
+          "taken",
+          0.01843705028295517
+        ]
+      ]
+    },
+    {
+      "word1": "bills",
+      "word2": "outright",
+      "bigram": "bills outright",
+      "pmi": 12.33431211038192,
+      "freq": 20,
+      "mean_prob_compound": 4.391051927399303e-06,
+      "mean_prob_control": 1.6912120219814142e-06,
+      "boost_ratio": 2.596393515613005,
+      "mean_rank_compound": 10402.375,
+      "mean_rank_control": 15236.25,
+      "best_rank_compound": 1364,
+      "top5_after_w1": [
+        [
+          "introduced",
+          0.188400536775589
+        ],
+        [
+          "passed",
+          0.0667792335152626
+        ],
+        [
+          "approved",
+          0.036438219249248505
+        ],
+        [
+          "signed",
+          0.025545138865709305
+        ],
+        [
+          "sponsored",
+          0.020890096202492714
+        ]
+      ]
+    },
+    {
+      "word1": "feasibility",
+      "word2": "study",
+      "bigram": "feasibility study",
+      "pmi": 12.324177733248208,
+      "freq": 21,
+      "mean_prob_compound": 0.0022147369595089117,
+      "mean_prob_control": 3.095669444075355e-05,
+      "boost_ratio": 71.54307006995157,
+      "mean_rank_compound": 994.25,
+      "mean_rank_control": 5253.0,
+      "best_rank_compound": 12,
+      "top5_after_w1": [
+        [
+          "not",
+          0.03369402512907982
+        ],
+        [
+          "that",
+          0.033244866877794266
+        ],
+        [
+          "a",
+          0.02307659015059471
+        ],
+        [
+          "also",
+          0.021153824403882027
+        ],
+        [
+          "assessed",
+          0.01817711628973484
+        ]
+      ]
+    },
+    {
+      "word1": "joint",
+      "word2": "venture",
+      "bigram": "joint venture",
+      "pmi": 12.251833577009954,
+      "freq": 124,
+      "mean_prob_compound": 5.16917930415417e-06,
+      "mean_prob_control": 1.2413874621586274e-06,
+      "boost_ratio": 4.164033762001731,
+      "mean_rank_compound": 13824.75,
+      "mean_rank_control": 21761.75,
+      "best_rank_compound": 1981,
+      "top5_after_w1": [
+        [
+          "set",
+          0.033506665378808975
+        ],
+        [
+          "a",
+          0.02992653101682663
+        ],
+        [
+          "the",
+          0.025123300030827522
+        ],
+        [
+          "also",
+          0.022542385384440422
+        ],
+        [
+          "designed",
+          0.022353312000632286
+        ]
+      ]
+    },
+    {
+      "word1": "insider",
+      "word2": "trading",
+      "bigram": "insider trading",
+      "pmi": 12.243407636045552,
+      "freq": 28,
+      "mean_prob_compound": 6.952128292780912e-05,
+      "mean_prob_control": 6.639465482294327e-06,
+      "boost_ratio": 10.47091563518234,
+      "mean_rank_compound": 2258.625,
+      "mean_rank_control": 5782.25,
+      "best_rank_compound": 593,
+      "top5_after_w1": [
+        [
+          "also",
+          0.04984590411186218
+        ],
+        [
+          "not",
+          0.040243133902549744
+        ],
+        [
+          "told",
+          0.036243926733732224
+        ],
+        [
+          "a",
+          0.02584511786699295
+        ],
+        [
+          "quoted",
+          0.023393340408802032
+        ]
+      ]
+    },
+    {
+      "word1": "non",
+      "word2": "recurring",
+      "bigram": "non recurring",
+      "pmi": 12.20923908240067,
+      "freq": 26,
+      "mean_prob_compound": 2.7991858075893106e-06,
+      "mean_prob_control": 8.788605576626196e-07,
+      "boost_ratio": 3.1850169895368916,
+      "mean_rank_compound": 13834.0,
+      "mean_rank_control": 15102.25,
+      "best_rank_compound": 10439,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05280962958931923
+        ],
+        [
+          "not",
+          0.026755675673484802
+        ],
+        [
+          "the",
+          0.024737970903515816
+        ],
+        [
+          "also",
+          0.013496468774974346
+        ],
+        [
+          "to",
+          0.011951006948947906
+        ]
+      ]
+    },
+    {
+      "word1": "nuclear",
+      "word2": "weapons",
+      "bigram": "nuclear weapons",
+      "pmi": 12.185468446752875,
+      "freq": 23,
+      "mean_prob_compound": 8.979377081885787e-05,
+      "mean_prob_control": 7.264305255993975e-06,
+      "boost_ratio": 12.360957814206197,
+      "mean_rank_compound": 1527.375,
+      "mean_rank_control": 7791.875,
+      "best_rank_compound": 294,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05541608855128288
+        ],
+        [
+          "not",
+          0.04137573763728142
+        ],
+        [
+          "the",
+          0.02892240881919861
+        ],
+        [
+          "never",
+          0.024866566061973572
+        ],
+        [
+          "an",
+          0.013848355039954185
+        ]
+      ]
+    },
+    {
+      "word1": "durable",
+      "word2": "goods",
+      "bigram": "durable goods",
+      "pmi": 12.170361554362666,
+      "freq": 23,
+      "mean_prob_compound": 6.839469079977789e-06,
+      "mean_prob_control": 1.720183243847373e-06,
+      "boost_ratio": 3.976011918753835,
+      "mean_rank_compound": 8064.375,
+      "mean_rank_control": 14749.375,
+      "best_rank_compound": 2883,
+      "top5_after_w1": [
+        [
+          "hes",
+          0.2610931098461151
+        ],
+        [
+          "her",
+          0.05425456911325455
+        ],
+        [
+          "a",
+          0.044389866292476654
+        ],
+        [
+          "the",
+          0.03321123495697975
+        ],
+        [
+          "made",
+          0.02149864472448826
+        ]
+      ]
+    },
+    {
+      "word1": "human",
+      "word2": "beings",
+      "bigram": "human beings",
+      "pmi": 12.057364988176976,
+      "freq": 33,
+      "mean_prob_compound": 2.6495652285518645e-06,
+      "mean_prob_control": 4.6028280120680165e-07,
+      "boost_ratio": 5.756385469118222,
+      "mean_rank_compound": 10390.125,
+      "mean_rank_control": 23532.75,
+      "best_rank_compound": 2982,
+      "top5_after_w1": [
+        [
+          "not",
+          0.03848438337445259
+        ],
+        [
+          "a",
+          0.03287878632545471
+        ],
+        [
+          "in",
+          0.01863497868180275
+        ],
+        [
+          "the",
+          0.018009353429079056
+        ],
+        [
+          "born",
+          0.017584921792149544
+        ]
+      ]
+    },
+    {
+      "word1": "bankers",
+      "word2": "balances",
+      "bigram": "bankers balances",
+      "pmi": 12.028228704941677,
+      "freq": 20,
+      "mean_prob_compound": 2.3148870391676013e-06,
+      "mean_prob_control": 3.114340185739195e-07,
+      "boost_ratio": 7.432993511009646,
+      "mean_rank_compound": 17713.625,
+      "mean_rank_control": 25381.125,
+      "best_rank_compound": 4509,
+      "top5_after_w1": [
+        [
+          "not",
+          0.03650786727666855
+        ],
+        [
+          "a",
+          0.03569319471716881
+        ],
+        [
+          "also",
+          0.025438420474529266
+        ],
+        [
+          "the",
+          0.02288144826889038
+        ],
+        [
+          "in",
+          0.018120059743523598
+        ]
+      ]
+    },
+    {
+      "word1": "withdrawal",
+      "word2": "rights",
+      "bigram": "withdrawal rights",
+      "pmi": 12.015740682995043,
+      "freq": 20,
+      "mean_prob_compound": 4.483594281623482e-06,
+      "mean_prob_control": 2.684040161682333e-06,
+      "boost_ratio": 1.6704646769566982,
+      "mean_rank_compound": 6145.25,
+      "mean_rank_control": 9956.25,
+      "best_rank_compound": 3806,
+      "top5_after_w1": [
+        [
+          "announced",
+          0.05335806682705879
+        ],
+        [
+          "made",
+          0.053041476756334305
+        ],
+        [
+          "a",
+          0.0499519445002079
+        ],
+        [
+          "not",
+          0.03955596312880516
+        ],
+        [
+          "the",
+          0.03460519015789032
+        ]
+      ]
+    },
+    {
+      "word1": "fir",
+      "word2": "tree",
+      "bigram": "fir tree",
+      "pmi": 12.005360332708216,
+      "freq": 36,
+      "mean_prob_compound": 0.0006879304188789348,
+      "mean_prob_control": 0.00020799181274533396,
+      "boost_ratio": 3.3074879717560792,
+      "mean_rank_compound": 2389.875,
+      "mean_rank_control": 3900.5,
+      "best_rank_compound": 40,
+      "top5_after_w1": [
+        [
+          "found",
+          0.035732418298721313
+        ],
+        [
+          "a",
+          0.03567739203572273
+        ],
+        [
+          "not",
+          0.020468898117542267
+        ],
+        [
+          "taken",
+          0.020397966727614403
+        ],
+        [
+          "the",
+          0.017699899151921272
+        ]
+      ]
+    },
+    {
+      "word1": "deficiency",
+      "word2": "payments",
+      "bigram": "deficiency payments",
+      "pmi": 11.987477627847895,
+      "freq": 29,
+      "mean_prob_compound": 5.767479426932454e-06,
+      "mean_prob_control": 7.427658914593849e-07,
+      "boost_ratio": 7.7648684373491115,
+      "mean_rank_compound": 10570.125,
+      "mean_rank_control": 18857.25,
+      "best_rank_compound": 5479,
+      "top5_after_w1": [
+        [
+          "not",
+          0.041946981102228165
+        ],
+        [
+          "caused",
+          0.03835756704211235
+        ],
+        [
+          "found",
+          0.03805384039878845
+        ],
+        [
+          "so",
+          0.031068354845046997
+        ],
+        [
+          "due",
+          0.028081843629479408
+        ]
+      ]
+    },
+    {
+      "word1": "export",
+      "word2": "enhancement",
+      "bigram": "export enhancement",
+      "pmi": 11.968273339578262,
+      "freq": 67,
+      "mean_prob_compound": 1.3858796795163109e-06,
+      "mean_prob_control": 7.251995812751488e-07,
+      "boost_ratio": 1.9110321010934128,
+      "mean_rank_compound": 18557.875,
+      "mean_rank_control": 22356.5,
+      "best_rank_compound": 4246,
+      "top5_after_w1": [
+        [
+          "a",
+          0.04331515356898308
+        ],
+        [
+          "not",
+          0.024848762899637222
+        ],
+        [
+          "made",
+          0.02376319281756878
+        ],
+        [
+          "approved",
+          0.02301749587059021
+        ],
+        [
+          "to",
+          0.022441964596509933
+        ]
+      ]
+    },
+    {
+      "word1": "allied",
+      "word2": "signal",
+      "bigram": "allied signal",
+      "pmi": 11.943320437251032,
+      "freq": 30,
+      "mean_prob_compound": 3.241802623676904e-05,
+      "mean_prob_control": 0.00022096575563068654,
+      "boost_ratio": 0.14671063461503622,
+      "mean_rank_compound": 4925.125,
+      "mean_rank_control": 3435.125,
+      "best_rank_compound": 881,
+      "top5_after_w1": [
+        [
+          "not",
+          0.03196372836828232
+        ],
+        [
+          "a",
+          0.03011363372206688
+        ],
+        [
+          "able",
+          0.029764844104647636
+        ],
+        [
+          "also",
+          0.02314095012843609
+        ],
+        [
+          "the",
+          0.022363362833857536
+        ]
+      ]
+    },
+    {
+      "word1": "balance",
+      "word2": "sheet",
+      "bigram": "balance sheet",
+      "pmi": 11.943217342685434,
+      "freq": 62,
+      "mean_prob_compound": 9.252110610447062e-05,
+      "mean_prob_control": 6.370301127489597e-05,
+      "boost_ratio": 1.4523819871750907,
+      "mean_rank_compound": 4423.625,
+      "mean_rank_control": 5315.5,
+      "best_rank_compound": 207,
+      "top5_after_w1": [
+        [
+          "set",
+          0.048214592039585114
+        ],
+        [
+          "also",
+          0.026933301240205765
+        ],
+        [
+          "a",
+          0.025017788633704185
+        ],
+        [
+          "not",
+          0.02385157160460949
+        ],
+        [
+          "then",
+          0.018345067277550697
+        ]
+      ]
+    },
+    {
+      "word1": "enhancement",
+      "word2": "program",
+      "bigram": "enhancement program",
+      "pmi": 11.905824659157302,
+      "freq": 56,
+      "mean_prob_compound": 6.139653345371698e-05,
+      "mean_prob_control": 1.1012609153482344e-05,
+      "boost_ratio": 5.575112364203221,
+      "mean_rank_compound": 3943.625,
+      "mean_rank_control": 6285.5,
+      "best_rank_compound": 414,
+      "top5_after_w1": [
+        [
+          "made",
+          0.047298066318035126
+        ],
+        [
+          "not",
+          0.03131654113531113
+        ],
+        [
+          "a",
+          0.027361910790205002
+        ],
+        [
+          "done",
+          0.02564302273094654
+        ],
+        [
+          "achieved",
+          0.021686045452952385
+        ]
+      ]
+    },
+    {
+      "word1": "precious",
+      "word2": "metals",
+      "bigram": "precious metals",
+      "pmi": 11.889246757450863,
+      "freq": 20,
+      "mean_prob_compound": 1.5391925948904372e-05,
+      "mean_prob_control": 1.3640377827250916e-06,
+      "boost_ratio": 11.284090619655851,
+      "mean_rank_compound": 5704.125,
+      "mean_rank_control": 17277.625,
+      "best_rank_compound": 709,
+      "top5_after_w1": [
+        [
+          "the",
+          0.055861975997686386
+        ],
+        [
+          "her",
+          0.052046846598386765
+        ],
+        [
+          "hes",
+          0.048118941485881805
+        ],
+        [
+          "a",
+          0.046743206679821014
+        ],
+        [
+          "ps",
+          0.02575228177011013
+        ]
+      ]
+    },
+    {
+      "word1": "ivory",
+      "word2": "coast",
+      "bigram": "ivory coast",
+      "pmi": 11.858336278435091,
+      "freq": 37,
+      "mean_prob_compound": 0.00020519882799163724,
+      "mean_prob_control": 0.00010651867290079053,
+      "boost_ratio": 1.92641179619986,
+      "mean_rank_compound": 5969.375,
+      "mean_rank_control": 7325.25,
+      "best_rank_compound": 72,
+      "top5_after_w1": [
+        [
+          "found",
+          0.05151847004890442
+        ],
+        [
+          "a",
+          0.03203054890036583
+        ],
+        [
+          "not",
+          0.025155073031783104
+        ],
+        [
+          "also",
+          0.019789837300777435
+        ],
+        [
+          "the",
+          0.019625797867774963
+        ]
+      ]
+    },
+    {
+      "word1": "via",
+      "word2": "customer",
+      "bigram": "via customer",
+      "pmi": 11.819948500622253,
+      "freq": 24,
+      "mean_prob_compound": 6.4096077863951e-05,
+      "mean_prob_control": 1.5839721065447065e-05,
+      "boost_ratio": 4.046540819697315,
+      "mean_rank_compound": 3062.625,
+      "mean_rank_control": 6290.375,
+      "best_rank_compound": 281,
+      "top5_after_w1": [
+        [
+          "a",
+          0.07269269227981567
+        ],
+        [
+          "not",
+          0.03399170935153961
+        ],
+        [
+          "the",
+          0.029656918719410896
+        ],
+        [
+          "also",
+          0.025423869490623474
+        ],
+        [
+          "an",
+          0.019756972789764404
+        ]
+      ]
+    },
+    {
+      "word1": "cable",
+      "word2": "television",
+      "bigram": "cable television",
+      "pmi": 11.780281505006032,
+      "freq": 29,
+      "mean_prob_compound": 0.00030783717272697686,
+      "mean_prob_control": 4.8328142227660464e-05,
+      "boost_ratio": 6.369729075801039,
+      "mean_rank_compound": 1394.875,
+      "mean_rank_control": 4371.375,
+      "best_rank_compound": 112,
+      "top5_after_w1": [
+        [
+          "not",
+          0.02252947725355625
+        ],
+        [
+          "a",
+          0.021718354895710945
+        ],
+        [
+          "also",
+          0.020448943600058556
+        ],
+        [
+          "installed",
+          0.016136877238750458
+        ],
+        [
+          "set",
+          0.016075560823082924
+        ]
+      ]
+    },
+    {
+      "word1": "discontinued",
+      "word2": "operations",
+      "bigram": "discontinued operations",
+      "pmi": 11.77055441831504,
+      "freq": 246,
+      "mean_prob_compound": 7.101547467414093e-06,
+      "mean_prob_control": 1.1553439325240333e-06,
+      "boost_ratio": 6.146695600763341,
+      "mean_rank_compound": 9476.375,
+      "mean_rank_control": 15839.25,
+      "best_rank_compound": 2402,
+      "top5_after_w1": [
+        [
+          "a",
+          0.09394977986812592
+        ],
+        [
+          "the",
+          0.06319917738437653
+        ],
+        [
+          "not",
+          0.03124149516224861
+        ],
+        [
+          "released",
+          0.027212129905819893
+        ],
+        [
+          "an",
+          0.02088910900056362
+        ]
+      ]
+    },
+    {
+      "word1": "raw",
+      "word2": "materials",
+      "bigram": "raw materials",
+      "pmi": 11.684553731736505,
+      "freq": 30,
+      "mean_prob_compound": 5.1732194874531956e-05,
+      "mean_prob_control": 9.56454142508889e-06,
+      "boost_ratio": 5.408748059664677,
+      "mean_rank_compound": 4758.25,
+      "mean_rank_control": 12721.75,
+      "best_rank_compound": 215,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05313888564705849
+        ],
+        [
+          "hes",
+          0.03825056552886963
+        ],
+        [
+          "not",
+          0.03381013497710228
+        ],
+        [
+          "the",
+          0.020625976845622063
+        ],
+        [
+          "made",
+          0.017474481835961342
+        ]
+      ]
+    },
+    {
+      "word1": "tariff",
+      "word2": "cuts",
+      "bigram": "tariff cuts",
+      "pmi": 11.676982603802031,
+      "freq": 23,
+      "mean_prob_compound": 4.302673164602311e-05,
+      "mean_prob_control": 1.7299810082249678e-05,
+      "boost_ratio": 2.487121618182983,
+      "mean_rank_compound": 3209.875,
+      "mean_rank_control": 6587.875,
+      "best_rank_compound": 206,
+      "top5_after_w1": [
+        [
+          "imposed",
+          0.05521120876073837
+        ],
+        [
+          "set",
+          0.03742966800928116
+        ],
+        [
+          "not",
+          0.024561211466789246
+        ],
+        [
+          "due",
+          0.0218210406601429
+        ],
+        [
+          "introduced",
+          0.021646108478307724
+        ]
+      ]
+    },
+    {
+      "word1": "non",
+      "word2": "performing",
+      "bigram": "non performing",
+      "pmi": 11.66407758973749,
+      "freq": 28,
+      "mean_prob_compound": 1.5138359856337047e-05,
+      "mean_prob_control": 2.5347410428366857e-06,
+      "boost_ratio": 5.972349680105928,
+      "mean_rank_compound": 8834.375,
+      "mean_rank_control": 11953.5,
+      "best_rank_compound": 1423,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05280962958931923
+        ],
+        [
+          "not",
+          0.026755675673484802
+        ],
+        [
+          "the",
+          0.024737970903515816
+        ],
+        [
+          "also",
+          0.013496468774974346
+        ],
+        [
+          "to",
+          0.011951006948947906
+        ]
+      ]
+    },
+    {
+      "word1": "import",
+      "word2": "fee",
+      "bigram": "import fee",
+      "pmi": 11.653810188190475,
+      "freq": 32,
+      "mean_prob_compound": 1.2028283702392173e-05,
+      "mean_prob_control": 1.596449653362697e-06,
+      "boost_ratio": 7.534395887183966,
+      "mean_rank_compound": 5591.125,
+      "mean_rank_control": 13040.0,
+      "best_rank_compound": 2398,
+      "top5_after_w1": [
+        [
+          "made",
+          0.06307431310415268
+        ],
+        [
+          "not",
+          0.03762777894735336
+        ],
+        [
+          "a",
+          0.0375821590423584
+        ],
+        [
+          "done",
+          0.020348748192191124
+        ],
+        [
+          "approved",
+          0.018013279885053635
+        ]
+      ]
+    },
+    {
+      "word1": "burnt",
+      "word2": "offerings",
+      "bigram": "burnt offerings",
+      "pmi": 11.645420452731235,
+      "freq": 86,
+      "mean_prob_compound": 3.832241564083461e-06,
+      "mean_prob_control": 5.85139656505973e-07,
+      "boost_ratio": 6.549276777729971,
+      "mean_rank_compound": 15632.125,
+      "mean_rank_control": 23803.875,
+      "best_rank_compound": 3457,
+      "top5_after_w1": [
+        [
+          "a",
+          0.07440327107906342
+        ],
+        [
+          "not",
+          0.043727416545152664
+        ],
+        [
+          "the",
+          0.041496098041534424
+        ],
+        [
+          "hes",
+          0.029130294919013977
+        ],
+        [
+          "so",
+          0.01511098351329565
+        ]
+      ]
+    },
+    {
+      "word1": "mast",
+      "word2": "heads",
+      "bigram": "mast heads",
+      "pmi": 11.642081049403124,
+      "freq": 37,
+      "mean_prob_compound": 1.9942757781166165e-05,
+      "mean_prob_control": 2.6207313482018435e-05,
+      "boost_ratio": 0.7609615459001338,
+      "mean_rank_compound": 3328.125,
+      "mean_rank_control": 7016.375,
+      "best_rank_compound": 1057,
+      "top5_after_w1": [
+        [
+          "removed",
+          0.04145212471485138
+        ],
+        [
+          "a",
+          0.020661361515522003
+        ],
+        [
+          "not",
+          0.019705884158611298
+        ],
+        [
+          "also",
+          0.01738852448761463
+        ],
+        [
+          "placed",
+          0.01483579445630312
+        ]
+      ]
+    },
+    {
+      "word1": "wholly",
+      "word2": "owned",
+      "bigram": "wholly owned",
+      "pmi": 11.641373973433543,
+      "freq": 117,
+      "mean_prob_compound": 0.00018719682898549195,
+      "mean_prob_control": 1.6234691033290005e-05,
+      "boost_ratio": 11.530667790451691,
+      "mean_rank_compound": 5899.25,
+      "mean_rank_control": 15281.0,
+      "best_rank_compound": 109,
+      "top5_after_w1": [
+        [
+          "not",
+          0.08166605979204178
+        ],
+        [
+          "her",
+          0.031207654625177383
+        ],
+        [
+          "a",
+          0.027077915146946907
+        ],
+        [
+          "hes",
+          0.02202317677438259
+        ],
+        [
+          "the",
+          0.01819736137986183
+        ]
+      ]
+    },
+    {
+      "word1": "real",
+      "word2": "estate",
+      "bigram": "real estate",
+      "pmi": 11.626117514856565,
+      "freq": 161,
+      "mean_prob_compound": 6.667313404484787e-06,
+      "mean_prob_control": 2.8476799744936443e-06,
+      "boost_ratio": 2.3413141449190844,
+      "mean_rank_compound": 11283.125,
+      "mean_rank_control": 14869.5,
+      "best_rank_compound": 1308,
+      "top5_after_w1": [
+        [
+          "that",
+          0.18174822628498077
+        ],
+        [
+          "the",
+          0.06983909010887146
+        ],
+        [
+          ",",
+          0.05920342355966568
+        ],
+        [
+          "a",
+          0.052951909601688385
+        ],
+        [
+          "not",
+          0.02667163871228695
+        ]
+      ]
+    },
+    {
+      "word1": "executive",
+      "word2": "officer",
+      "bigram": "executive officer",
+      "pmi": 11.624019250043153,
+      "freq": 85,
+      "mean_prob_compound": 5.4341502544019704e-05,
+      "mean_prob_control": 1.9167946330611585e-05,
+      "boost_ratio": 2.8350195480897846,
+      "mean_rank_compound": 4142.625,
+      "mean_rank_control": 8601.25,
+      "best_rank_compound": 439,
+      "top5_after_w1": [
+        [
+          "also",
+          0.051494523882865906
+        ],
+        [
+          "not",
+          0.03714023530483246
+        ],
+        [
+          "asked",
+          0.03535466268658638
+        ],
+        [
+          "fired",
+          0.018396833911538124
+        ],
+        [
+          "a",
+          0.018268298357725143
+        ]
+      ]
+    },
+    {
+      "word1": "holy",
+      "word2": "ghost",
+      "bigram": "holy ghost",
+      "pmi": 11.607406276829984,
+      "freq": 90,
+      "mean_prob_compound": 3.654716530832047e-05,
+      "mean_prob_control": 3.514979031038479e-05,
+      "boost_ratio": 1.0397548601455764,
+      "mean_rank_compound": 3095.625,
+      "mean_rank_control": 2882.5,
+      "best_rank_compound": 846,
+      "top5_after_w1": [
+        [
+          "hes",
+          0.07959777861833572
+        ],
+        [
+          "a",
+          0.0713319405913353
+        ],
+        [
+          "the",
+          0.06085676699876785
+        ],
+        [
+          "her",
+          0.04391985386610031
+        ],
+        [
+          "not",
+          0.025433799251914024
+        ]
+      ]
+    },
+    {
+      "word1": "limited",
+      "word2": "partnership",
+      "bigram": "limited partnership",
+      "pmi": 11.600577167640573,
+      "freq": 48,
+      "mean_prob_compound": 1.0294654309461748e-05,
+      "mean_prob_control": 5.473875841488507e-07,
+      "boost_ratio": 18.806883107276196,
+      "mean_rank_compound": 10972.25,
+      "mean_rank_control": 23177.875,
+      "best_rank_compound": 2747,
+      "top5_after_w1": [
+        [
+          "the",
+          0.06429027020931244
+        ],
+        [
+          "a",
+          0.055724404752254486
+        ],
+        [
+          "hes",
+          0.03502421826124191
+        ],
+        [
+          "not",
+          0.020877409726381302
+        ],
+        [
+          "her",
+          0.02055640146136284
+        ]
+      ]
+    },
+    {
+      "word1": "optimal",
+      "word2": "policy",
+      "bigram": "optimal policy",
+      "pmi": 11.58396851803507,
+      "freq": 23,
+      "mean_prob_compound": 5.4584809710434e-05,
+      "mean_prob_control": 1.0952043005829637e-05,
+      "boost_ratio": 4.983984237587379,
+      "mean_rank_compound": 2890.5,
+      "mean_rank_control": 6300.125,
+      "best_rank_compound": 544,
+      "top5_after_w1": [
+        [
+          "to",
+          0.20134790241718292
+        ],
+        [
+          "the",
+          0.07231946289539337
+        ],
+        [
+          "a",
+          0.05674860626459122
+        ],
+        [
+          "that",
+          0.02227620594203472
+        ],
+        [
+          "not",
+          0.02171390689909458
+        ]
+      ]
+    },
+    {
+      "word1": "undisclosed",
+      "word2": "sum",
+      "bigram": "undisclosed sum",
+      "pmi": 11.565398973899537,
+      "freq": 20,
+      "mean_prob_compound": 4.4230176570181357e-05,
+      "mean_prob_control": 1.7211511320169848e-05,
+      "boost_ratio": 2.5698020207178924,
+      "mean_rank_compound": 2332.125,
+      "mean_rank_control": 3836.125,
+      "best_rank_compound": 532,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05483674630522728
+        ],
+        [
+          "the",
+          0.051005952060222626
+        ],
+        [
+          "not",
+          0.037803322076797485
+        ],
+        [
+          "revealed",
+          0.02051398903131485
+        ],
+        [
+          "that",
+          0.020253194496035576
+        ]
+      ]
+    },
+    {
+      "word1": "fully",
+      "word2": "diluted",
+      "bigram": "fully diluted",
+      "pmi": 11.535140106210381,
+      "freq": 47,
+      "mean_prob_compound": 3.1536328661263546e-06,
+      "mean_prob_control": 8.584793400601143e-06,
+      "boost_ratio": 0.36735104957861003,
+      "mean_rank_compound": 20449.125,
+      "mean_rank_control": 16817.75,
+      "best_rank_compound": 5119,
+      "top5_after_w1": [
+        [
+          "her",
+          0.11591973900794983
+        ],
+        [
+          "hes",
+          0.11514231562614441
+        ],
+        [
+          "p",
+          0.026905393227934837
+        ],
+        [
+          "hers",
+          0.020731162279844284
+        ],
+        [
+          "able",
+          0.012636885046958923
+        ]
+      ]
+    },
+    {
+      "word1": "armed",
+      "word2": "forces",
+      "bigram": "armed forces",
+      "pmi": 11.522888811889956,
+      "freq": 33,
+      "mean_prob_compound": 2.1571907161899162e-05,
+      "mean_prob_control": 2.7765733250362246e-06,
+      "boost_ratio": 7.769255350610171,
+      "mean_rank_compound": 4486.75,
+      "mean_rank_control": 12701.25,
+      "best_rank_compound": 642,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05953933298587799
+        ],
+        [
+          "not",
+          0.03737121447920799
+        ],
+        [
+          "shot",
+          0.024330532178282738
+        ],
+        [
+          "also",
+          0.022532470524311066
+        ],
+        [
+          "armed",
+          0.019304389134049416
+        ]
+      ]
+    },
+    {
+      "word1": "credit",
+      "word2": "guarantees",
+      "bigram": "credit guarantees",
+      "pmi": 11.462910898420532,
+      "freq": 53,
+      "mean_prob_compound": 2.481379416607865e-06,
+      "mean_prob_control": 2.5530411118523944e-07,
+      "boost_ratio": 9.719308494830566,
+      "mean_rank_compound": 10836.375,
+      "mean_rank_control": 25635.375,
+      "best_rank_compound": 3797,
+      "top5_after_w1": [
+        [
+          "given",
+          0.07301642000675201
+        ],
+        [
+          "due",
+          0.056565381586551666
+        ],
+        [
+          "not",
+          0.030237561091780663
+        ],
+        [
+          "awarded",
+          0.025942211970686913
+        ],
+        [
+          "also",
+          0.021405192092061043
+        ]
+      ]
+    },
+    {
+      "word1": "entertainment",
+      "word2": "marketing",
+      "bigram": "entertainment marketing",
+      "pmi": 11.421256039842634,
+      "freq": 28,
+      "mean_prob_compound": 2.7236400200081334e-05,
+      "mean_prob_control": 9.632844047757771e-06,
+      "boost_ratio": 2.8274515880303417,
+      "mean_rank_compound": 2449.125,
+      "mean_rank_control": 5191.375,
+      "best_rank_compound": 1143,
+      "top5_after_w1": [
+        [
+          "a",
+          0.041247010231018066
+        ],
+        [
+          "great",
+          0.03957406431436539
+        ],
+        [
+          "also",
+          0.03358888998627663
+        ],
+        [
+          "so",
+          0.02240474708378315
+        ],
+        [
+          "very",
+          0.022223439067602158
+        ]
+      ]
+    },
+    {
+      "word1": "hostile",
+      "word2": "takeover",
+      "bigram": "hostile takeover",
+      "pmi": 11.380058902850747,
+      "freq": 23,
+      "mean_prob_compound": 9.587942029209984e-06,
+      "mean_prob_control": 7.254550298263496e-07,
+      "boost_ratio": 13.21645261940637,
+      "mean_rank_compound": 14523.125,
+      "mean_rank_control": 25361.0,
+      "best_rank_compound": 1275,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05231964588165283
+        ],
+        [
+          "not",
+          0.04394342005252838
+        ],
+        [
+          "the",
+          0.03352950140833855
+        ],
+        [
+          "also",
+          0.014165366068482399
+        ],
+        [
+          "an",
+          0.012578767724335194
+        ]
+      ]
+    },
+    {
+      "word1": "sperm",
+      "word2": "whale",
+      "bigram": "sperm whale",
+      "pmi": 11.364510472005323,
+      "freq": 183,
+      "mean_prob_compound": 0.00012736871444118947,
+      "mean_prob_control": 3.055559938625052e-05,
+      "boost_ratio": 4.168424675004188,
+      "mean_rank_compound": 4045.0,
+      "mean_rank_control": 8521.625,
+      "best_rank_compound": 217,
+      "top5_after_w1": [
+        [
+          "found",
+          0.05361402779817581
+        ],
+        [
+          "removed",
+          0.03389401361346245
+        ],
+        [
+          "taken",
+          0.023852147161960602
+        ],
+        [
+          "then",
+          0.023833228275179863
+        ],
+        [
+          "not",
+          0.020987067371606827
+        ]
+      ]
+    },
+    {
+      "word1": "privately",
+      "word2": "held",
+      "bigram": "privately held",
+      "pmi": 11.336731658628352,
+      "freq": 95,
+      "mean_prob_compound": 0.0007205432630001951,
+      "mean_prob_control": 7.441202076208242e-05,
+      "boost_ratio": 9.683156775220342,
+      "mean_rank_compound": 9699.75,
+      "mean_rank_control": 10944.125,
+      "best_rank_compound": 24,
+      "top5_after_w1": [
+        [
+          "founded",
+          0.03782359138131142
+        ],
+        [
+          "not",
+          0.02955496683716774
+        ],
+        [
+          "a",
+          0.023817213252186775
+        ],
+        [
+          "the",
+          0.02094610035419464
+        ],
+        [
+          "her",
+          0.01865345612168312
+        ]
+      ]
+    },
+    {
+      "word1": "coarse",
+      "word2": "grain",
+      "bigram": "coarse grain",
+      "pmi": 11.33269100787759,
+      "freq": 37,
+      "mean_prob_compound": 0.00025376316906644547,
+      "mean_prob_control": 2.3025118770725328e-05,
+      "boost_ratio": 11.021144845910019,
+      "mean_rank_compound": 1985.75,
+      "mean_rank_control": 5688.0,
+      "best_rank_compound": 100,
+      "top5_after_w1": [
+        [
+          "hes",
+          0.09468360245227814
+        ],
+        [
+          "a",
+          0.04872443899512291
+        ],
+        [
+          "the",
+          0.03339032828807831
+        ],
+        [
+          "not",
+          0.02519799768924713
+        ],
+        [
+          "made",
+          0.017515506595373154
+        ]
+      ]
+    },
+    {
+      "word1": "cubic",
+      "word2": "feet",
+      "bigram": "cubic feet",
+      "pmi": 11.32054129198154,
+      "freq": 89,
+      "mean_prob_compound": 0.00013628620217787102,
+      "mean_prob_control": 7.031733605344925e-05,
+      "boost_ratio": 1.93815934770734,
+      "mean_rank_compound": 2388.5,
+      "mean_rank_control": 5208.375,
+      "best_rank_compound": 112,
+      "top5_after_w1": [
+        [
+          "hes",
+          0.07989838719367981
+        ],
+        [
+          "her",
+          0.07290554791688919
+        ],
+        [
+          "a",
+          0.027036171406507492
+        ],
+        [
+          "hers",
+          0.022276706993579865
+        ],
+        [
+          "made",
+          0.02199534885585308
+        ]
+      ]
+    },
+    {
+      "word1": "semi",
+      "word2": "annual",
+      "bigram": "semi annual",
+      "pmi": 11.29035362135168,
+      "freq": 31,
+      "mean_prob_compound": 7.489193734500077e-06,
+      "mean_prob_control": 4.9421009675754135e-06,
+      "boost_ratio": 1.5153866308349144,
+      "mean_rank_compound": 7815.375,
+      "mean_rank_control": 9273.5,
+      "best_rank_compound": 2405,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05691257119178772
+        ],
+        [
+          "built",
+          0.025790460407733917
+        ],
+        [
+          "the",
+          0.019551610574126244
+        ],
+        [
+          "made",
+          0.015937605872750282
+        ],
+        [
+          "not",
+          0.014706962741911411
+        ]
+      ]
+    },
+    {
+      "word1": "undisclosed",
+      "word2": "terms",
+      "bigram": "undisclosed terms",
+      "pmi": 11.27577327219921,
+      "freq": 103,
+      "mean_prob_compound": 1.4073012344795188e-05,
+      "mean_prob_control": 3.123507115176949e-06,
+      "boost_ratio": 4.505516339762825,
+      "mean_rank_compound": 7324.25,
+      "mean_rank_control": 11720.125,
+      "best_rank_compound": 1118,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05483674630522728
+        ],
+        [
+          "the",
+          0.051005952060222626
+        ],
+        [
+          "not",
+          0.037803322076797485
+        ],
+        [
+          "revealed",
+          0.02051398903131485
+        ],
+        [
+          "that",
+          0.020253194496035576
+        ]
+      ]
+    },
+    {
+      "word1": "statistics",
+      "word2": "institute",
+      "bigram": "statistics institute",
+      "pmi": 11.242168561247302,
+      "freq": 39,
+      "mean_prob_compound": 1.2675067182499333e-05,
+      "mean_prob_control": 2.50059950016035e-06,
+      "boost_ratio": 5.068811371707684,
+      "mean_rank_compound": 10788.375,
+      "mean_rank_control": 21559.5,
+      "best_rank_compound": 1081,
+      "top5_after_w1": [
+        [
+          "compiled",
+          0.043181974440813065
+        ],
+        [
+          "published",
+          0.040715161710977554
+        ],
+        [
+          "not",
+          0.03791771084070206
+        ],
+        [
+          "based",
+          0.03235612064599991
+        ],
+        [
+          "released",
+          0.031171223148703575
+        ]
+      ]
+    },
+    {
+      "word1": "continual",
+      "word2": "burnt",
+      "bigram": "continual burnt",
+      "pmi": 11.234106039495108,
+      "freq": 20,
+      "mean_prob_compound": 5.5872982880345035e-06,
+      "mean_prob_control": 0.00015869916811084295,
+      "boost_ratio": 0.03520685303234906,
+      "mean_rank_compound": 14229.5,
+      "mean_rank_control": 2584.625,
+      "best_rank_compound": 2791,
+      "top5_after_w1": [
+        [
+          "hes",
+          0.13737301528453827
+        ],
+        [
+          "the",
+          0.06311650574207306
+        ],
+        [
+          "a",
+          0.04005995765328407
+        ],
+        [
+          "ps",
+          0.026316095143556595
+        ],
+        [
+          "th",
+          0.024672504514455795
+        ]
+      ]
+    },
+    {
+      "word1": "computer",
+      "word2": "associates",
+      "bigram": "computer associates",
+      "pmi": 11.218427460525199,
+      "freq": 25,
+      "mean_prob_compound": 2.6022053123408995e-07,
+      "mean_prob_control": 1.8075037622189427e-07,
+      "boost_ratio": 1.4396679922515672,
+      "mean_rank_compound": 18900.125,
+      "mean_rank_control": 27950.25,
+      "best_rank_compound": 14236,
+      "top5_after_w1": [
+        [
+          "able",
+          0.03154188394546509
+        ],
+        [
+          "running",
+          0.024885714054107666
+        ],
+        [
+          "not",
+          0.023483971133828163
+        ],
+        [
+          "in",
+          0.020293625071644783
+        ],
+        [
+          "also",
+          0.019587192684412003
+        ]
+      ]
+    },
+    {
+      "word1": "dairy",
+      "word2": "cattle",
+      "bigram": "dairy cattle",
+      "pmi": 11.206193660217696,
+      "freq": 23,
+      "mean_prob_compound": 0.00011119329372633047,
+      "mean_prob_control": 5.9172284645470086e-06,
+      "boost_ratio": 18.791448461478804,
+      "mean_rank_compound": 1746.625,
+      "mean_rank_control": 8090.875,
+      "best_rank_compound": 344,
+      "top5_after_w1": [
+        [
+          "not",
+          0.03350522369146347
+        ],
+        [
+          "also",
+          0.026164066046476364
+        ],
+        [
+          "sold",
+          0.02241929993033409
+        ],
+        [
+          "a",
+          0.022179756313562393
+        ],
+        [
+          "found",
+          0.020975353196263313
+        ]
+      ]
+    },
+    {
+      "word1": "par",
+      "word2": "value",
+      "bigram": "par value",
+      "pmi": 11.183825847189242,
+      "freq": 23,
+      "mean_prob_compound": 3.086448095501737e-05,
+      "mean_prob_control": 3.1895381532365263e-05,
+      "boost_ratio": 0.9676786880162632,
+      "mean_rank_compound": 2729.625,
+      "mean_rank_control": 3231.5,
+      "best_rank_compound": 455,
+      "top5_after_w1": [
+        [
+          "a",
+          0.03795165568590164
+        ],
+        [
+          "not",
+          0.018720470368862152
+        ],
+        [
+          "the",
+          0.01757686398923397
+        ],
+        [
+          "made",
+          0.014533206820487976
+        ],
+        [
+          "also",
+          0.01249728538095951
+        ]
+      ]
+    },
+    {
+      "word1": "peace",
+      "word2": "corps",
+      "bigram": "peace corps",
+      "pmi": 11.182754089017452,
+      "freq": 55,
+      "mean_prob_compound": 3.848207746681709e-06,
+      "mean_prob_control": 1.0796114149336233e-06,
+      "boost_ratio": 3.564437809244824,
+      "mean_rank_compound": 11892.125,
+      "mean_rank_control": 20434.25,
+      "best_rank_compound": 3318,
+      "top5_after_w1": [
+        [
+          "broken",
+          0.04243629798293114
+        ],
+        [
+          "restored",
+          0.03705400228500366
+        ],
+        [
+          "not",
+          0.03276596963405609
+        ],
+        [
+          "short",
+          0.02593366429209709
+        ],
+        [
+          "a",
+          0.024911828339099884
+        ]
+      ]
+    },
+    {
+      "word1": "nil",
+      "word2": "nil",
+      "bigram": "nil nil",
+      "pmi": 11.170495516776757,
+      "freq": 237,
+      "mean_prob_compound": 0.003484689016630682,
+      "mean_prob_control": 2.166822300697646e-06,
+      "boost_ratio": 1608.2024887360287,
+      "mean_rank_compound": 871.875,
+      "mean_rank_control": 15755.875,
+      "best_rank_compound": 6,
+      "top5_after_w1": [
+        [
+          "a",
+          0.04832605645060539
+        ],
+        [
+          "not",
+          0.043427739292383194
+        ],
+        [
+          "used",
+          0.038209520280361176
+        ],
+        [
+          "the",
+          0.035158392041921616
+        ],
+        [
+          "never",
+          0.01989920809864998
+        ]
+      ]
+    },
+    {
+      "word1": "news",
+      "word2": "conference",
+      "bigram": "news conference",
+      "pmi": 11.145620861916441,
+      "freq": 141,
+      "mean_prob_compound": 0.00012131788661307041,
+      "mean_prob_control": 1.3051096698468712e-05,
+      "boost_ratio": 9.295608592594727,
+      "mean_rank_compound": 3179.875,
+      "mean_rank_control": 11263.5,
+      "best_rank_compound": 201,
+      "top5_after_w1": [
+        [
+          "reported",
+          0.06267274916172028
+        ],
+        [
+          "first",
+          0.061706747859716415
+        ],
+        [
+          "met",
+          0.05124340578913689
+        ],
+        [
+          "greeted",
+          0.03529167175292969
+        ],
+        [
+          "confirmed",
+          0.032005466520786285
+        ]
+      ]
+    },
+    {
+      "word1": "supreme",
+      "word2": "court",
+      "bigram": "supreme court",
+      "pmi": 11.124552497590475,
+      "freq": 50,
+      "mean_prob_compound": 0.0003781961738127393,
+      "mean_prob_control": 3.6980091294935846e-05,
+      "boost_ratio": 10.227021096200769,
+      "mean_rank_compound": 858.25,
+      "mean_rank_control": 2875.375,
+      "best_rank_compound": 73,
+      "top5_after_w1": [
+        [
+          "a",
+          0.06980840861797333
+        ],
+        [
+          "the",
+          0.04460032656788826
+        ],
+        [
+          "not",
+          0.032705314457416534
+        ],
+        [
+          "also",
+          0.023377003148198128
+        ],
+        [
+          ",",
+          0.016926825046539307
+        ]
+      ]
+    },
+    {
+      "word1": "utterly",
+      "word2": "destroyed",
+      "bigram": "utterly destroyed",
+      "pmi": 11.109724101698111,
+      "freq": 24,
+      "mean_prob_compound": 0.00013111398749288128,
+      "mean_prob_control": 8.369861548374047e-05,
+      "boost_ratio": 1.5665012704822083,
+      "mean_rank_compound": 3525.125,
+      "mean_rank_control": 8946.0,
+      "best_rank_compound": 103,
+      "top5_after_w1": [
+        [
+          "hes",
+          0.1037217229604721
+        ],
+        [
+          "not",
+          0.06515571475028992
+        ],
+        [
+          "p",
+          0.05006670206785202
+        ],
+        [
+          "her",
+          0.03850729763507843
+        ],
+        [
+          "wolf",
+          0.036909688264131546
+        ]
+      ]
+    },
+    {
+      "word1": "regulatory",
+      "word2": "approval",
+      "bigram": "regulatory approval",
+      "pmi": 11.086331659505246,
+      "freq": 33,
+      "mean_prob_compound": 0.0002923319445926609,
+      "mean_prob_control": 1.371809719685757e-05,
+      "boost_ratio": 21.309948486122835,
+      "mean_rank_compound": 1223.5,
+      "mean_rank_control": 8270.625,
+      "best_rank_compound": 58,
+      "top5_after_w1": [
+        [
+          "not",
+          0.03732496127486229
+        ],
+        [
+          "set",
+          0.026352109387516975
+        ],
+        [
+          "a",
+          0.02025378681719303
+        ],
+        [
+          "also",
+          0.017201891168951988
+        ],
+        [
+          "designed",
+          0.015490896068513393
+        ]
+      ]
+    },
+    {
+      "word1": "green",
+      "word2": "forest",
+      "bigram": "green forest",
+      "pmi": 11.069046793224613,
+      "freq": 66,
+      "mean_prob_compound": 0.0003265449952181143,
+      "mean_prob_control": 0.00016412467644855155,
+      "boost_ratio": 1.9896154696790944,
+      "mean_rank_compound": 2532.125,
+      "mean_rank_control": 4057.125,
+      "best_rank_compound": 81,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05642424151301384
+        ],
+        [
+          "the",
+          0.04212653636932373
+        ],
+        [
+          "hes",
+          0.035259854048490524
+        ],
+        [
+          "not",
+          0.01691928319633007
+        ],
+        [
+          "also",
+          0.011966031044721603
+        ]
+      ]
+    },
+    {
+      "word1": "convertible",
+      "word2": "preferred",
+      "bigram": "convertible preferred",
+      "pmi": 11.068235485615677,
+      "freq": 30,
+      "mean_prob_compound": 4.389440885432805e-06,
+      "mean_prob_control": 5.1387200681318745e-06,
+      "boost_ratio": 0.8541895310963179,
+      "mean_rank_compound": 10844.0,
+      "mean_rank_control": 12510.25,
+      "best_rank_compound": 2004,
+      "top5_after_w1": [
+        [
+          "a",
+          0.04567745700478554
+        ],
+        [
+          "also",
+          0.030443767085671425
+        ],
+        [
+          "the",
+          0.022779593244194984
+        ],
+        [
+          "designed",
+          0.022673306986689568
+        ],
+        [
+          "built",
+          0.02076084539294243
+        ]
+      ]
+    },
+    {
+      "word1": "farmer",
+      "word2": "brown",
+      "bigram": "farmer brown",
+      "pmi": 11.059216397425361,
+      "freq": 100,
+      "mean_prob_compound": 2.842376183309625e-05,
+      "mean_prob_control": 0.00042233335662444915,
+      "boost_ratio": 0.0673017212286442,
+      "mean_rank_compound": 3060.5,
+      "mean_rank_control": 624.75,
+      "best_rank_compound": 782,
+      "top5_after_w1": [
+        [
+          "arrested",
+          0.0307052843272686
+        ],
+        [
+          "a",
+          0.025647984817624092
+        ],
+        [
+          "not",
+          0.024157000705599785
+        ],
+        [
+          "taken",
+          0.018307287245988846
+        ],
+        [
+          "also",
+          0.01728070341050625
+        ]
+      ]
+    },
+    {
+      "word1": "preferred",
+      "word2": "dividends",
+      "bigram": "preferred dividends",
+      "pmi": 11.059133278508424,
+      "freq": 30,
+      "mean_prob_compound": 1.6956218775732168e-06,
+      "mean_prob_control": 4.2322246118775553e-07,
+      "boost_ratio": 4.006455311503381,
+      "mean_rank_compound": 20115.375,
+      "mean_rank_control": 26713.25,
+      "best_rank_compound": 5324,
+      "top5_after_w1": [
+        [
+          "to",
+          0.20988701283931732
+        ],
+        [
+          "the",
+          0.10805211216211319
+        ],
+        [
+          "a",
+          0.09029883146286011
+        ],
+        [
+          "that",
+          0.07857277989387512
+        ],
+        [
+          "for",
+          0.02093854919075966
+        ]
+      ]
+    },
+    {
+      "word1": "television",
+      "word2": "interview",
+      "bigram": "television interview",
+      "pmi": 11.055466961310653,
+      "freq": 20,
+      "mean_prob_compound": 0.0001243461183531025,
+      "mean_prob_control": 1.6448997425477785e-05,
+      "boost_ratio": 7.559495277232113,
+      "mean_rank_compound": 6092.625,
+      "mean_rank_control": 12001.0,
+      "best_rank_compound": 245,
+      "top5_after_w1": [
+        [
+          "a",
+          0.034462735056877136
+        ],
+        [
+          "also",
+          0.02735477313399315
+        ],
+        [
+          "not",
+          0.02604581043124199
+        ],
+        [
+          "set",
+          0.02475675940513611
+        ],
+        [
+          "on",
+          0.014312379993498325
+        ]
+      ]
+    },
+    {
+      "word1": "chief",
+      "word2": "executive",
+      "bigram": "chief executive",
+      "pmi": 11.037470498430045,
+      "freq": 153,
+      "mean_prob_compound": 5.358157173418476e-05,
+      "mean_prob_control": 6.303380470029651e-06,
+      "boost_ratio": 8.500450193185422,
+      "mean_rank_compound": 1959.875,
+      "mean_rank_control": 6892.625,
+      "best_rank_compound": 573,
+      "top5_after_w1": [
+        [
+          "also",
+          0.054078470915555954
+        ],
+        [
+          "asked",
+          0.041199155151844025
+        ],
+        [
+          "not",
+          0.03050469607114792
+        ],
+        [
+          "arrested",
+          0.016413040459156036
+        ],
+        [
+          "in",
+          0.016256142407655716
+        ]
+      ]
+    },
+    {
+      "word1": "crude",
+      "word2": "postings",
+      "bigram": "crude postings",
+      "pmi": 11.016679631964658,
+      "freq": 29,
+      "mean_prob_compound": 1.541203184657336e-07,
+      "mean_prob_control": 1.8905549692416201e-07,
+      "boost_ratio": 0.8152120460562838,
+      "mean_rank_compound": 29204.125,
+      "mean_rank_control": 31236.375,
+      "best_rank_compound": 16152,
+      "top5_after_w1": [
+        [
+          "found",
+          0.040281992405653
+        ],
+        [
+          "produced",
+          0.024758391082286835
+        ],
+        [
+          "made",
+          0.02329085022211075
+        ],
+        [
+          "sold",
+          0.021359844133257866
+        ],
+        [
+          "used",
+          0.021122755482792854
+        ]
+      ]
+    },
+    {
+      "word1": "half",
+      "word2": "chick",
+      "bigram": "half chick",
+      "pmi": 11.007091398804285,
+      "freq": 27,
+      "mean_prob_compound": 3.640216478473235e-06,
+      "mean_prob_control": 1.0523177826016195e-05,
+      "boost_ratio": 0.3459236875645698,
+      "mean_rank_compound": 12035.125,
+      "mean_rank_control": 10638.0,
+      "best_rank_compound": 4108,
+      "top5_after_w1": [
+        [
+          "a",
+          0.06804396957159042
+        ],
+        [
+          "the",
+          0.021251333877444267
+        ],
+        [
+          "also",
+          0.014079319313168526
+        ],
+        [
+          "made",
+          0.01357170008122921
+        ],
+        [
+          "not",
+          0.013050680980086327
+        ]
+      ]
+    },
+    {
+      "word1": "newly",
+      "word2": "formed",
+      "bigram": "newly formed",
+      "pmi": 11.003214974657075,
+      "freq": 23,
+      "mean_prob_compound": 0.001556920573012377,
+      "mean_prob_control": 0.00015952791808526712,
+      "boost_ratio": 9.759549248177414,
+      "mean_rank_compound": 12007.75,
+      "mean_rank_control": 20390.875,
+      "best_rank_compound": 10,
+      "top5_after_w1": [
+        [
+          "released",
+          0.03236584737896919
+        ],
+        [
+          "hes",
+          0.028739599511027336
+        ],
+        [
+          "born",
+          0.018709776923060417
+        ],
+        [
+          "named",
+          0.017880121245980263
+        ],
+        [
+          "her",
+          0.01433948427438736
+        ]
+      ]
+    },
+    {
+      "word1": "fine",
+      "word2": "flour",
+      "bigram": "fine flour",
+      "pmi": 11.000031813111026,
+      "freq": 36,
+      "mean_prob_compound": 1.8782947049517107e-05,
+      "mean_prob_control": 2.7642382963932732e-05,
+      "boost_ratio": 0.6794981125189079,
+      "mean_rank_compound": 11852.75,
+      "mean_rank_control": 8850.0,
+      "best_rank_compound": 1442,
+      "top5_after_w1": [
+        [
+          "$",
+          0.057515230029821396
+        ],
+        [
+          "imposed",
+          0.0502760224044323
+        ],
+        [
+          "a",
+          0.03611699491739273
+        ],
+        [
+          "for",
+          0.028187021613121033
+        ],
+        [
+          "paid",
+          0.02650492452085018
+        ]
+      ]
+    },
+    {
+      "word1": "smiling",
+      "word2": "pool",
+      "bigram": "smiling pool",
+      "pmi": 10.986433710771234,
+      "freq": 20,
+      "mean_prob_compound": 8.006736487331523e-05,
+      "mean_prob_control": 0.00013054021554381734,
+      "boost_ratio": 0.6133540115569955,
+      "mean_rank_compound": 6791.875,
+      "mean_rank_control": 3632.0,
+      "best_rank_compound": 248,
+      "top5_after_w1": [
+        [
+          "a",
+          0.06075530871748924
+        ],
+        [
+          "the",
+          0.04756711423397064
+        ],
+        [
+          "not",
+          0.02999470941722393
+        ],
+        [
+          "so",
+          0.02991221286356449
+        ],
+        [
+          "just",
+          0.021106328815221786
+        ]
+      ]
+    },
+    {
+      "word1": "united",
+      "word2": "states",
+      "bigram": "united states",
+      "pmi": 10.982317681457593,
+      "freq": 1024,
+      "mean_prob_compound": 0.00017923954783327645,
+      "mean_prob_control": 1.2811284577196602e-05,
+      "boost_ratio": 13.990755318347484,
+      "mean_rank_compound": 1119.25,
+      "mean_rank_control": 6670.625,
+      "best_rank_compound": 103,
+      "top5_after_w1": [
+        [
+          "not",
+          0.055308450013399124
+        ],
+        [
+          "the",
+          0.04838427156209946
+        ],
+        [
+          "a",
+          0.038514137268066406
+        ],
+        [
+          "hes",
+          0.022984160110354424
+        ],
+        [
+          "in",
+          0.013293182477355003
+        ]
+      ]
+    },
+    {
+      "word1": "dining",
+      "word2": "room",
+      "bigram": "dining room",
+      "pmi": 10.978621227434344,
+      "freq": 36,
+      "mean_prob_compound": 0.0015890583329110086,
+      "mean_prob_control": 0.0006650154643068618,
+      "boost_ratio": 2.3895058358789694,
+      "mean_rank_compound": 497.0,
+      "mean_rank_control": 1383.0,
+      "best_rank_compound": 11,
+      "top5_after_w1": [
+        [
+          "a",
+          0.04603414610028267
+        ],
+        [
+          "very",
+          0.034436970949172974
+        ],
+        [
+          "so",
+          0.02439098060131073
+        ],
+        [
+          "great",
+          0.024251997470855713
+        ],
+        [
+          "also",
+          0.015442111529409885
+        ]
+      ]
+    },
+    {
+      "word1": "vice",
+      "word2": "president",
+      "bigram": "vice president",
+      "pmi": 10.976783659048799,
+      "freq": 167,
+      "mean_prob_compound": 0.00011503406679480577,
+      "mean_prob_control": 8.928124069740306e-05,
+      "boost_ratio": 1.2884461046490787,
+      "mean_rank_compound": 2643.125,
+      "mean_rank_control": 3465.875,
+      "best_rank_compound": 287,
+      "top5_after_w1": [
+        [
+          "also",
+          0.034927256405353546
+        ],
+        [
+          "a",
+          0.031289488077163696
+        ],
+        [
+          "arrested",
+          0.0252968892455101
+        ],
+        [
+          "not",
+          0.018450923264026642
+        ],
+        [
+          "found",
+          0.01450042799115181
+        ]
+      ]
+    },
+    {
+      "word1": "burnt",
+      "word2": "offering",
+      "bigram": "burnt offering",
+      "pmi": 10.961808712332347,
+      "freq": 184,
+      "mean_prob_compound": 1.115628600700802e-05,
+      "mean_prob_control": 8.190590044421242e-06,
+      "boost_ratio": 1.3620857528581554,
+      "mean_rank_compound": 4094.5,
+      "mean_rank_control": 7799.25,
+      "best_rank_compound": 637,
+      "top5_after_w1": [
+        [
+          "a",
+          0.07440327107906342
+        ],
+        [
+          "not",
+          0.043727416545152664
+        ],
+        [
+          "the",
+          0.041496098041534424
+        ],
+        [
+          "hes",
+          0.029130294919013977
+        ],
+        [
+          "so",
+          0.01511098351329565
+        ]
+      ]
+    },
+    {
+      "word1": "subsidized",
+      "word2": "wheat",
+      "bigram": "subsidized wheat",
+      "pmi": 10.956806667599677,
+      "freq": 20,
+      "mean_prob_compound": 3.279871424410885e-05,
+      "mean_prob_control": 2.5346389525893187e-05,
+      "boost_ratio": 1.2940191821246403,
+      "mean_rank_compound": 3175.25,
+      "mean_rank_control": 3983.25,
+      "best_rank_compound": 690,
+      "top5_after_w1": [
+        [
+          "hes",
+          0.05082833766937256
+        ],
+        [
+          "a",
+          0.049516987055540085
+        ],
+        [
+          "$",
+          0.04265342652797699
+        ],
+        [
+          "not",
+          0.03707236051559448
+        ],
+        [
+          "the",
+          0.028958462178707123
+        ]
+      ]
+    },
+    {
+      "word1": "sets",
+      "word2": "quarterly",
+      "bigram": "sets quarterly",
+      "pmi": 10.947729811441103,
+      "freq": 89,
+      "mean_prob_compound": 2.0950466392832823e-06,
+      "mean_prob_control": 5.430066014611157e-07,
+      "boost_ratio": 3.8582341976063566,
+      "mean_rank_compound": 14127.5,
+      "mean_rank_control": 19199.375,
+      "best_rank_compound": 939,
+      "top5_after_w1": [
+        [
+          "a",
+          0.03924074023962021
+        ],
+        [
+          "made",
+          0.03485141322016716
+        ],
+        [
+          "designed",
+          0.03206794708967209
+        ],
+        [
+          "set",
+          0.02791004627943039
+        ],
+        [
+          "created",
+          0.019782884046435356
+        ]
+      ]
+    },
+    {
+      "word1": "undisclosed",
+      "word2": "amount",
+      "bigram": "undisclosed amount",
+      "pmi": 10.934905100494621,
+      "freq": 54,
+      "mean_prob_compound": 9.187256995346615e-05,
+      "mean_prob_control": 2.784066456129608e-05,
+      "boost_ratio": 3.2999417004286182,
+      "mean_rank_compound": 1641.875,
+      "mean_rank_control": 5459.125,
+      "best_rank_compound": 391,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05483674630522728
+        ],
+        [
+          "the",
+          0.051005952060222626
+        ],
+        [
+          "not",
+          0.037803322076797485
+        ],
+        [
+          "revealed",
+          0.02051398903131485
+        ],
+        [
+          "that",
+          0.020253194496035576
+        ]
+      ]
+    },
+    {
+      "word1": "base",
+      "word2": "lending",
+      "bigram": "base lending",
+      "pmi": 10.93450503172501,
+      "freq": 48,
+      "mean_prob_compound": 1.2471388046719767e-06,
+      "mean_prob_control": 1.348576400772572e-06,
+      "boost_ratio": 0.9247817209002888,
+      "mean_rank_compound": 12180.125,
+      "mean_rank_control": 13812.0,
+      "best_rank_compound": 4459,
+      "top5_after_w1": [
+        [
+          "built",
+          0.05902230739593506
+        ],
+        [
+          "a",
+          0.030170954763889313
+        ],
+        [
+          "set",
+          0.02319454960525036
+        ],
+        [
+          "also",
+          0.014436476863920689
+        ],
+        [
+          "constructed",
+          0.013749552890658379
+        ]
+      ]
+    },
+    {
+      "word1": "fine",
+      "word2": "linen",
+      "bigram": "fine linen",
+      "pmi": 10.917569652919052,
+      "freq": 34,
+      "mean_prob_compound": 2.7918236639890015e-05,
+      "mean_prob_control": 1.3818650460795112e-05,
+      "boost_ratio": 2.0203301848539286,
+      "mean_rank_compound": 10454.875,
+      "mean_rank_control": 8302.25,
+      "best_rank_compound": 981,
+      "top5_after_w1": [
+        [
+          "$",
+          0.057515230029821396
+        ],
+        [
+          "imposed",
+          0.0502760224044323
+        ],
+        [
+          "a",
+          0.03611699491739273
+        ],
+        [
+          "for",
+          0.028187021613121033
+        ],
+        [
+          "paid",
+          0.02650492452085018
+        ]
+      ]
+    },
+    {
+      "word1": "reserves",
+      "word2": "indirectly",
+      "bigram": "reserves indirectly",
+      "pmi": 10.915220550686506,
+      "freq": 23,
+      "mean_prob_compound": 3.167045163898763e-06,
+      "mean_prob_control": 4.1096351788283414e-07,
+      "boost_ratio": 7.706390047015533,
+      "mean_rank_compound": 18595.5,
+      "mean_rank_control": 26018.25,
+      "best_rank_compound": 2652,
+      "top5_after_w1": [
+        [
+          "not",
+          0.031669002026319504
+        ],
+        [
+          "the",
+          0.025695497170090675
+        ],
+        [
+          "a",
+          0.023254362866282463
+        ],
+        [
+          "also",
+          0.021487252786755562
+        ],
+        [
+          "set",
+          0.014188561588525772
+        ]
+      ]
+    },
+    {
+      "word1": "electronic",
+      "word2": "goods",
+      "bigram": "electronic goods",
+      "pmi": 10.850455457060516,
+      "freq": 34,
+      "mean_prob_compound": 4.080588453803102e-06,
+      "mean_prob_control": 1.720183243847373e-06,
+      "boost_ratio": 2.3721824220752388,
+      "mean_rank_compound": 10281.5,
+      "mean_rank_control": 14749.375,
+      "best_rank_compound": 5372,
+      "top5_after_w1": [
+        [
+          "hes",
+          0.07037084549665451
+        ],
+        [
+          "not",
+          0.0404917448759079
+        ],
+        [
+          "a",
+          0.03194179758429527
+        ],
+        [
+          "used",
+          0.023059885948896408
+        ],
+        [
+          "designed",
+          0.01949481852352619
+        ]
+      ]
+    },
+    {
+      "word1": "definitive",
+      "word2": "agreement",
+      "bigram": "definitive agreement",
+      "pmi": 10.840834241244785,
+      "freq": 97,
+      "mean_prob_compound": 1.6062349008194587e-05,
+      "mean_prob_control": 2.2023537766813206e-06,
+      "boost_ratio": 7.293264678120241,
+      "mean_rank_compound": 5646.125,
+      "mean_rank_control": 12668.375,
+      "best_rank_compound": 1361,
+      "top5_after_w1": [
+        [
+          "the",
+          0.08661799877882004
+        ],
+        [
+          "a",
+          0.07932097464799881
+        ],
+        [
+          "that",
+          0.040784548968076706
+        ],
+        [
+          "made",
+          0.03126845136284828
+        ],
+        [
+          "written",
+          0.02579461596906185
+        ]
+      ]
+    },
+    {
+      "word1": "press",
+      "word2": "conference",
+      "bigram": "press conference",
+      "pmi": 10.835998123311283,
+      "freq": 73,
+      "mean_prob_compound": 0.0005583151452839274,
+      "mean_prob_control": 1.3051096698468712e-05,
+      "boost_ratio": 42.77917466885635,
+      "mean_rank_compound": 4064.75,
+      "mean_rank_control": 11263.5,
+      "best_rank_compound": 49,
+      "top5_after_w1": [
+        [
+          "also",
+          0.05036204308271408
+        ],
+        [
+          "not",
+          0.04920028895139694
+        ],
+        [
+          "quick",
+          0.03250948339700699
+        ],
+        [
+          "told",
+          0.024034716188907623
+        ],
+        [
+          "so",
+          0.017345137894153595
+        ]
+      ]
+    },
+    {
+      "word1": "shareholder",
+      "word2": "approval",
+      "bigram": "shareholder approval",
+      "pmi": 10.829752275808751,
+      "freq": 40,
+      "mean_prob_compound": 9.627266839196125e-05,
+      "mean_prob_control": 1.371809719685757e-05,
+      "boost_ratio": 7.0179316424448865,
+      "mean_rank_compound": 5536.375,
+      "mean_rank_control": 8270.625,
+      "best_rank_compound": 96,
+      "top5_after_w1": [
+        [
+          "not",
+          0.04895311966538429
+        ],
+        [
+          "also",
+          0.03483712673187256
+        ],
+        [
+          "asked",
+          0.03279443457722664
+        ],
+        [
+          "a",
+          0.031897205859422684
+        ],
+        [
+          "told",
+          0.01954394392669201
+        ]
+      ]
+    },
+    {
+      "word1": "trespass",
+      "word2": "offering",
+      "bigram": "trespass offering",
+      "pmi": 10.828220238585795,
+      "freq": 36,
+      "mean_prob_compound": 8.293799211855912e-06,
+      "mean_prob_control": 8.190590044421242e-06,
+      "boost_ratio": 1.0126009441169588,
+      "mean_rank_compound": 6356.0,
+      "mean_rank_control": 7799.25,
+      "best_rank_compound": 617,
+      "top5_after_w1": [
+        [
+          "not",
+          0.0709776058793068
+        ],
+        [
+          "a",
+          0.05255928263068199
+        ],
+        [
+          "made",
+          0.028281016275286674
+        ],
+        [
+          "so",
+          0.01839887723326683
+        ],
+        [
+          "committed",
+          0.01669800840318203
+        ]
+      ]
+    },
+    {
+      "word1": "dome",
+      "word2": "mines",
+      "bigram": "dome mines",
+      "pmi": 10.826687120806431,
+      "freq": 23,
+      "mean_prob_compound": 1.1755511873712265e-05,
+      "mean_prob_control": 7.64478187065265e-06,
+      "boost_ratio": 1.5377171085600476,
+      "mean_rank_compound": 8399.75,
+      "mean_rank_control": 11816.5,
+      "best_rank_compound": 1896,
+      "top5_after_w1": [
+        [
+          "built",
+          0.07504455000162125
+        ],
+        [
+          "designed",
+          0.031646426767110825
+        ],
+        [
+          "a",
+          0.029608869925141335
+        ],
+        [
+          "constructed",
+          0.029049919918179512
+        ],
+        [
+          "made",
+          0.019395021721720695
+        ]
+      ]
+    },
+    {
+      "word1": "iron",
+      "word2": "ore",
+      "bigram": "iron ore",
+      "pmi": 10.813591347381518,
+      "freq": 28,
+      "mean_prob_compound": 3.9248814942993704e-05,
+      "mean_prob_control": 5.559103087193762e-06,
+      "boost_ratio": 7.060278308817354,
+      "mean_rank_compound": 3426.375,
+      "mean_rank_control": 9563.125,
+      "best_rank_compound": 752,
+      "top5_after_w1": [
+        [
+          "a",
+          0.028921671211719513
+        ],
+        [
+          "not",
+          0.02397160418331623
+        ],
+        [
+          "then",
+          0.01431606337428093
+        ],
+        [
+          "also",
+          0.013879205100238323
+        ],
+        [
+          "broken",
+          0.013118329457938671
+        ]
+      ]
+    },
+    {
+      "word1": "supermarkets",
+      "word2": "general",
+      "bigram": "supermarkets general",
+      "pmi": 10.810492646036451,
+      "freq": 54,
+      "mean_prob_compound": 9.078672225371065e-05,
+      "mean_prob_control": 5.021786104464354e-05,
+      "boost_ratio": 1.807857211859372,
+      "mean_rank_compound": 1886.375,
+      "mean_rank_control": 3011.375,
+      "best_rank_compound": 254,
+      "top5_after_w1": [
+        [
+          "also",
+          0.044459257274866104
+        ],
+        [
+          "not",
+          0.03259863704442978
+        ],
+        [
+          "a",
+          0.029277687892317772
+        ],
+        [
+          "the",
+          0.023359131067991257
+        ],
+        [
+          "closed",
+          0.014703001827001572
+        ]
+      ]
+    },
+    {
+      "word1": "export",
+      "word2": "registrations",
+      "bigram": "export registrations",
+      "pmi": 10.796583800545813,
+      "freq": 25,
+      "mean_prob_compound": 1.1785328135616169e-06,
+      "mean_prob_control": 9.692476204969935e-08,
+      "boost_ratio": 12.15925413319364,
+      "mean_rank_compound": 19802.0,
+      "mean_rank_control": 32945.375,
+      "best_rank_compound": 4961,
+      "top5_after_w1": [
+        [
+          "a",
+          0.04331515356898308
+        ],
+        [
+          "not",
+          0.024848762899637222
+        ],
+        [
+          "made",
+          0.02376319281756878
+        ],
+        [
+          "approved",
+          0.02301749587059021
+        ],
+        [
+          "to",
+          0.022441964596509933
+        ]
+      ]
+    },
+    {
+      "word1": "exporting",
+      "word2": "countries",
+      "bigram": "exporting countries",
+      "pmi": 10.784632779795423,
+      "freq": 33,
+      "mean_prob_compound": 0.00017596366308225697,
+      "mean_prob_control": 2.0946460281834334e-06,
+      "boost_ratio": 84.0063956939112,
+      "mean_rank_compound": 1686.125,
+      "mean_rank_control": 14069.875,
+      "best_rank_compound": 211,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05843273550271988
+        ],
+        [
+          "not",
+          0.04378647357225418
+        ],
+        [
+          "the",
+          0.024674301967024803
+        ],
+        [
+          "done",
+          0.024409174919128418
+        ],
+        [
+          "also",
+          0.021442802622914314
+        ]
+      ]
+    },
+    {
+      "word1": "federal",
+      "word2": "reserve",
+      "bigram": "federal reserve",
+      "pmi": 10.752917316282677,
+      "freq": 241,
+      "mean_prob_compound": 3.470074604194906e-05,
+      "mean_prob_control": 8.288550272794737e-06,
+      "boost_ratio": 4.186588112500963,
+      "mean_rank_compound": 4842.125,
+      "mean_rank_control": 8297.625,
+      "best_rank_compound": 467,
+      "top5_after_w1": [
+        [
+          "not",
+          0.0407489538192749
+        ],
+        [
+          "also",
+          0.03355627506971359
+        ],
+        [
+          "forced",
+          0.0220342967659235
+        ],
+        [
+          "the",
+          0.019933834671974182
+        ],
+        [
+          "able",
+          0.019371161237359047
+        ]
+      ]
+    },
+    {
+      "word1": "percentage",
+      "word2": "points",
+      "bigram": "percentage points",
+      "pmi": 10.743588539996729,
+      "freq": 23,
+      "mean_prob_compound": 0.0001489140673527345,
+      "mean_prob_control": 3.0189001932967585e-05,
+      "boost_ratio": 4.932725755007967,
+      "mean_rank_compound": 1270.0,
+      "mean_rank_control": 3275.0,
+      "best_rank_compound": 96,
+      "top5_after_w1": [
+        [
+          "higher",
+          0.05694590136408806
+        ],
+        [
+          "also",
+          0.04645662009716034
+        ],
+        [
+          "lower",
+          0.02694205939769745
+        ],
+        [
+          "up",
+          0.020826518535614014
+        ],
+        [
+          "about",
+          0.018377656117081642
+        ]
+      ]
+    },
+    {
+      "word1": "previously",
+      "word2": "announced",
+      "bigram": "previously announced",
+      "pmi": 10.743560450463189,
+      "freq": 199,
+      "mean_prob_compound": 0.0006438370497292567,
+      "mean_prob_control": 5.204258032698306e-05,
+      "boost_ratio": 12.371351414246458,
+      "mean_rank_compound": 7248.5,
+      "mean_rank_control": 12886.0,
+      "best_rank_compound": 23,
+      "top5_after_w1": [
+        [
+          "a",
+          0.09711779654026031
+        ],
+        [
+          "the",
+          0.05830889567732811
+        ],
+        [
+          "an",
+          0.02234908938407898
+        ],
+        [
+          "not",
+          0.02082592062652111
+        ],
+        [
+          "one",
+          0.012498597614467144
+        ]
+      ]
+    },
+    {
+      "word1": "cattle",
+      "word2": "slaughter",
+      "bigram": "cattle slaughter",
+      "pmi": 10.73921523252705,
+      "freq": 20,
+      "mean_prob_compound": 0.0029758938231481125,
+      "mean_prob_control": 9.617679934237344e-06,
+      "boost_ratio": 309.41909519721327,
+      "mean_rank_compound": 529.625,
+      "mean_rank_control": 6299.375,
+      "best_rank_compound": 12,
+      "top5_after_w1": [
+        [
+          "not",
+          0.02560117468237877
+        ],
+        [
+          "brought",
+          0.0239530261605978
+        ],
+        [
+          "sold",
+          0.02350156381726265
+        ],
+        [
+          "taken",
+          0.023150626569986343
+        ],
+        [
+          "slaughtered",
+          0.01905117556452751
+        ]
+      ]
+    },
+    {
+      "word1": "pre",
+      "word2": "tax",
+      "bigram": "pre tax",
+      "pmi": 10.72683302104463,
+      "freq": 163,
+      "mean_prob_compound": 2.4299572658037505e-05,
+      "mean_prob_control": 1.626426383438684e-05,
+      "boost_ratio": 1.494046881277341,
+      "mean_rank_compound": 2959.125,
+      "mean_rank_control": 4235.875,
+      "best_rank_compound": 1295,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05690751224756241
+        ],
+        [
+          "not",
+          0.020869242027401924
+        ],
+        [
+          "the",
+          0.018286271020770073
+        ],
+        [
+          "made",
+          0.015063007362186909
+        ],
+        [
+          "an",
+          0.01232995092868805
+        ]
+      ]
+    },
+    {
+      "word1": "fierce",
+      "word2": "anger",
+      "bigram": "fierce anger",
+      "pmi": 10.71994996617052,
+      "freq": 21,
+      "mean_prob_compound": 7.407082808441601e-05,
+      "mean_prob_control": 1.6680932297674644e-05,
+      "boost_ratio": 4.440448936702515,
+      "mean_rank_compound": 2545.5,
+      "mean_rank_control": 5376.0,
+      "best_rank_compound": 128,
+      "top5_after_w1": [
+        [
+          "hes",
+          0.09069984406232834
+        ],
+        [
+          "the",
+          0.06690338999032974
+        ],
+        [
+          "a",
+          0.03501836210489273
+        ],
+        [
+          "wolf",
+          0.03125452250242233
+        ],
+        [
+          "ps",
+          0.027310224249958992
+        ]
+      ]
+    },
+    {
+      "word1": "precious",
+      "word2": "stones",
+      "bigram": "precious stones",
+      "pmi": 10.708308763286132,
+      "freq": 20,
+      "mean_prob_compound": 0.00011087929757991333,
+      "mean_prob_control": 1.6381858262803917e-05,
+      "boost_ratio": 6.768420029104515,
+      "mean_rank_compound": 6119.75,
+      "mean_rank_control": 9434.75,
+      "best_rank_compound": 86,
+      "top5_after_w1": [
+        [
+          "the",
+          0.055861975997686386
+        ],
+        [
+          "her",
+          0.052046846598386765
+        ],
+        [
+          "hes",
+          0.048118941485881805
+        ],
+        [
+          "a",
+          0.046743206679821014
+        ],
+        [
+          "ps",
+          0.02575228177011013
+        ]
+      ]
+    },
+    {
+      "word1": "waste",
+      "word2": "management",
+      "bigram": "waste management",
+      "pmi": 10.70355092418409,
+      "freq": 67,
+      "mean_prob_compound": 2.7512405193164113e-05,
+      "mean_prob_control": 7.907853200705972e-06,
+      "boost_ratio": 3.4791244216202633,
+      "mean_rank_compound": 3539.0,
+      "mean_rank_control": 7749.625,
+      "best_rank_compound": 437,
+      "top5_after_w1": [
+        [
+          "so",
+          0.04542175307869911
+        ],
+        [
+          "not",
+          0.03394698724150658
+        ],
+        [
+          "a",
+          0.019541168585419655
+        ],
+        [
+          "found",
+          0.019333556294441223
+        ],
+        [
+          "the",
+          0.01593383401632309
+        ]
+      ]
+    },
+    {
+      "word1": "monetary",
+      "word2": "fund",
+      "bigram": "monetary fund",
+      "pmi": 10.687854103631633,
+      "freq": 61,
+      "mean_prob_compound": 0.0025167810173059024,
+      "mean_prob_control": 1.9338769288168578e-05,
+      "boost_ratio": 130.1417365191726,
+      "mean_rank_compound": 2647.75,
+      "mean_rank_control": 13750.375,
+      "best_rank_compound": 5,
+      "top5_after_w1": [
+        [
+          "not",
+          0.03945118933916092
+        ],
+        [
+          "raised",
+          0.024568794295191765
+        ],
+        [
+          "a",
+          0.02360253594815731
+        ],
+        [
+          "also",
+          0.02149740420281887
+        ],
+        [
+          "set",
+          0.018785737454891205
+        ]
+      ]
+    },
+    {
+      "word1": "per",
+      "word2": "capita",
+      "bigram": "per capita",
+      "pmi": 10.685929506594798,
+      "freq": 23,
+      "mean_prob_compound": 1.756417741827221e-05,
+      "mean_prob_control": 5.554457205292351e-08,
+      "boost_ratio": 316.2177107339464,
+      "mean_rank_compound": 18298.5,
+      "mean_rank_control": 35124.125,
+      "best_rank_compound": 1166,
+      "top5_after_w1": [
+        [
+          "a",
+          0.04508719965815544
+        ],
+        [
+          "$",
+          0.03331504389643669
+        ],
+        [
+          "the",
+          0.01833273656666279
+        ],
+        [
+          ":",
+          0.013903783634305
+        ],
+        [
+          "not",
+          0.012920557521283627
+        ]
+      ]
+    },
+    {
+      "word1": "industrialized",
+      "word2": "countries",
+      "bigram": "industrialized countries",
+      "pmi": 10.657325023151376,
+      "freq": 20,
+      "mean_prob_compound": 0.0003035212335333881,
+      "mean_prob_control": 2.0946460281834334e-06,
+      "boost_ratio": 144.90335333489006,
+      "mean_rank_compound": 2139.875,
+      "mean_rank_control": 14069.875,
+      "best_rank_compound": 66,
+      "top5_after_w1": [
+        [
+          "hes",
+          0.11613171547651291
+        ],
+        [
+          "the",
+          0.07807131111621857
+        ],
+        [
+          "not",
+          0.05355532839894295
+        ],
+        [
+          "a",
+          0.036823730915784836
+        ],
+        [
+          "her",
+          0.027526097372174263
+        ]
+      ]
+    },
+    {
+      "word1": "treasury",
+      "word2": "bills",
+      "bigram": "treasury bills",
+      "pmi": 10.640873891756634,
+      "freq": 66,
+      "mean_prob_compound": 3.982907532318336e-05,
+      "mean_prob_control": 4.527024303868643e-06,
+      "boost_ratio": 8.798069692081567,
+      "mean_rank_compound": 5616.125,
+      "mean_rank_control": 13141.0,
+      "best_rank_compound": 259,
+      "top5_after_w1": [
+        [
+          "also",
+          0.04501979798078537
+        ],
+        [
+          "not",
+          0.03653499484062195
+        ],
+        [
+          "in",
+          0.017885928973555565
+        ],
+        [
+          "set",
+          0.016308574005961418
+        ],
+        [
+          "told",
+          0.014122942462563515
+        ]
+      ]
+    },
+    {
+      "word1": "economic",
+      "word2": "fundamentals",
+      "bigram": "economic fundamentals",
+      "pmi": 10.637668586553525,
+      "freq": 35,
+      "mean_prob_compound": 1.9109361659164215e-05,
+      "mean_prob_control": 1.9869036927550043e-07,
+      "boost_ratio": 96.1765873647732,
+      "mean_rank_compound": 9389.375,
+      "mean_rank_control": 31726.25,
+      "best_rank_compound": 1439,
+      "top5_after_w1": [
+        [
+          "not",
+          0.06003514304757118
+        ],
+        [
+          "a",
+          0.03851369023323059
+        ],
+        [
+          "very",
+          0.028603699058294296
+        ],
+        [
+          "also",
+          0.028581885620951653
+        ],
+        [
+          "good",
+          0.02159169875085354
+        ]
+      ]
+    },
+    {
+      "word1": "statistics",
+      "word2": "office",
+      "bigram": "statistics office",
+      "pmi": 10.619731355107483,
+      "freq": 58,
+      "mean_prob_compound": 0.00018068443655039346,
+      "mean_prob_control": 9.074734268210705e-05,
+      "boost_ratio": 1.9910713769695827,
+      "mean_rank_compound": 2495.375,
+      "mean_rank_control": 4283.125,
+      "best_rank_compound": 106,
+      "top5_after_w1": [
+        [
+          "compiled",
+          0.043181974440813065
+        ],
+        [
+          "published",
+          0.040715161710977554
+        ],
+        [
+          "not",
+          0.03791771084070206
+        ],
+        [
+          "based",
+          0.03235612064599991
+        ],
+        [
+          "released",
+          0.031171223148703575
+        ]
+      ]
+    },
+    {
+      "word1": "natural",
+      "word2": "gas",
+      "bigram": "natural gas",
+      "pmi": 10.618531873282848,
+      "freq": 219,
+      "mean_prob_compound": 0.0003306287972293376,
+      "mean_prob_control": 0.00018199451949385548,
+      "boost_ratio": 1.8166964486010269,
+      "mean_rank_compound": 1263.75,
+      "mean_rank_control": 1001.625,
+      "best_rank_compound": 57,
+      "top5_after_w1": [
+        [
+          "the",
+          0.0824301689863205
+        ],
+        [
+          "a",
+          0.06390250474214554
+        ],
+        [
+          "hes",
+          0.049412816762924194
+        ],
+        [
+          "that",
+          0.03860742971301079
+        ],
+        [
+          "not",
+          0.03506755083799362
+        ]
+      ]
+    },
+    {
+      "word1": "prime",
+      "word2": "minister",
+      "bigram": "prime minister",
+      "pmi": 10.608892581529545,
+      "freq": 150,
+      "mean_prob_compound": 4.616752296016102e-05,
+      "mean_prob_control": 7.528759286223874e-06,
+      "boost_ratio": 6.132155539178729,
+      "mean_rank_compound": 5908.375,
+      "mean_rank_control": 11897.25,
+      "best_rank_compound": 617,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05968121439218521
+        ],
+        [
+          "the",
+          0.025168638676404953
+        ],
+        [
+          "not",
+          0.021707816049456596
+        ],
+        [
+          "also",
+          0.018639640882611275
+        ],
+        [
+          "born",
+          0.014677377417683601
+        ]
+      ]
+    },
+    {
+      "word1": "sets",
+      "word2": "payout",
+      "bigram": "sets payout",
+      "pmi": 10.591284667580442,
+      "freq": 55,
+      "mean_prob_compound": 3.8188326428878483e-07,
+      "mean_prob_control": 3.3274348304468404e-07,
+      "boost_ratio": 1.1476806721936665,
+      "mean_rank_compound": 25471.375,
+      "mean_rank_control": 27967.875,
+      "best_rank_compound": 7890,
+      "top5_after_w1": [
+        [
+          "a",
+          0.03924074023962021
+        ],
+        [
+          "made",
+          0.03485141322016716
+        ],
+        [
+          "designed",
+          0.03206794708967209
+        ],
+        [
+          "set",
+          0.02791004627943039
+        ],
+        [
+          "created",
+          0.019782884046435356
+        ]
+      ]
+    },
+    {
+      "word1": "dwell",
+      "word2": "therein",
+      "bigram": "dwell therein",
+      "pmi": 10.573040977351148,
+      "freq": 37,
+      "mean_prob_compound": 1.7677351706879563e-06,
+      "mean_prob_control": 1.4681107354808098e-07,
+      "boost_ratio": 12.04088443716079,
+      "mean_rank_compound": 19490.0,
+      "mean_rank_control": 32479.625,
+      "best_rank_compound": 2047,
+      "top5_after_w1": [
+        [
+          "a",
+          0.04427685961127281
+        ],
+        [
+          "not",
+          0.026761801913380623
+        ],
+        [
+          "so",
+          0.014894163236021996
+        ],
+        [
+          "in",
+          0.01469864509999752
+        ],
+        [
+          "also",
+          0.014012281782925129
+        ]
+      ]
+    },
+    {
+      "word1": "excludes",
+      "word2": "extraordinary",
+      "bigram": "excludes extraordinary",
+      "pmi": 10.571026711341062,
+      "freq": 54,
+      "mean_prob_compound": 6.1924599741303155e-06,
+      "mean_prob_control": 3.8103673762890367e-06,
+      "boost_ratio": 1.6251608736376564,
+      "mean_rank_compound": 14383.625,
+      "mean_rank_control": 10887.625,
+      "best_rank_compound": 2415,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05650030076503754
+        ],
+        [
+          "the",
+          0.04947293922305107
+        ],
+        [
+          "not",
+          0.03198578208684921
+        ],
+        [
+          "made",
+          0.017277033999562263
+        ],
+        [
+          "used",
+          0.016046201810240746
+        ]
+      ]
+    },
+    {
+      "word1": "bankruptcy",
+      "word2": "court",
+      "bigram": "bankruptcy court",
+      "pmi": 10.561616303199317,
+      "freq": 20,
+      "mean_prob_compound": 0.0008810628497144535,
+      "mean_prob_control": 3.6980091294935846e-05,
+      "boost_ratio": 23.825329220728793,
+      "mean_rank_compound": 527.375,
+      "mean_rank_control": 2875.375,
+      "best_rank_compound": 29,
+      "top5_after_w1": [
+        [
+          "a",
+          0.043345849961042404
+        ],
+        [
+          "the",
+          0.03402358666062355
+        ],
+        [
+          "announced",
+          0.028864650055766106
+        ],
+        [
+          "not",
+          0.02546810731291771
+        ],
+        [
+          "due",
+          0.022571410983800888
+        ]
+      ]
+    },
+    {
+      "word1": "peace",
+      "word2": "offerings",
+      "bigram": "peace offerings",
+      "pmi": 10.54575477431831,
+      "freq": 83,
+      "mean_prob_compound": 1.930687166362688e-06,
+      "mean_prob_control": 5.85139656505973e-07,
+      "boost_ratio": 3.2995322482351352,
+      "mean_rank_compound": 20977.125,
+      "mean_rank_control": 23803.875,
+      "best_rank_compound": 4801,
+      "top5_after_w1": [
+        [
+          "broken",
+          0.04243629798293114
+        ],
+        [
+          "restored",
+          0.03705400228500366
+        ],
+        [
+          "not",
+          0.03276596963405609
+        ],
+        [
+          "short",
+          0.02593366429209709
+        ],
+        [
+          "a",
+          0.024911828339099884
+        ]
+      ]
+    },
+    {
+      "word1": "dome",
+      "word2": "petroleum",
+      "bigram": "dome petroleum",
+      "pmi": 10.53644524748024,
+      "freq": 45,
+      "mean_prob_compound": 3.7914934983840354e-06,
+      "mean_prob_control": 5.079294211896013e-06,
+      "boost_ratio": 0.7464606971386161,
+      "mean_rank_compound": 14844.125,
+      "mean_rank_control": 13267.875,
+      "best_rank_compound": 1836,
+      "top5_after_w1": [
+        [
+          "built",
+          0.07504455000162125
+        ],
+        [
+          "designed",
+          0.031646426767110825
+        ],
+        [
+          "a",
+          0.029608869925141335
+        ],
+        [
+          "constructed",
+          0.029049919918179512
+        ],
+        [
+          "made",
+          0.019395021721720695
+        ]
+      ]
+    },
+    {
+      "word1": "finance",
+      "word2": "ministry",
+      "bigram": "finance ministry",
+      "pmi": 10.530164914931007,
+      "freq": 117,
+      "mean_prob_compound": 6.466886155376272e-05,
+      "mean_prob_control": 1.7091782144040835e-06,
+      "boost_ratio": 37.836230890826066,
+      "mean_rank_compound": 5422.375,
+      "mean_rank_control": 19659.0,
+      "best_rank_compound": 388,
+      "top5_after_w1": [
+        [
+          "also",
+          0.040989138185977936
+        ],
+        [
+          "a",
+          0.02413417212665081
+        ],
+        [
+          "not",
+          0.023098140954971313
+        ],
+        [
+          "made",
+          0.014021385461091995
+        ],
+        [
+          "done",
+          0.012250962667167187
+        ]
+      ]
+    },
+    {
+      "word1": "quarterly",
+      "word2": "dividend",
+      "bigram": "quarterly dividend",
+      "pmi": 10.524717526736199,
+      "freq": 118,
+      "mean_prob_compound": 8.780973082056498e-05,
+      "mean_prob_control": 9.495336874276727e-07,
+      "boost_ratio": 92.47668827679541,
+      "mean_rank_compound": 5418.375,
+      "mean_rank_control": 21419.375,
+      "best_rank_compound": 153,
+      "top5_after_w1": [
+        [
+          "a",
+          0.07613016664981842
+        ],
+        [
+          "the",
+          0.06707657128572464
+        ],
+        [
+          "also",
+          0.04864446818828583
+        ],
+        [
+          "released",
+          0.0319354273378849
+        ],
+        [
+          "held",
+          0.021300379186868668
+        ]
+      ]
+    },
+    {
+      "word1": "thousand",
+      "word2": "pounds",
+      "bigram": "thousand pounds",
+      "pmi": 10.519264418740534,
+      "freq": 49,
+      "mean_prob_compound": 6.6361192914143885e-06,
+      "mean_prob_control": 1.1473235801418014e-06,
+      "boost_ratio": 5.7839997418986275,
+      "mean_rank_compound": 8680.625,
+      "mean_rank_control": 13520.5,
+      "best_rank_compound": 1816,
+      "top5_after_w1": [
+        [
+          "a",
+          0.09230972826480865
+        ],
+        [
+          "the",
+          0.0591759979724884
+        ],
+        [
+          "not",
+          0.034844886511564255
+        ],
+        [
+          "an",
+          0.01653268188238144
+        ],
+        [
+          "so",
+          0.012575864791870117
+        ]
+      ]
+    },
+    {
+      "word1": "cast",
+      "word2": "lots",
+      "bigram": "cast lots",
+      "pmi": 10.510929327797385,
+      "freq": 20,
+      "mean_prob_compound": 0.00033709784075597327,
+      "mean_prob_control": 0.00017842116200483815,
+      "boost_ratio": 1.8893377723144318,
+      "mean_rank_compound": 4745.875,
+      "mean_rank_control": 5438.25,
+      "best_rank_compound": 27,
+      "top5_after_w1": [
+        [
+          "also",
+          0.029411500319838524
+        ],
+        [
+          "all",
+          0.018672706559300423
+        ],
+        [
+          "a",
+          0.01861651986837387
+        ],
+        [
+          "made",
+          0.015961136668920517
+        ],
+        [
+          "given",
+          0.013311022892594337
+        ]
+      ]
+    },
+    {
+      "word1": "buffer",
+      "word2": "stock",
+      "bigram": "buffer stock",
+      "pmi": 10.502233138379928,
+      "freq": 298,
+      "mean_prob_compound": 4.145750611250776e-05,
+      "mean_prob_control": 5.25275881102516e-05,
+      "boost_ratio": 0.7892520407655395,
+      "mean_rank_compound": 3658.75,
+      "mean_rank_control": 2286.375,
+      "best_rank_compound": 806,
+      "top5_after_w1": [
+        [
+          "not",
+          0.031244978308677673
+        ],
+        [
+          "then",
+          0.02948278747498989
+        ],
+        [
+          "created",
+          0.02603812702000141
+        ],
+        [
+          "set",
+          0.025017324835062027
+        ],
+        [
+          "filled",
+          0.01857428438961506
+        ]
+      ]
+    },
+    {
+      "word1": "news",
+      "word2": "agency",
+      "bigram": "news agency",
+      "pmi": 10.497140445328903,
+      "freq": 80,
+      "mean_prob_compound": 2.516110376760139e-05,
+      "mean_prob_control": 2.8185332801022867e-06,
+      "boost_ratio": 8.927020285773697,
+      "mean_rank_compound": 3779.25,
+      "mean_rank_control": 11845.125,
+      "best_rank_compound": 881,
+      "top5_after_w1": [
+        [
+          "reported",
+          0.06267274916172028
+        ],
+        [
+          "first",
+          0.061706747859716415
+        ],
+        [
+          "met",
+          0.05124340578913689
+        ],
+        [
+          "greeted",
+          0.03529167175292969
+        ],
+        [
+          "confirmed",
+          0.032005466520786285
+        ]
+      ]
+    },
+    {
+      "word1": "executive",
+      "word2": "vice",
+      "bigram": "executive vice",
+      "pmi": 10.494328173403515,
+      "freq": 35,
+      "mean_prob_compound": 0.00013998235834122852,
+      "mean_prob_control": 1.9163801967536642e-05,
+      "boost_ratio": 7.304519143871229,
+      "mean_rank_compound": 2703.125,
+      "mean_rank_control": 5633.375,
+      "best_rank_compound": 230,
+      "top5_after_w1": [
+        [
+          "also",
+          0.051494523882865906
+        ],
+        [
+          "not",
+          0.03714023530483246
+        ],
+        [
+          "asked",
+          0.03535466268658638
+        ],
+        [
+          "fired",
+          0.018396833911538124
+        ],
+        [
+          "a",
+          0.018268298357725143
+        ]
+      ]
+    },
+    {
+      "word1": "pension",
+      "word2": "plan",
+      "bigram": "pension plan",
+      "pmi": 10.484016666107362,
+      "freq": 30,
+      "mean_prob_compound": 0.00011781302151803175,
+      "mean_prob_control": 2.571530906969599e-05,
+      "boost_ratio": 4.581435175393929,
+      "mean_rank_compound": 2720.25,
+      "mean_rank_control": 5855.375,
+      "best_rank_compound": 175,
+      "top5_after_w1": [
+        [
+          "paid",
+          0.09795583039522171
+        ],
+        [
+          "set",
+          0.0415734201669693
+        ],
+        [
+          "not",
+          0.02259359322488308
+        ],
+        [
+          "$",
+          0.015267542563378811
+        ],
+        [
+          "also",
+          0.015190856531262398
+        ]
+      ]
+    },
+    {
+      "word1": "sugar",
+      "word2": "cane",
+      "bigram": "sugar cane",
+      "pmi": 10.465936540729825,
+      "freq": 30,
+      "mean_prob_compound": 0.00015991954843919132,
+      "mean_prob_control": 8.403831852188404e-06,
+      "boost_ratio": 19.029360802542403,
+      "mean_rank_compound": 2418.5,
+      "mean_rank_control": 7354.625,
+      "best_rank_compound": 187,
+      "top5_after_w1": [
+        [
+          "added",
+          0.039490409195423126
+        ],
+        [
+          "not",
+          0.023696765303611755
+        ],
+        [
+          "a",
+          0.022693529725074768
+        ],
+        [
+          "then",
+          0.018815750256180763
+        ],
+        [
+          "made",
+          0.01831856742501259
+        ]
+      ]
+    },
+    {
+      "word1": "credit",
+      "word2": "guarantee",
+      "bigram": "credit guarantee",
+      "pmi": 10.461045263813087,
+      "freq": 21,
+      "mean_prob_compound": 0.0001274072401997728,
+      "mean_prob_control": 1.4305761373734072e-05,
+      "boost_ratio": 8.906009045677036,
+      "mean_rank_compound": 7618.75,
+      "mean_rank_control": 16346.625,
+      "best_rank_compound": 117,
+      "top5_after_w1": [
+        [
+          "given",
+          0.07301642000675201
+        ],
+        [
+          "due",
+          0.056565381586551666
+        ],
+        [
+          "not",
+          0.030237561091780663
+        ],
+        [
+          "awarded",
+          0.025942211970686913
+        ],
+        [
+          "also",
+          0.021405192092061043
+        ]
+      ]
+    },
+    {
+      "word1": "wall",
+      "word2": "street",
+      "bigram": "wall street",
+      "pmi": 10.421503354955307,
+      "freq": 126,
+      "mean_prob_compound": 0.0012441727572536365,
+      "mean_prob_control": 0.0006572709837655566,
+      "boost_ratio": 1.8929372937257538,
+      "mean_rank_compound": 1103.875,
+      "mean_rank_control": 1556.375,
+      "best_rank_compound": 12,
+      "top5_after_w1": [
+        [
+          "a",
+          0.03199224919080734
+        ],
+        [
+          "covered",
+          0.02831481583416462
+        ],
+        [
+          "built",
+          0.022642845287919044
+        ],
+        [
+          "also",
+          0.019878387451171875
+        ],
+        [
+          "so",
+          0.019205154851078987
+        ]
+      ]
+    },
+    {
+      "word1": "treasury",
+      "word2": "secretary",
+      "bigram": "treasury secretary",
+      "pmi": 10.410904990737551,
+      "freq": 110,
+      "mean_prob_compound": 2.2189740412292824e-05,
+      "mean_prob_control": 7.68179438104255e-06,
+      "boost_ratio": 2.888614210639845,
+      "mean_rank_compound": 4710.5,
+      "mean_rank_control": 9489.625,
+      "best_rank_compound": 1408,
+      "top5_after_w1": [
+        [
+          "also",
+          0.04501979798078537
+        ],
+        [
+          "not",
+          0.03653499484062195
+        ],
+        [
+          "in",
+          0.017885928973555565
+        ],
+        [
+          "set",
+          0.016308574005961418
+        ],
+        [
+          "told",
+          0.014122942462563515
+        ]
+      ]
+    },
+    {
+      "word1": "dressing",
+      "word2": "room",
+      "bigram": "dressing room",
+      "pmi": 10.40583344065929,
+      "freq": 21,
+      "mean_prob_compound": 0.0016402650344957692,
+      "mean_prob_control": 0.0006650154643068618,
+      "boost_ratio": 2.46650660403123,
+      "mean_rank_compound": 887.25,
+      "mean_rank_control": 1383.0,
+      "best_rank_compound": 6,
+      "top5_after_w1": [
+        [
+          "a",
+          0.0570940226316452
+        ],
+        [
+          "very",
+          0.039521634578704834
+        ],
+        [
+          "so",
+          0.03317458555102348
+        ],
+        [
+          "done",
+          0.022838490083813667
+        ],
+        [
+          "not",
+          0.0206004548817873
+        ]
+      ]
+    },
+    {
+      "word1": "french",
+      "word2": "franc",
+      "bigram": "french franc",
+      "pmi": 10.40398915144566,
+      "freq": 21,
+      "mean_prob_compound": 3.110325900479438e-05,
+      "mean_prob_control": 5.52967261979731e-07,
+      "boost_ratio": 56.24792124842731,
+      "mean_rank_compound": 3066.375,
+      "mean_rank_control": 18578.125,
+      "best_rank_compound": 877,
+      "top5_after_w1": [
+        [
+          "the",
+          0.0721542239189148
+        ],
+        [
+          "a",
+          0.05757158622145653
+        ],
+        [
+          "not",
+          0.03985312581062317
+        ],
+        [
+          "very",
+          0.018042048439383507
+        ],
+        [
+          "also",
+          0.017921732738614082
+        ]
+      ]
+    },
+    {
+      "word1": "extraordinary",
+      "word2": "items",
+      "bigram": "extraordinary items",
+      "pmi": 10.39701061325965,
+      "freq": 29,
+      "mean_prob_compound": 1.1319736664905378e-05,
+      "mean_prob_control": 5.1677624419710355e-06,
+      "boost_ratio": 2.1904522106066313,
+      "mean_rank_compound": 12549.625,
+      "mean_rank_control": 11010.75,
+      "best_rank_compound": 1512,
+      "top5_after_w1": [
+        [
+          "the",
+          0.17981362342834473
+        ],
+        [
+          "that",
+          0.16920562088489532
+        ],
+        [
+          "a",
+          0.04591191187500954
+        ],
+        [
+          "not",
+          0.033855389803647995
+        ],
+        [
+          ",",
+          0.017234349623322487
+        ]
+      ]
+    },
+    {
+      "word1": "cash",
+      "word2": "flow",
+      "bigram": "cash flow",
+      "pmi": 10.39671883551755,
+      "freq": 81,
+      "mean_prob_compound": 0.00012131783482871583,
+      "mean_prob_control": 3.116874061426245e-05,
+      "boost_ratio": 3.8922918423339254,
+      "mean_rank_compound": 2762.875,
+      "mean_rank_control": 6732.875,
+      "best_rank_compound": 91,
+      "top5_after_w1": [
+        [
+          "not",
+          0.028632838279008865
+        ],
+        [
+          "also",
+          0.02553330361843109
+        ],
+        [
+          "used",
+          0.025166423991322517
+        ],
+        [
+          "then",
+          0.020826641470193863
+        ],
+        [
+          "distributed",
+          0.017839539796113968
+        ]
+      ]
+    },
+    {
+      "word1": "million",
+      "word2": "dollars",
+      "bigram": "million dollars",
+      "pmi": 10.38501601761019,
+      "freq": 29,
+      "mean_prob_compound": 8.337664706914438e-05,
+      "mean_prob_control": 3.0210272612407607e-06,
+      "boost_ratio": 27.598773483063805,
+      "mean_rank_compound": 1691.125,
+      "mean_rank_control": 9918.625,
+      "best_rank_compound": 267,
+      "top5_after_w1": [
+        [
+          "a",
+          0.07087111473083496
+        ],
+        [
+          "the",
+          0.04446893185377121
+        ],
+        [
+          "spent",
+          0.022324929013848305
+        ],
+        [
+          "not",
+          0.01881367899477482
+        ],
+        [
+          "for",
+          0.015666857361793518
+        ]
+      ]
+    },
+    {
+      "word1": "regular",
+      "word2": "payout",
+      "bigram": "regular payout",
+      "pmi": 10.379780562386731,
+      "freq": 25,
+      "mean_prob_compound": 2.574541188016255e-07,
+      "mean_prob_control": 3.3274348304468404e-07,
+      "boost_ratio": 0.7737315136749111,
+      "mean_rank_compound": 28495.125,
+      "mean_rank_control": 27967.875,
+      "best_rank_compound": 19847,
+      "top5_after_w1": [
+        [
+          "a",
+          0.07761531323194504
+        ],
+        [
+          "the",
+          0.02657746523618698
+        ],
+        [
+          "not",
+          0.022385593503713608
+        ],
+        [
+          "also",
+          0.017273979261517525
+        ],
+        [
+          "an",
+          0.013752068392932415
+        ]
+      ]
+    },
+    {
+      "word1": "pioneer",
+      "word2": "sugar",
+      "bigram": "pioneer sugar",
+      "pmi": 10.37451351296623,
+      "freq": 20,
+      "mean_prob_compound": 2.1128852575102997e-05,
+      "mean_prob_control": 4.277535440522229e-05,
+      "boost_ratio": 0.4939492113833533,
+      "mean_rank_compound": 3883.25,
+      "mean_rank_control": 2868.625,
+      "best_rank_compound": 941,
+      "top5_after_w1": [
+        [
+          "a",
+          0.14759330451488495
+        ],
+        [
+          "the",
+          0.061390068382024765
+        ],
+        [
+          "an",
+          0.03703182935714722
+        ],
+        [
+          "born",
+          0.015852754935622215
+        ],
+        [
+          "also",
+          0.01456685271114111
+        ]
+      ]
+    },
+    {
+      "word1": "agriculture",
+      "word2": "department",
+      "bigram": "agriculture department",
+      "pmi": 10.370789064686146,
+      "freq": 249,
+      "mean_prob_compound": 1.2835733231852942e-05,
+      "mean_prob_control": 6.1023709889695965e-06,
+      "boost_ratio": 2.1034009985715887,
+      "mean_rank_compound": 6568.375,
+      "mean_rank_control": 10333.0,
+      "best_rank_compound": 1725,
+      "top5_after_w1": [
+        [
+          "the",
+          0.04996481165289879
+        ],
+        [
+          "a",
+          0.04461900144815445
+        ],
+        [
+          "not",
+          0.044544853270053864
+        ],
+        [
+          "also",
+          0.029640911146998405
+        ],
+        [
+          "in",
+          0.015615849755704403
+        ]
+      ]
+    },
+    {
+      "word1": "general",
+      "word2": "motors",
+      "bigram": "general motors",
+      "pmi": 10.363389056440075,
+      "freq": 56,
+      "mean_prob_compound": 8.70984721706991e-07,
+      "mean_prob_control": 1.7115785271304418e-06,
+      "boost_ratio": 0.5088780373794746,
+      "mean_rank_compound": 18064.625,
+      "mean_rank_control": 15128.25,
+      "best_rank_compound": 11106,
+      "top5_after_w1": [
+        [
+          "not",
+          0.03998161852359772
+        ],
+        [
+          "also",
+          0.033488061279058456
+        ],
+        [
+          "asked",
+          0.025228599086403847
+        ],
+        [
+          "a",
+          0.021204613149166107
+        ],
+        [
+          "arrested",
+          0.013408727012574673
+        ]
+      ]
+    },
+    {
+      "word1": "currency",
+      "word2": "stability",
+      "bigram": "currency stability",
+      "pmi": 10.357279019703386,
+      "freq": 61,
+      "mean_prob_compound": 3.053230500071891e-05,
+      "mean_prob_control": 7.063373979487864e-06,
+      "boost_ratio": 4.3226233085470405,
+      "mean_rank_compound": 4850.875,
+      "mean_rank_control": 13132.375,
+      "best_rank_compound": 279,
+      "top5_after_w1": [
+        [
+          "also",
+          0.029718220233917236
+        ],
+        [
+          "set",
+          0.029657065868377686
+        ],
+        [
+          "then",
+          0.02917923778295517
+        ],
+        [
+          "pegged",
+          0.02346084825694561
+        ],
+        [
+          "not",
+          0.01712246984243393
+        ]
+      ]
+    },
+    {
+      "word1": "finance",
+      "word2": "minister",
+      "bigram": "finance minister",
+      "pmi": 10.35049055387887,
+      "freq": 161,
+      "mean_prob_compound": 7.221253285649709e-05,
+      "mean_prob_control": 7.528759286223874e-06,
+      "boost_ratio": 9.591558198524371,
+      "mean_rank_compound": 3854.625,
+      "mean_rank_control": 11897.25,
+      "best_rank_compound": 374,
+      "top5_after_w1": [
+        [
+          "also",
+          0.040989138185977936
+        ],
+        [
+          "a",
+          0.02413417212665081
+        ],
+        [
+          "not",
+          0.023098140954971313
+        ],
+        [
+          "made",
+          0.014021385461091995
+        ],
+        [
+          "done",
+          0.012250962667167187
+        ]
+      ]
+    },
+    {
+      "word1": "cocoa",
+      "word2": "organization",
+      "bigram": "cocoa organization",
+      "pmi": 10.347059465307973,
+      "freq": 34,
+      "mean_prob_compound": 2.136184015899545e-06,
+      "mean_prob_control": 4.565820487911765e-06,
+      "boost_ratio": 0.4678642144506552,
+      "mean_rank_compound": 14462.625,
+      "mean_rank_control": 11821.0,
+      "best_rank_compound": 5756,
+      "top5_after_w1": [
+        [
+          "a",
+          0.0366809107363224
+        ],
+        [
+          "made",
+          0.022571228444576263
+        ],
+        [
+          "not",
+          0.0225136149674654
+        ],
+        [
+          "also",
+          0.01916136033833027
+        ],
+        [
+          "very",
+          0.017991235479712486
+        ]
+      ]
+    },
+    {
+      "word1": "monetary",
+      "word2": "policy",
+      "bigram": "monetary policy",
+      "pmi": 10.344341384503368,
+      "freq": 134,
+      "mean_prob_compound": 0.0002112679841843601,
+      "mean_prob_control": 1.0952043005829637e-05,
+      "boost_ratio": 19.29028073318419,
+      "mean_rank_compound": 1017.25,
+      "mean_rank_control": 6300.125,
+      "best_rank_compound": 163,
+      "top5_after_w1": [
+        [
+          "not",
+          0.03945118933916092
+        ],
+        [
+          "raised",
+          0.024568794295191765
+        ],
+        [
+          "a",
+          0.02360253594815731
+        ],
+        [
+          "also",
+          0.02149740420281887
+        ],
+        [
+          "set",
+          0.018785737454891205
+        ]
+      ]
+    },
+    {
+      "word1": "raises",
+      "word2": "crude",
+      "bigram": "raises crude",
+      "pmi": 10.3432704142438,
+      "freq": 66,
+      "mean_prob_compound": 1.7106846801340225e-05,
+      "mean_prob_control": 1.3285883301961121e-05,
+      "boost_ratio": 1.2875957444858104,
+      "mean_rank_compound": 5920.25,
+      "mean_rank_control": 6848.875,
+      "best_rank_compound": 963,
+      "top5_after_w1": [
+        [
+          "$",
+          0.057457100600004196
+        ],
+        [
+          "a",
+          0.036264289170503616
+        ],
+        [
+          "the",
+          0.027477925643324852
+        ],
+        [
+          "also",
+          0.02281339466571808
+        ],
+        [
+          "not",
+          0.017949935048818588
+        ]
+      ]
+    },
+    {
+      "word1": "tax",
+      "word2": "credits",
+      "bigram": "tax credits",
+      "pmi": 10.30525430140587,
+      "freq": 112,
+      "mean_prob_compound": 6.0634102766243814e-05,
+      "mean_prob_control": 1.640942758918129e-05,
+      "boost_ratio": 3.6950772619405554,
+      "mean_rank_compound": 3062.0,
+      "mean_rank_control": 13296.625,
+      "best_rank_compound": 405,
+      "top5_after_w1": [
+        [
+          "imposed",
+          0.03224637359380722
+        ],
+        [
+          "introduced",
+          0.028112486004829407
+        ],
+        [
+          "set",
+          0.02672196924686432
+        ],
+        [
+          "passed",
+          0.02447136864066124
+        ],
+        [
+          "not",
+          0.02364041842520237
+        ]
+      ]
+    },
+    {
+      "word1": "prior",
+      "word2": "pay",
+      "bigram": "prior pay",
+      "pmi": 10.302625875925992,
+      "freq": 324,
+      "mean_prob_compound": 3.833726037782981e-05,
+      "mean_prob_control": 0.00027501340206015357,
+      "boost_ratio": 0.13940142586012705,
+      "mean_rank_compound": 2543.5,
+      "mean_rank_control": 3173.5,
+      "best_rank_compound": 824,
+      "top5_after_w1": [
+        [
+          "a",
+          0.10350096970796585
+        ],
+        [
+          "the",
+          0.06749235838651657
+        ],
+        [
+          "that",
+          0.0392722524702549
+        ],
+        [
+          "to",
+          0.02713075838983059
+        ],
+        [
+          "an",
+          0.022321749478578568
+        ]
+      ]
+    },
+    {
+      "word1": "developing",
+      "word2": "countries",
+      "bigram": "developing countries",
+      "pmi": 10.297161161447525,
+      "freq": 61,
+      "mean_prob_compound": 4.742333909746321e-05,
+      "mean_prob_control": 2.0946460281834334e-06,
+      "boost_ratio": 22.640264015677513,
+      "mean_rank_compound": 5363.25,
+      "mean_rank_control": 14069.875,
+      "best_rank_compound": 736,
+      "top5_after_w1": [
+        [
+          "a",
+          0.08343876898288727
+        ],
+        [
+          "the",
+          0.04236834496259689
+        ],
+        [
+          "not",
+          0.02915087528526783
+        ],
+        [
+          "an",
+          0.020754503086209297
+        ],
+        [
+          "hes",
+          0.015933196991682053
+        ]
+      ]
+    },
+    {
+      "word1": "agriculture",
+      "word2": "subcommittee",
+      "bigram": "agriculture subcommittee",
+      "pmi": 10.296069874433748,
+      "freq": 23,
+      "mean_prob_compound": 2.1092487792473413e-07,
+      "mean_prob_control": 9.760976086084505e-08,
+      "boost_ratio": 2.1608994435037494,
+      "mean_rank_compound": 30260.25,
+      "mean_rank_control": 35538.25,
+      "best_rank_compound": 22409,
+      "top5_after_w1": [
+        [
+          "the",
+          0.04996481165289879
+        ],
+        [
+          "a",
+          0.04461900144815445
+        ],
+        [
+          "not",
+          0.044544853270053864
+        ],
+        [
+          "also",
+          0.029640911146998405
+        ],
+        [
+          "in",
+          0.015615849755704403
+        ]
+      ]
+    },
+    {
+      "word1": "private",
+      "word2": "sector",
+      "bigram": "private sector",
+      "pmi": 10.29074869723612,
+      "freq": 73,
+      "mean_prob_compound": 3.095963914034883e-05,
+      "mean_prob_control": 5.077391437069423e-06,
+      "boost_ratio": 6.097548224136558,
+      "mean_rank_compound": 7429.625,
+      "mean_rank_control": 11149.5,
+      "best_rank_compound": 565,
+      "top5_after_w1": [
+        [
+          "not",
+          0.043790169060230255
+        ],
+        [
+          "a",
+          0.02854245714843273
+        ],
+        [
+          "also",
+          0.022184161469340324
+        ],
+        [
+          "given",
+          0.015173478983342648
+        ],
+        [
+          "the",
+          0.014095946215093136
+        ]
+      ]
+    },
+    {
+      "word1": "raises",
+      "word2": "quarterly",
+      "bigram": "raises quarterly",
+      "pmi": 10.281802781526405,
+      "freq": 28,
+      "mean_prob_compound": 2.1110689431225182e-05,
+      "mean_prob_control": 5.430066014611157e-07,
+      "boost_ratio": 38.877408441114326,
+      "mean_rank_compound": 5933.75,
+      "mean_rank_control": 19199.375,
+      "best_rank_compound": 597,
+      "top5_after_w1": [
+        [
+          "$",
+          0.057457100600004196
+        ],
+        [
+          "a",
+          0.036264289170503616
+        ],
+        [
+          "the",
+          0.027477925643324852
+        ],
+        [
+          "also",
+          0.02281339466571808
+        ],
+        [
+          "not",
+          0.017949935048818588
+        ]
+      ]
+    },
+    {
+      "word1": "democratic",
+      "word2": "party",
+      "bigram": "democratic party",
+      "pmi": 10.264928962962008,
+      "freq": 30,
+      "mean_prob_compound": 0.0008855928044795291,
+      "mean_prob_control": 6.184158036148801e-05,
+      "boost_ratio": 14.320345620258989,
+      "mean_rank_compound": 154.875,
+      "mean_rank_control": 2383.125,
+      "best_rank_compound": 28,
+      "top5_after_w1": [
+        [
+          "not",
+          0.0724606141448021
+        ],
+        [
+          "the",
+          0.049485526978969574
+        ],
+        [
+          "a",
+          0.04500246047973633
+        ],
+        [
+          "to",
+          0.017857229337096214
+        ],
+        [
+          "founded",
+          0.016468053683638573
+        ]
+      ]
+    },
+    {
+      "word1": "index",
+      "word2": "base",
+      "bigram": "index base",
+      "pmi": 10.263577722244236,
+      "freq": 52,
+      "mean_prob_compound": 0.0005316473079943762,
+      "mean_prob_control": 0.001220775589942491,
+      "boost_ratio": 0.43549962202260395,
+      "mean_rank_compound": 1987.5,
+      "mean_rank_control": 1552.0,
+      "best_rank_compound": 16,
+      "top5_after_w1": [
+        [
+          "calculated",
+          0.05055898800492287
+        ],
+        [
+          "first",
+          0.03390849754214287
+        ],
+        [
+          "set",
+          0.03035922534763813
+        ],
+        [
+          "created",
+          0.0276892501860857
+        ],
+        [
+          "the",
+          0.019543152302503586
+        ]
+      ]
+    },
+    {
+      "word1": "bonus",
+      "word2": "issue",
+      "bigram": "bonus issue",
+      "pmi": 10.262464081035079,
+      "freq": 34,
+      "mean_prob_compound": 3.590505806272404e-05,
+      "mean_prob_control": 2.3566498747129572e-05,
+      "boost_ratio": 1.52356353177399,
+      "mean_rank_compound": 3569.125,
+      "mean_rank_control": 3471.125,
+      "best_rank_compound": 770,
+      "top5_after_w1": [
+        [
+          "a",
+          0.08931932598352432
+        ],
+        [
+          "$",
+          0.07136984914541245
+        ],
+        [
+          "that",
+          0.061594169586896896
+        ],
+        [
+          "to",
+          0.032237458974123
+        ],
+        [
+          "worth",
+          0.030445529147982597
+        ]
+      ]
+    },
+    {
+      "word1": "prime",
+      "word2": "lending",
+      "bigram": "prime lending",
+      "pmi": 10.261594831728152,
+      "freq": 28,
+      "mean_prob_compound": 2.664635523785819e-06,
+      "mean_prob_control": 1.348576400772572e-06,
+      "boost_ratio": 1.9758877007333833,
+      "mean_rank_compound": 10557.5,
+      "mean_rank_control": 13812.0,
+      "best_rank_compound": 2660,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05968121439218521
+        ],
+        [
+          "the",
+          0.025168638676404953
+        ],
+        [
+          "not",
+          0.021707816049456596
+        ],
+        [
+          "also",
+          0.018639640882611275
+        ],
+        [
+          "born",
+          0.014677377417683601
+        ]
+      ]
+    },
+    {
+      "word1": "monetary",
+      "word2": "authorities",
+      "bigram": "monetary authorities",
+      "pmi": 10.256962653151952,
+      "freq": 23,
+      "mean_prob_compound": 1.0056978833716812e-05,
+      "mean_prob_control": 2.987221753514291e-06,
+      "boost_ratio": 3.3666663085475217,
+      "mean_rank_compound": 6776.0,
+      "mean_rank_control": 13841.0,
+      "best_rank_compound": 1153,
+      "top5_after_w1": [
+        [
+          "not",
+          0.03945118933916092
+        ],
+        [
+          "raised",
+          0.024568794295191765
+        ],
+        [
+          "a",
+          0.02360253594815731
+        ],
+        [
+          "also",
+          0.02149740420281887
+        ],
+        [
+          "set",
+          0.018785737454891205
+        ]
+      ]
+    },
+    {
+      "word1": "red",
+      "word2": "hen",
+      "bigram": "red hen",
+      "pmi": 10.254509212287061,
+      "freq": 22,
+      "mean_prob_compound": 1.8812197847495327e-05,
+      "mean_prob_control": 1.8812197847495327e-05,
+      "boost_ratio": 1.0,
+      "mean_rank_compound": 6722.875,
+      "mean_rank_control": 6722.875,
+      "best_rank_compound": 1206,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05972541123628616
+        ],
+        [
+          "the",
+          0.05836591497063637
+        ],
+        [
+          "hes",
+          0.02972431853413582
+        ],
+        [
+          "not",
+          0.016714079305529594
+        ],
+        [
+          "used",
+          0.012871372513473034
+        ]
+      ]
+    },
+    {
+      "word1": "short",
+      "word2": "term",
+      "bigram": "short term",
+      "pmi": 10.24874043420232,
+      "freq": 232,
+      "mean_prob_compound": 2.8165079706710117e-05,
+      "mean_prob_control": 1.0649422796937813e-05,
+      "boost_ratio": 2.6447517620212095,
+      "mean_rank_compound": 5070.125,
+      "mean_rank_control": 7997.25,
+      "best_rank_compound": 250,
+      "top5_after_w1": [
+        [
+          "that",
+          0.2960197329521179
+        ],
+        [
+          ",",
+          0.06058954820036888
+        ],
+        [
+          ":",
+          0.04408206418156624
+        ],
+        [
+          "a",
+          0.035720810294151306
+        ],
+        [
+          "the",
+          0.03333408758044243
+        ]
+      ]
+    },
+    {
+      "word1": "told",
+      "word2": "reporters",
+      "bigram": "told reporters",
+      "pmi": 10.246547833464987,
+      "freq": 210,
+      "mean_prob_compound": 1.6291672636725707e-05,
+      "mean_prob_control": 1.7101181208900584e-06,
+      "boost_ratio": 9.526635872524668,
+      "mean_rank_compound": 5444.25,
+      "mean_rank_control": 14900.875,
+      "best_rank_compound": 1371,
+      "top5_after_w1": [
+        [
+          "that",
+          0.0730539932847023
+        ],
+        [
+          "a",
+          0.048453282564878464
+        ],
+        [
+          "not",
+          0.030562831088900566
+        ],
+        [
+          "to",
+          0.026479607447981834
+        ],
+        [
+          "the",
+          0.02522118017077446
+        ]
+      ]
+    },
+    {
+      "word1": "finance",
+      "word2": "ministers",
+      "bigram": "finance ministers",
+      "pmi": 10.242404296420538,
+      "freq": 55,
+      "mean_prob_compound": 9.788110816089102e-06,
+      "mean_prob_control": 5.636303328504511e-07,
+      "boost_ratio": 17.366188875228964,
+      "mean_rank_compound": 5829.125,
+      "mean_rank_control": 22503.625,
+      "best_rank_compound": 1548,
+      "top5_after_w1": [
+        [
+          "also",
+          0.040989138185977936
+        ],
+        [
+          "a",
+          0.02413417212665081
+        ],
+        [
+          "not",
+          0.023098140954971313
+        ],
+        [
+          "made",
+          0.014021385461091995
+        ],
+        [
+          "done",
+          0.012250962667167187
+        ]
+      ]
+    },
+    {
+      "word1": "research",
+      "word2": "institute",
+      "bigram": "research institute",
+      "pmi": 10.23875127361433,
+      "freq": 29,
+      "mean_prob_compound": 7.633071377717571e-05,
+      "mean_prob_control": 2.50059950016035e-06,
+      "boost_ratio": 30.52496562215622,
+      "mean_rank_compound": 7739.875,
+      "mean_rank_control": 21559.5,
+      "best_rank_compound": 353,
+      "top5_after_w1": [
+        [
+          "funded",
+          0.22522756457328796
+        ],
+        [
+          "conducted",
+          0.15537507832050323
+        ],
+        [
+          "carried",
+          0.12254288792610168
+        ],
+        [
+          "published",
+          0.11632174253463745
+        ],
+        [
+          "supported",
+          0.0986441820859909
+        ]
+      ]
+    },
+    {
+      "word1": "middle",
+      "word2": "east",
+      "bigram": "middle east",
+      "pmi": 10.230783908246178,
+      "freq": 73,
+      "mean_prob_compound": 0.0003860094408025816,
+      "mean_prob_control": 0.00012540841879626896,
+      "boost_ratio": 3.0780185613349413,
+      "mean_rank_compound": 2315.5,
+      "mean_rank_control": 4008.375,
+      "best_rank_compound": 49,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05721605569124222
+        ],
+        [
+          "the",
+          0.03170129656791687
+        ],
+        [
+          "not",
+          0.016389546915888786
+        ],
+        [
+          "in",
+          0.011521022766828537
+        ],
+        [
+          "also",
+          0.010925292037427425
+        ]
+      ]
+    },
+    {
+      "word1": "consumer",
+      "word2": "spending",
+      "bigram": "consumer spending",
+      "pmi": 10.218968602563727,
+      "freq": 38,
+      "mean_prob_compound": 6.974693533834397e-05,
+      "mean_prob_control": 1.7900499315715024e-05,
+      "boost_ratio": 3.8963681463964783,
+      "mean_rank_compound": 3126.25,
+      "mean_rank_control": 5953.75,
+      "best_rank_compound": 370,
+      "top5_after_w1": [
+        [
+          "not",
+          0.051924385130405426
+        ],
+        [
+          "told",
+          0.04071147367358208
+        ],
+        [
+          "able",
+          0.03924395143985748
+        ],
+        [
+          "asked",
+          0.03311613202095032
+        ],
+        [
+          "also",
+          0.023513149470090866
+        ]
+      ]
+    },
+    {
+      "word1": "somebody",
+      "word2": "else",
+      "bigram": "somebody else",
+      "pmi": 10.218705946201363,
+      "freq": 30,
+      "mean_prob_compound": 3.7149516707302155e-06,
+      "mean_prob_control": 1.7995644032708924e-06,
+      "boost_ratio": 2.0643616110531586,
+      "mean_rank_compound": 11592.0,
+      "mean_rank_control": 16575.5,
+      "best_rank_compound": 1201,
+      "top5_after_w1": [
+        [
+          "a",
+          0.04615127667784691
+        ],
+        [
+          "going",
+          0.032583896070718765
+        ],
+        [
+          "just",
+          0.030992066487669945
+        ],
+        [
+          "trying",
+          0.0277739018201828
+        ],
+        [
+          "really",
+          0.021756453439593315
+        ]
+      ]
+    },
+    {
+      "word1": "unless",
+      "word2": "extended",
+      "bigram": "unless extended",
+      "pmi": 10.213146420859463,
+      "freq": 23,
+      "mean_prob_compound": 6.824512576031339e-05,
+      "mean_prob_control": 2.302296658740488e-05,
+      "boost_ratio": 2.964219467601021,
+      "mean_rank_compound": 2693.125,
+      "mean_rank_control": 4741.5,
+      "best_rank_compound": 494,
+      "top5_after_w1": [
+        [
+          "a",
+          0.07161533832550049
+        ],
+        [
+          "the",
+          0.03731319308280945
+        ],
+        [
+          ",",
+          0.018674567341804504
+        ],
+        [
+          "not",
+          0.018107332289218903
+        ],
+        [
+          "an",
+          0.01581447571516037
+        ]
+      ]
+    },
+    {
+      "word1": "periods",
+      "word2": "includes",
+      "bigram": "periods includes",
+      "pmi": 10.209517827326664,
+      "freq": 56,
+      "mean_prob_compound": 2.0592369875949146e-06,
+      "mean_prob_control": 2.178367850547147e-07,
+      "boost_ratio": 9.453118705721304,
+      "mean_rank_compound": 19705.5,
+      "mean_rank_control": 25809.625,
+      "best_rank_compound": 1575,
+      "top5_after_w1": [
+        [
+          "the",
+          0.04544941335916519
+        ],
+        [
+          "a",
+          0.03964168205857277
+        ],
+        [
+          "also",
+          0.02800484374165535
+        ],
+        [
+          "not",
+          0.016298729926347733
+        ],
+        [
+          "defined",
+          0.013684548437595367
+        ]
+      ]
+    },
+    {
+      "word1": "percentage",
+      "word2": "point",
+      "bigram": "percentage point",
+      "pmi": 10.186316102380697,
+      "freq": 50,
+      "mean_prob_compound": 0.0004529917480908807,
+      "mean_prob_control": 0.0003228321341453011,
+      "boost_ratio": 1.4031804773405767,
+      "mean_rank_compound": 1122.25,
+      "mean_rank_control": 1784.75,
+      "best_rank_compound": 42,
+      "top5_after_w1": [
+        [
+          "higher",
+          0.05694590136408806
+        ],
+        [
+          "also",
+          0.04645662009716034
+        ],
+        [
+          "lower",
+          0.02694205939769745
+        ],
+        [
+          "up",
+          0.020826518535614014
+        ],
+        [
+          "about",
+          0.018377656117081642
+        ]
+      ]
+    },
+    {
+      "word1": "told",
+      "word2": "journalists",
+      "bigram": "told journalists",
+      "pmi": 10.183916845194583,
+      "freq": 35,
+      "mean_prob_compound": 9.527844802903473e-06,
+      "mean_prob_control": 1.3931335987038551e-06,
+      "boost_ratio": 6.839146519592951,
+      "mean_rank_compound": 8015.375,
+      "mean_rank_control": 18353.5,
+      "best_rank_compound": 2562,
+      "top5_after_w1": [
+        [
+          "that",
+          0.0730539932847023
+        ],
+        [
+          "a",
+          0.048453282564878464
+        ],
+        [
+          "not",
+          0.030562831088900566
+        ],
+        [
+          "to",
+          0.026479607447981834
+        ],
+        [
+          "the",
+          0.02522118017077446
+        ]
+      ]
+    },
+    {
+      "word1": "export",
+      "word2": "quotas",
+      "bigram": "export quotas",
+      "pmi": 10.181694802711283,
+      "freq": 85,
+      "mean_prob_compound": 3.617518096632466e-06,
+      "mean_prob_control": 3.95805607733557e-08,
+      "boost_ratio": 91.39633259232794,
+      "mean_rank_compound": 11967.25,
+      "mean_rank_control": 35445.5,
+      "best_rank_compound": 4161,
+      "top5_after_w1": [
+        [
+          "a",
+          0.04331515356898308
+        ],
+        [
+          "not",
+          0.024848762899637222
+        ],
+        [
+          "made",
+          0.02376319281756878
+        ],
+        [
+          "approved",
+          0.02301749587059021
+        ],
+        [
+          "to",
+          0.022441964596509933
+        ]
+      ]
+    },
+    {
+      "word1": "commodity",
+      "word2": "credit",
+      "bigram": "commodity credit",
+      "pmi": 10.177632404530778,
+      "freq": 65,
+      "mean_prob_compound": 0.00011824282005434839,
+      "mean_prob_control": 1.7298622697836663e-05,
+      "boost_ratio": 6.835389274611766,
+      "mean_rank_compound": 1979.0,
+      "mean_rank_control": 4799.25,
+      "best_rank_compound": 137,
+      "top5_after_w1": [
+        [
+          "sold",
+          0.028478750959038734
+        ],
+        [
+          "a",
+          0.023200979456305504
+        ],
+        [
+          "the",
+          0.02063160017132759
+        ],
+        [
+          "not",
+          0.020210333168506622
+        ],
+        [
+          "traded",
+          0.01873304881155491
+        ]
+      ]
+    },
+    {
+      "word1": "fourth",
+      "word2": "quarter",
+      "bigram": "fourth quarter",
+      "pmi": 10.175845419379584,
+      "freq": 314,
+      "mean_prob_compound": 0.0004425314793081725,
+      "mean_prob_control": 2.757824668719877e-05,
+      "boost_ratio": 16.046396434389212,
+      "mean_rank_compound": 2911.0,
+      "mean_rank_control": 3952.375,
+      "best_rank_compound": 31,
+      "top5_after_w1": [
+        [
+          "a",
+          0.16994085907936096
+        ],
+        [
+          "the",
+          0.13503460586071014
+        ],
+        [
+          "an",
+          0.03443535044789314
+        ],
+        [
+          "to",
+          0.023693423718214035
+        ],
+        [
+          "for",
+          0.013354740105569363
+        ]
+      ]
+    },
+    {
+      "word1": "mercy",
+      "word2": "seat",
+      "bigram": "mercy seat",
+      "pmi": 10.172721203703954,
+      "freq": 28,
+      "mean_prob_compound": 5.948144996459348e-05,
+      "mean_prob_control": 0.00010969610969979726,
+      "boost_ratio": 0.5422384634001602,
+      "mean_rank_compound": 7138.25,
+      "mean_rank_control": 5169.25,
+      "best_rank_compound": 240,
+      "top5_after_w1": [
+        [
+          "not",
+          0.06818652898073196
+        ],
+        [
+          "on",
+          0.059220243245363235
+        ],
+        [
+          "in",
+          0.045102253556251526
+        ],
+        [
+          "given",
+          0.04447963461279869
+        ],
+        [
+          "to",
+          0.02060619369149208
+        ]
+      ]
+    },
+    {
+      "word1": "coffee",
+      "word2": "organisation",
+      "bigram": "coffee organisation",
+      "pmi": 10.169126008287424,
+      "freq": 22,
+      "mean_prob_compound": 4.683607089314701e-07,
+      "mean_prob_control": 5.958012971596371e-07,
+      "boost_ratio": 0.7861021974344224,
+      "mean_rank_compound": 20736.0,
+      "mean_rank_control": 25017.75,
+      "best_rank_compound": 10560,
+      "top5_after_w1": [
+        [
+          "a",
+          0.037611883133649826
+        ],
+        [
+          "good",
+          0.033434074372053146
+        ],
+        [
+          "delicious",
+          0.03050321713089943
+        ],
+        [
+          "served",
+          0.02952190674841404
+        ],
+        [
+          "very",
+          0.02842887118458748
+        ]
+      ]
+    },
+    {
+      "word1": "afar",
+      "word2": "off",
+      "bigram": "afar off",
+      "pmi": 10.16419655835067,
+      "freq": 52,
+      "mean_prob_compound": 0.0003564201438166492,
+      "mean_prob_control": 0.00026764813310364843,
+      "boost_ratio": 1.331674313149882,
+      "mean_rank_compound": 616.5,
+      "mean_rank_control": 684.375,
+      "best_rank_compound": 91,
+      "top5_after_w1": [
+        [
+          "a",
+          0.05279944837093353
+        ],
+        [
+          "not",
+          0.03535037487745285
+        ],
+        [
+          "so",
+          0.03480842709541321
+        ],
+        [
+          "the",
+          0.025546953082084656
+        ],
+        [
+          "very",
+          0.013168415986001492
+        ]
+      ]
+    },
+    {
+      "word1": "export",
+      "word2": "licences",
+      "bigram": "export licences",
+      "pmi": 10.148212129648595,
+      "freq": 22,
+      "mean_prob_compound": 2.6440587652665215e-06,
+      "mean_prob_control": 7.924622646982016e-08,
+      "boost_ratio": 33.365106239771244,
+      "mean_rank_compound": 16344.5,
+      "mean_rank_control": 34859.5,
+      "best_rank_compound": 2091,
+      "top5_after_w1": [
+        [
+          "a",
+          0.04331515356898308
+        ],
+        [
+          "not",
+          0.024848762899637222
+        ],
+        [
+          "made",
+          0.02376319281756878
+        ],
+        [
+          "approved",
+          0.02301749587059021
+        ],
+        [
+          "to",
+          0.022441964596509933
+        ]
+      ]
+    },
+    {
+      "word1": "few",
+      "word2": "moments",
+      "bigram": "few moments",
+      "pmi": 10.144224423373316,
+      "freq": 54,
+      "mean_prob_compound": 6.818350141202245e-05,
+      "mean_prob_control": 1.484407335183846e-05,
+      "boost_ratio": 4.593314772563949,
+      "mean_rank_compound": 1689.5,
+      "mean_rank_control": 8645.75,
+      "best_rank_compound": 262,
+      "top5_after_w1": [
+        [
+          "hes",
+          0.10498102754354477
+        ],
+        [
+          "hers",
+          0.03749015927314758
+        ],
+        [
+          "her",
+          0.03394170477986336
+        ],
+        [
+          "wolves",
+          0.030109252780675888
+        ],
+        [
+          "wolf",
+          0.029910972341895103
+        ]
+      ]
+    },
+    {
+      "word1": "per",
+      "word2": "cent",
+      "bigram": "per cent",
+      "pmi": 10.140162814297117,
+      "freq": 196,
+      "mean_prob_compound": 0.00012939889006702288,
+      "mean_prob_control": 1.0815500701255587e-05,
+      "boost_ratio": 11.96420708030658,
+      "mean_rank_compound": 1514.25,
+      "mean_rank_control": 5923.125,
+      "best_rank_compound": 259,
+      "top5_after_w1": [
+        [
+          "a",
+          0.04508719965815544
+        ],
+        [
+          "$",
+          0.03331504389643669
+        ],
+        [
+          "the",
+          0.01833273656666279
+        ],
+        [
+          ":",
+          0.013903783634305
+        ],
+        [
+          "not",
+          0.012920557521283627
+        ]
+      ]
+    },
+    {
+      "word1": "gross",
+      "word2": "domestic",
+      "bigram": "gross domestic",
+      "pmi": 10.137524613732676,
+      "freq": 62,
+      "mean_prob_compound": 7.425114068837502e-05,
+      "mean_prob_control": 4.108720382589581e-06,
+      "boost_ratio": 18.071597425565656,
+      "mean_rank_compound": 2172.0,
+      "mean_rank_control": 7638.625,
+      "best_rank_compound": 522,
+      "top5_after_w1": [
+        [
+          "$",
+          0.3269348740577698
+        ],
+        [
+          "\u00a3",
+          0.02932715229690075
+        ],
+        [
+          "about",
+          0.025640947744250298
+        ],
+        [
+          "a",
+          0.023008961230516434
+        ],
+        [
+          "just",
+          0.014066597446799278
+        ]
+      ]
+    },
+    {
+      "word1": "data",
+      "word2": "processing",
+      "bigram": "data processing",
+      "pmi": 10.111249291709575,
+      "freq": 21,
+      "mean_prob_compound": 0.00010062591343285021,
+      "mean_prob_control": 1.3957434121358858e-05,
+      "boost_ratio": 7.2094851072134984,
+      "mean_rank_compound": 1348.875,
+      "mean_rank_control": 8001.375,
+      "best_rank_compound": 95,
+      "top5_after_w1": [
+        [
+          "collected",
+          0.24658608436584473
+        ],
+        [
+          "gathered",
+          0.06612464040517807
+        ],
+        [
+          "obtained",
+          0.061567265540361404
+        ],
+        [
+          "compiled",
+          0.0329156331717968
+        ],
+        [
+          "taken",
+          0.02645491249859333
+        ]
+      ]
+    },
+    {
+      "word1": "upward",
+      "word2": "pressure",
+      "bigram": "upward pressure",
+      "pmi": 10.092852187141752,
+      "freq": 23,
+      "mean_prob_compound": 0.00017497682256362168,
+      "mean_prob_control": 4.035824535719712e-05,
+      "boost_ratio": 4.335590435485023,
+      "mean_rank_compound": 1193.125,
+      "mean_rank_control": 4379.5,
+      "best_rank_compound": 96,
+      "top5_after_w1": [
+        [
+          "a",
+          0.054413195699453354
+        ],
+        [
+          "the",
+          0.045331962406635284
+        ],
+        [
+          "not",
+          0.03818586841225624
+        ],
+        [
+          "also",
+          0.029312092810869217
+        ],
+        [
+          "so",
+          0.01133700180798769
+        ]
+      ]
+    },
+    {
+      "word1": "economic",
+      "word2": "integration",
+      "bigram": "economic integration",
+      "pmi": 10.074732392162367,
+      "freq": 20,
+      "mean_prob_compound": 4.0975658817998806e-05,
+      "mean_prob_control": 1.7779588056265894e-06,
+      "boost_ratio": 23.04646130626077,
+      "mean_rank_compound": 6101.25,
+      "mean_rank_control": 18213.75,
+      "best_rank_compound": 603,
+      "top5_after_w1": [
+        [
+          "not",
+          0.06003514304757118
+        ],
+        [
+          "a",
+          0.03851369023323059
+        ],
+        [
+          "very",
+          0.028603699058294296
+        ],
+        [
+          "also",
+          0.028581885620951653
+        ],
+        [
+          "good",
+          0.02159169875085354
+        ]
+      ]
+    },
+    {
+      "word1": "wheat",
+      "word2": "flour",
+      "bigram": "wheat flour",
+      "pmi": 10.0669895853501,
+      "freq": 34,
+      "mean_prob_compound": 0.001373528847963712,
+      "mean_prob_control": 2.7642382963932732e-05,
+      "boost_ratio": 49.68923445405799,
+      "mean_rank_compound": 966.0,
+      "mean_rank_control": 8850.0,
+      "best_rank_compound": 19,
+      "top5_after_w1": [
+        [
+          "not",
+          0.034999459981918335
+        ],
+        [
+          "a",
+          0.02272910438477993
+        ],
+        [
+          "the",
+          0.022021401673555374
+        ],
+        [
+          "also",
+          0.01766272820532322
+        ],
+        [
+          "still",
+          0.015830833464860916
+        ]
+      ]
+    },
+    {
+      "word1": "chief",
+      "word2": "economist",
+      "bigram": "chief economist",
+      "pmi": 10.051258738482568,
+      "freq": 35,
+      "mean_prob_compound": 6.681640828398727e-07,
+      "mean_prob_control": 2.412471851731546e-07,
+      "boost_ratio": 2.769624368302161,
+      "mean_rank_compound": 16483.75,
+      "mean_rank_control": 27314.625,
+      "best_rank_compound": 8075,
+      "top5_after_w1": [
+        [
+          "also",
+          0.054078470915555954
+        ],
+        [
+          "asked",
+          0.041199155151844025
+        ],
+        [
+          "not",
+          0.03050469607114792
+        ],
+        [
+          "arrested",
+          0.016413040459156036
+        ],
+        [
+          "in",
+          0.016256142407655716
+        ]
+      ]
+    },
+    {
+      "word1": "medium",
+      "word2": "term",
+      "bigram": "medium term",
+      "pmi": 10.05079882613205,
+      "freq": 31,
+      "mean_prob_compound": 4.916863172965691e-05,
+      "mean_prob_control": 1.0649422796937813e-05,
+      "boost_ratio": 4.617023163339434,
+      "mean_rank_compound": 5132.375,
+      "mean_rank_control": 7997.25,
+      "best_rank_compound": 526,
+      "top5_after_w1": [
+        [
+          "a",
+          0.04017208144068718
+        ],
+        [
+          "the",
+          0.03928763046860695
+        ],
+        [
+          "not",
+          0.020702021196484566
+        ],
+        [
+          "also",
+          0.015084455721080303
+        ],
+        [
+          "very",
+          0.011765367351472378
+        ]
+      ]
+    },
+    {
+      "word1": "meat",
+      "word2": "offering",
+      "bigram": "meat offering",
+      "pmi": 10.040035571273085,
+      "freq": 122,
+      "mean_prob_compound": 9.785073942225608e-06,
+      "mean_prob_control": 8.190590044421242e-06,
+      "boost_ratio": 1.194672653515408,
+      "mean_rank_compound": 5234.75,
+      "mean_rank_control": 7799.25,
+      "best_rank_compound": 539,
+      "top5_after_w1": [
+        [
+          "cooked",
+          0.06297414749860764
+        ],
+        [
+          "so",
+          0.02171982452273369
+        ],
+        [
+          "not",
+          0.02083824761211872
+        ],
+        [
+          "a",
+          0.017967667430639267
+        ],
+        [
+          "made",
+          0.016567625105381012
+        ]
+      ]
+    },
+    {
+      "word1": "natural",
+      "word2": "rubber",
+      "bigram": "natural rubber",
+      "pmi": 10.032528842375303,
+      "freq": 39,
+      "mean_prob_compound": 9.428573265424234e-05,
+      "mean_prob_control": 8.461913280122246e-05,
+      "boost_ratio": 1.114236574318571,
+      "mean_rank_compound": 4305.625,
+      "mean_rank_control": 4276.0,
+      "best_rank_compound": 108,
+      "top5_after_w1": [
+        [
+          "the",
+          0.0824301689863205
+        ],
+        [
+          "a",
+          0.06390250474214554
+        ],
+        [
+          "hes",
+          0.049412816762924194
+        ],
+        [
+          "that",
+          0.03860742971301079
+        ],
+        [
+          "not",
+          0.03506755083799362
+        ]
+      ]
+    },
+    {
+      "word1": "reserves",
+      "word2": "via",
+      "bigram": "reserves via",
+      "pmi": 10.02423911558339,
+      "freq": 28,
+      "mean_prob_compound": 0.00011688625141292874,
+      "mean_prob_control": 5.6910230442852594e-05,
+      "boost_ratio": 2.053870639836929,
+      "mean_rank_compound": 13849.25,
+      "mean_rank_control": 16665.375,
+      "best_rank_compound": 67,
+      "top5_after_w1": [
+        [
+          "not",
+          0.031669002026319504
+        ],
+        [
+          "the",
+          0.025695497170090675
+        ],
+        [
+          "a",
+          0.023254362866282463
+        ],
+        [
+          "also",
+          0.021487252786755562
+        ],
+        [
+          "set",
+          0.014188561588525772
+        ]
+      ]
+    },
+    {
+      "word1": "buys",
+      "word2": "dollars",
+      "bigram": "buys dollars",
+      "pmi": 10.02394134653858,
+      "freq": 21,
+      "mean_prob_compound": 0.00010293102151592848,
+      "mean_prob_control": 3.0210272612407607e-06,
+      "boost_ratio": 34.07153018329728,
+      "mean_rank_compound": 2515.25,
+      "mean_rank_control": 9918.625,
+      "best_rank_compound": 191,
+      "top5_after_w1": [
+        [
+          "made",
+          0.08417411893606186
+        ],
+        [
+          "a",
+          0.049445297569036484
+        ],
+        [
+          "part",
+          0.030985543504357338
+        ],
+        [
+          "worth",
+          0.02171688713133335
+        ],
+        [
+          "the",
+          0.021081190556287766
+        ]
+      ]
+    },
+    {
+      "word1": "credit",
+      "word2": "corporation",
+      "bigram": "credit corporation",
+      "pmi": 10.01200611686912,
+      "freq": 55,
+      "mean_prob_compound": 1.0380329575898628e-05,
+      "mean_prob_control": 5.10424937649745e-07,
+      "boost_ratio": 20.33664268774744,
+      "mean_rank_compound": 12457.375,
+      "mean_rank_control": 24462.75,
+      "best_rank_compound": 1994,
+      "top5_after_w1": [
+        [
+          "given",
+          0.07301642000675201
+        ],
+        [
+          "due",
+          0.056565381586551666
+        ],
+        [
+          "not",
+          0.030237561091780663
+        ],
+        [
+          "awarded",
+          0.025942211970686913
+        ],
+        [
+          "also",
+          0.021405192092061043
+        ]
+      ]
+    },
+    {
+      "word1": "district",
+      "word2": "court",
+      "bigram": "district court",
+      "pmi": 10.009390588890161,
+      "freq": 32,
+      "mean_prob_compound": 0.00018596608447296603,
+      "mean_prob_control": 3.6980091294935846e-05,
+      "boost_ratio": 5.028816261966144,
+      "mean_rank_compound": 656.375,
+      "mean_rank_control": 2875.375,
+      "best_rank_compound": 249,
+      "top5_after_w1": [
+        [
+          "also",
+          0.04641450569033623
+        ],
+        [
+          "not",
+          0.02389979548752308
+        ],
+        [
+          "founded",
+          0.019032349810004234
+        ],
+        [
+          "set",
+          0.018778352066874504
+        ],
+        [
+          "closed",
+          0.018010396510362625
+        ]
+      ]
+    }
+  ]
+}
