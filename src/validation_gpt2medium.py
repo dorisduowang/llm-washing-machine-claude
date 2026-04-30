@@ -20,7 +20,8 @@ torch.manual_seed(SEED)
 np.random.seed(SEED)
 
 DEVICE = "cuda:0"
-RESULTS_DIR = Path("/data/hypogenicai/workspaces/llm-washing-machine-claude/results")
+REPO_ROOT = Path(__file__).resolve().parents[1]
+RESULTS_DIR = REPO_ROOT / "results"
 
 KEY_COMPOUNDS = [
     ("washing machine", "washing", "machine", 4, "red machine"),

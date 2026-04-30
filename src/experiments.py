@@ -28,7 +28,8 @@ random.seed(SEED)
 np.random.seed(SEED)
 torch.manual_seed(SEED)
 
-RESULTS_DIR = Path("/workspaces/llm-washing-machine-claude/results")
+REPO_ROOT = Path(__file__).resolve().parents[1]
+RESULTS_DIR = REPO_ROOT / "results"
 PLOTS_DIR = RESULTS_DIR / "plots"
 PLOTS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -43,7 +44,7 @@ if DEVICE == "cuda":
 # ============================================================
 # Load compound concepts dataset
 # ============================================================
-with open("/workspaces/llm-washing-machine-claude/datasets/compound_concepts/compounds.json") as f:
+with open(REPO_ROOT / "datasets" / "compound_concepts" / "compounds.json") as f:
     dataset = json.load(f)
 
 COMPOUNDS = dataset["target_compounds"]

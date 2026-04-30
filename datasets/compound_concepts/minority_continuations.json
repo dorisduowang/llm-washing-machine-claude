@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "description": "Modifier-level evaluation set for testing whether high-PMI compound continuations crowd out plausible minority continuations.",
+    "research_question": "When a modifier strongly primes a familiar compound head, does the model still assign reasonable probability to other plausible heads after the same modifier?",
+    "construction_protocol": [
+      "Use modifiers already represented in the compound-concept experiments where possible.",
+      "Pair each modifier with one target compound head and several plausible minority heads.",
+      "Keep heads as ordinary single-word continuations so GPT-style next-token probabilities can be compared directly.",
+      "Include unrelated heads as a sanity check that minority heads are not merely arbitrary low-probability words."
+    ],
+    "fields": {
+      "target_head": "The head from the compound currently under investigation.",
+      "minority_heads": "Alternative plausible one-word continuations after the same modifier.",
+      "unrelated_heads": "Implausible controls used to calibrate how much probability mass minority heads receive above unrelated words."
+    }
+  },
+  "prompt_templates": [
+    "The {modifier}",
+    "A {modifier}",
+    "This {modifier}",
+    "Their {modifier}",
+    "Our {modifier}"
+  ],
+  "items": [
+    {
+      "modifier": "washing",
+      "target_head": "machine",
+      "compound": "washing machine",
+      "minority_heads": ["method", "powder", "cycle", "basket", "instructions"],
+      "unrelated_heads": ["bridge", "violin", "planet"],
+      "category": "appliance",
+      "motivation": "Roadmap example: test whether the model over-commits to washing machine relative to washing method or washing powder."
+    },
+    {
+      "modifier": "coffee",
+      "target_head": "machine",
+      "compound": "coffee machine",
+      "minority_heads": ["cup", "shop", "table", "beans", "maker"],
+      "unrelated_heads": ["river", "helmet", "password"],
+      "category": "appliance_food"
+    },
+    {
+      "modifier": "sewing",
+      "target_head": "machine",
+      "compound": "sewing machine",
+      "minority_heads": ["needle", "thread", "kit", "pattern", "room"],
+      "unrelated_heads": ["lawyer", "mountain", "airport"],
+      "category": "appliance_craft"
+    },
+    {
+      "modifier": "vending",
+      "target_head": "machine",
+      "compound": "vending machine",
+      "minority_heads": ["area", "business", "kiosk", "service", "operator"],
+      "unrelated_heads": ["banana", "court", "cloud"],
+      "category": "retail"
+    },
+    {
+      "modifier": "swimming",
+      "target_head": "pool",
+      "compound": "swimming pool",
+      "minority_heads": ["lessons", "team", "race", "coach", "gear"],
+      "unrelated_heads": ["engine", "invoice", "castle"],
+      "category": "activity_structure"
+    },
+    {
+      "modifier": "parking",
+      "target_head": "lot",
+      "compound": "parking lot",
+      "minority_heads": ["space", "garage", "ticket", "meter", "permit"],
+      "unrelated_heads": ["poem", "soup", "window"],
+      "category": "location"
+    },
+    {
+      "modifier": "hot",
+      "target_head": "dog",
+      "compound": "hot dog",
+      "minority_heads": ["water", "sauce", "coffee", "food", "air"],
+      "unrelated_heads": ["notebook", "tractor", "museum"],
+      "category": "food_or_adjective"
+    },
+    {
+      "modifier": "school",
+      "target_head": "bus",
+      "compound": "school bus",
+      "minority_heads": ["year", "board", "day", "district", "teacher"],
+      "unrelated_heads": ["mirror", "oxygen", "shoe"],
+      "category": "institution_vehicle"
+    },
+    {
+      "modifier": "fire",
+      "target_head": "truck",
+      "compound": "fire truck",
+      "minority_heads": ["alarm", "station", "fighter", "engine", "drill"],
+      "unrelated_heads": ["wallet", "keyboard", "garden"],
+      "category": "emergency_vehicle"
+    },
+    {
+      "modifier": "ice",
+      "target_head": "cream",
+      "compound": "ice cream",
+      "minority_heads": ["water", "cube", "skates", "hockey", "storm"],
+      "unrelated_heads": ["committee", "pencil", "piano"],
+      "category": "food_or_material"
+    },
+    {
+      "modifier": "red",
+      "target_head": "herring",
+      "compound": "red herring",
+      "minority_heads": ["car", "wine", "flag", "light", "dress"],
+      "unrelated_heads": ["calculator", "subway", "blanket"],
+      "category": "idiom_or_color"
+    },
+    {
+      "modifier": "dark",
+      "target_head": "horse",
+      "compound": "dark horse",
+      "minority_heads": ["room", "matter", "side", "sky", "color"],
+      "unrelated_heads": ["receipt", "ladder", "butter"],
+      "category": "idiom_or_adjective"
+    },
+    {
+      "modifier": "time",
+      "target_head": "machine",
+      "compound": "time machine",
+      "minority_heads": ["period", "line", "frame", "zone", "limit"],
+      "unrelated_heads": ["cabbage", "violin", "garage"],
+      "category": "fiction_or_abstract"
+    },
+    {
+      "modifier": "kitchen",
+      "target_head": "chair",
+      "compound": "kitchen chair",
+      "minority_heads": ["table", "sink", "cabinet", "floor", "counter"],
+      "unrelated_heads": ["galaxy", "ticket", "sweater"],
+      "category": "furniture_room"
+    },
+    {
+      "modifier": "office",
+      "target_head": "desk",
+      "compound": "office desk",
+      "minority_heads": ["chair", "door", "space", "manager", "building"],
+      "unrelated_heads": ["river", "cheese", "moon"],
+      "category": "furniture_workplace"
+    }
+  ]
+}

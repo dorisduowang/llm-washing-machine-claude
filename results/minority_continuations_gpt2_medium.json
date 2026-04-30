@@ -1,0 +1,6498 @@
+{
+  "model": "gpt2-medium",
+  "device": "cpu",
+  "dataset": "datasets/compound_concepts/minority_continuations.json",
+  "summary": {
+    "n_items": 15,
+    "n_analyzable": 14,
+    "target_mean_probability": 0.19892528857682398,
+    "best_minority_mean_probability": 0.044531891220581855,
+    "median_target_vs_best_minority_ratio": 1.840025203094858,
+    "median_log10_target_margin_over_best_minority": 0.2647472855096811,
+    "n_items_where_minority_beats_target": 6,
+    "median_best_minority_vs_best_unrelated_ratio": 1579.209602645084
+  },
+  "results": [
+    {
+      "compound": "washing machine",
+      "modifier": "washing",
+      "category": "appliance",
+      "prompts": [
+        "The washing",
+        "A washing",
+        "This washing",
+        "Their washing",
+        "Our washing"
+      ],
+      "target": {
+        "head": "machine",
+        "token_id": 4572,
+        "probability": 0.624327427148819,
+        "rank": 1,
+        "prompts": [
+          {
+            "prompt": "The washing",
+            "probability": 0.6271618008613586,
+            "rank": 1
+          },
+          {
+            "prompt": "A washing",
+            "probability": 0.8688441514968872,
+            "rank": 1
+          },
+          {
+            "prompt": "This washing",
+            "probability": 0.6324718594551086,
+            "rank": 1
+          },
+          {
+            "prompt": "Their washing",
+            "probability": 0.3658038079738617,
+            "rank": 1
+          },
+          {
+            "prompt": "Our washing",
+            "probability": 0.6273555159568787,
+            "rank": 1
+          }
+        ]
+      },
+      "minority_heads": [
+        {
+          "head": "method",
+          "token_id": 2446,
+          "probability": 0.0034946527041029183,
+          "rank": 16,
+          "prompts": [
+            {
+              "prompt": "The washing",
+              "probability": 0.001998861553147435,
+              "rank": 21
+            },
+            {
+              "prompt": "A washing",
+              "probability": 0.00035134199424646795,
+              "rank": 33
+            },
+            {
+              "prompt": "This washing",
+              "probability": 0.007958745583891869,
+              "rank": 9
+            },
+            {
+              "prompt": "Their washing",
+              "probability": 0.004866824951022863,
+              "rank": 16
+            },
+            {
+              "prompt": "Our washing",
+              "probability": 0.0022974894382059574,
+              "rank": 14
+            }
+          ]
+        },
+        {
+          "head": "powder",
+          "token_id": 11913,
+          "probability": 0.008107249811291694,
+          "rank": 6,
+          "prompts": [
+            {
+              "prompt": "The washing",
+              "probability": 0.0037411025259643793,
+              "rank": 14
+            },
+            {
+              "prompt": "A washing",
+              "probability": 0.005738033913075924,
+              "rank": 4
+            },
+            {
+              "prompt": "This washing",
+              "probability": 0.02238762564957142,
+              "rank": 3
+            },
+            {
+              "prompt": "Their washing",
+              "probability": 0.0031027307268232107,
+              "rank": 22
+            },
+            {
+              "prompt": "Our washing",
+              "probability": 0.0055667562410235405,
+              "rank": 6
+            }
+          ]
+        },
+        {
+          "head": "cycle",
+          "token_id": 6772,
+          "probability": 0.0025543065508827566,
+          "rank": 27,
+          "prompts": [
+            {
+              "prompt": "The washing",
+              "probability": 0.0012552437838166952,
+              "rank": 27
+            },
+            {
+              "prompt": "A washing",
+              "probability": 0.00026015937328338623,
+              "rank": 42
+            },
+            {
+              "prompt": "This washing",
+              "probability": 0.008089306764304638,
+              "rank": 8
+            },
+            {
+              "prompt": "Their washing",
+              "probability": 0.001540102530270815,
+              "rank": 43
+            },
+            {
+              "prompt": "Our washing",
+              "probability": 0.0016267203027382493,
+              "rank": 21
+            }
+          ]
+        },
+        {
+          "head": "basket",
+          "token_id": 7988,
+          "probability": 0.00016186242137337104,
+          "rank": 194,
+          "prompts": [
+            {
+              "prompt": "The washing",
+              "probability": 0.00019938457990065217,
+              "rank": 127
+            },
+            {
+              "prompt": "A washing",
+              "probability": 0.0001029948252835311,
+              "rank": 103
+            },
+            {
+              "prompt": "This washing",
+              "probability": 0.0002057621459243819,
+              "rank": 194
+            },
+            {
+              "prompt": "Their washing",
+              "probability": 0.00020030472660437226,
+              "rank": 249
+            },
+            {
+              "prompt": "Our washing",
+              "probability": 0.00010086582915391773,
+              "rank": 238
+            }
+          ]
+        },
+        {
+          "head": "instructions",
+          "token_id": 7729,
+          "probability": 0.0019706760605913585,
+          "rank": 36,
+          "prompts": [
+            {
+              "prompt": "The washing",
+              "probability": 0.0009694398613646626,
+              "rank": 33
+            },
+            {
+              "prompt": "A washing",
+              "probability": 4.222084680804983e-05,
+              "rank": 215
+            },
+            {
+              "prompt": "This washing",
+              "probability": 0.0019462272757664323,
+              "rank": 36
+            },
+            {
+              "prompt": "Their washing",
+              "probability": 0.0018245144747197628,
+              "rank": 37
+            },
+            {
+              "prompt": "Our washing",
+              "probability": 0.005070977844297886,
+              "rank": 8
+            }
+          ]
+        }
+      ],
+      "unrelated_heads": [
+        {
+          "head": "bridge",
+          "token_id": 7696,
+          "probability": 2.9846245979570087e-06,
+          "rank": 3227,
+          "prompts": [
+            {
+              "prompt": "The washing",
+              "probability": 5.044841145718237e-06,
+              "rank": 2634
+            },
+            {
+              "prompt": "A washing",
+              "probability": 2.611788659123704e-06,
+              "rank": 1898
+            },
+            {
+              "prompt": "This washing",
+              "probability": 3.748162953343126e-06,
+              "rank": 3227
+            },
+            {
+              "prompt": "Their washing",
+              "probability": 1.5375524071714608e-06,
+              "rank": 6931
+            },
+            {
+              "prompt": "Our washing",
+              "probability": 1.9807778244285146e-06,
+              "rank": 4113
+            }
+          ]
+        },
+        {
+          "head": "violin",
+          "token_id": 38283,
+          "probability": 2.3506787982796595e-07,
+          "rank": 10816,
+          "prompts": [
+            {
+              "prompt": "The washing",
+              "probability": 3.6763844946108293e-07,
+              "rank": 10816
+            },
+            {
+              "prompt": "A washing",
+              "probability": 1.2148092309871572e-07,
+              "rank": 10029
+            },
+            {
+              "prompt": "This washing",
+              "probability": 4.646311992928531e-07,
+              "rank": 9092
+            },
+            {
+              "prompt": "Their washing",
+              "probability": 1.56487161007135e-07,
+              "rank": 17345
+            },
+            {
+              "prompt": "Our washing",
+              "probability": 6.510166628004299e-08,
+              "rank": 18237
+            }
+          ]
+        },
+        {
+          "head": "planet",
+          "token_id": 5440,
+          "probability": 3.885669830197003e-05,
+          "rank": 459,
+          "prompts": [
+            {
+              "prompt": "The washing",
+              "probability": 4.63106480310671e-05,
+              "rank": 459
+            },
+            {
+              "prompt": "A washing",
+              "probability": 3.363639552844688e-05,
+              "rank": 266
+            },
+            {
+              "prompt": "This washing",
+              "probability": 3.969300087192096e-05,
+              "rank": 730
+            },
+            {
+              "prompt": "Their washing",
+              "probability": 2.5731716959853657e-05,
+              "rank": 1392
+            },
+            {
+              "prompt": "Our washing",
+              "probability": 4.8911730118561536e-05,
+              "rank": 433
+            }
+          ]
+        }
+      ],
+      "best_minority_head": {
+        "head": "powder",
+        "token_id": 11913,
+        "probability": 0.008107249811291694,
+        "rank": 6,
+        "prompts": [
+          {
+            "prompt": "The washing",
+            "probability": 0.0037411025259643793,
+            "rank": 14
+          },
+          {
+            "prompt": "A washing",
+            "probability": 0.005738033913075924,
+            "rank": 4
+          },
+          {
+            "prompt": "This washing",
+            "probability": 0.02238762564957142,
+            "rank": 3
+          },
+          {
+            "prompt": "Their washing",
+            "probability": 0.0031027307268232107,
+            "rank": 22
+          },
+          {
+            "prompt": "Our washing",
+            "probability": 0.0055667562410235405,
+            "rank": 6
+          }
+        ]
+      },
+      "best_unrelated_head": {
+        "head": "planet",
+        "token_id": 5440,
+        "probability": 3.885669830197003e-05,
+        "rank": 459,
+        "prompts": [
+          {
+            "prompt": "The washing",
+            "probability": 4.63106480310671e-05,
+            "rank": 459
+          },
+          {
+            "prompt": "A washing",
+            "probability": 3.363639552844688e-05,
+            "rank": 266
+          },
+          {
+            "prompt": "This washing",
+            "probability": 3.969300087192096e-05,
+            "rank": 730
+          },
+          {
+            "prompt": "Their washing",
+            "probability": 2.5731716959853657e-05,
+            "rank": 1392
+          },
+          {
+            "prompt": "Our washing",
+            "probability": 4.8911730118561536e-05,
+            "rank": 433
+          }
+        ]
+      },
+      "target_vs_best_minority_ratio": 77.00853454389208,
+      "log10_target_margin_over_best_minority": 1.8865388588848273,
+      "minority_heads_beating_target": [],
+      "minority_vs_unrelated_ratio": 208.64484543404083,
+      "top_predictions_after_first_prompt": [
+        {
+          "token": " machine",
+          "token_id": 4572,
+          "probability": 0.6271618008613586
+        },
+        {
+          "token": " of",
+          "token_id": 286,
+          "probability": 0.054622549563646317
+        },
+        {
+          "token": " up",
+          "token_id": 510,
+          "probability": 0.04109527915716171
+        },
+        {
+          "token": " machines",
+          "token_id": 8217,
+          "probability": 0.03856746479868889
+        },
+        {
+          "token": "-",
+          "token_id": 12,
+          "probability": 0.027329161763191223
+        },
+        {
+          "token": "ton",
+          "token_id": 1122,
+          "probability": 0.0177583247423172
+        },
+        {
+          "token": " and",
+          "token_id": 290,
+          "probability": 0.009811578318476677
+        },
+        {
+          "token": " process",
+          "token_id": 1429,
+          "probability": 0.00944407470524311
+        },
+        {
+          "token": " line",
+          "token_id": 1627,
+          "probability": 0.005294903181493282
+        },
+        {
+          "token": " plant",
+          "token_id": 4618,
+          "probability": 0.005124322604387999
+        }
+      ],
+      "skipped_heads": []
+    },
+    {
+      "compound": "coffee machine",
+      "modifier": "coffee",
+      "category": "appliance_food",
+      "prompts": [
+        "The coffee",
+        "A coffee",
+        "This coffee",
+        "Their coffee",
+        "Our coffee"
+      ],
+      "target": {
+        "head": "machine",
+        "token_id": 4572,
+        "probability": 0.00898788943886757,
+        "rank": 17,
+        "prompts": [
+          {
+            "prompt": "The coffee",
+            "probability": 0.014646613970398903,
+            "rank": 12
+          },
+          {
+            "prompt": "A coffee",
+            "probability": 0.00957680307328701,
+            "rank": 10
+          },
+          {
+            "prompt": "This coffee",
+            "probability": 0.008762233890593052,
+            "rank": 18
+          },
+          {
+            "prompt": "Their coffee",
+            "probability": 0.004374757409095764,
+            "rank": 30
+          },
+          {
+            "prompt": "Our coffee",
+            "probability": 0.007579038850963116,
+            "rank": 17
+          }
+        ]
+      },
+      "minority_heads": [
+        {
+          "head": "cup",
+          "token_id": 6508,
+          "probability": 0.01184326307848096,
+          "rank": 15,
+          "prompts": [
+            {
+              "prompt": "The coffee",
+              "probability": 0.009945834055542946,
+              "rank": 18
+            },
+            {
+              "prompt": "A coffee",
+              "probability": 0.018411334604024887,
+              "rank": 4
+            },
+            {
+              "prompt": "This coffee",
+              "probability": 0.010562943294644356,
+              "rank": 15
+            },
+            {
+              "prompt": "Their coffee",
+              "probability": 0.014582065865397453,
+              "rank": 10
+            },
+            {
+              "prompt": "Our coffee",
+              "probability": 0.005714137572795153,
+              "rank": 21
+            }
+          ]
+        },
+        {
+          "head": "shop",
+          "token_id": 6128,
+          "probability": 0.18844329863786696,
+          "rank": 1,
+          "prompts": [
+            {
+              "prompt": "The coffee",
+              "probability": 0.15526731312274933,
+              "rank": 1
+            },
+            {
+              "prompt": "A coffee",
+              "probability": 0.5678399205207825,
+              "rank": 1
+            },
+            {
+              "prompt": "This coffee",
+              "probability": 0.1104174479842186,
+              "rank": 1
+            },
+            {
+              "prompt": "Their coffee",
+              "probability": 0.04573926329612732,
+              "rank": 3
+            },
+            {
+              "prompt": "Our coffee",
+              "probability": 0.06295254826545715,
+              "rank": 2
+            }
+          ]
+        },
+        {
+          "head": "table",
+          "token_id": 3084,
+          "probability": 0.026979335583746433,
+          "rank": 8,
+          "prompts": [
+            {
+              "prompt": "The coffee",
+              "probability": 0.020382631570100784,
+              "rank": 9
+            },
+            {
+              "prompt": "A coffee",
+              "probability": 0.01113866176456213,
+              "rank": 8
+            },
+            {
+              "prompt": "This coffee",
+              "probability": 0.06264209747314453,
+              "rank": 4
+            },
+            {
+              "prompt": "Their coffee",
+              "probability": 0.018277958035469055,
+              "rank": 9
+            },
+            {
+              "prompt": "Our coffee",
+              "probability": 0.022455329075455666,
+              "rank": 4
+            }
+          ]
+        },
+        {
+          "head": "beans",
+          "token_id": 16567,
+          "probability": 0.004198703583097085,
+          "rank": 31,
+          "prompts": [
+            {
+              "prompt": "The coffee",
+              "probability": 0.004641689360141754,
+              "rank": 28
+            },
+            {
+              "prompt": "A coffee",
+              "probability": 0.00031385498004965484,
+              "rank": 141
+            },
+            {
+              "prompt": "This coffee",
+              "probability": 0.002657209523022175,
+              "rank": 38
+            },
+            {
+              "prompt": "Their coffee",
+              "probability": 0.004194467328488827,
+              "rank": 31
+            },
+            {
+              "prompt": "Our coffee",
+              "probability": 0.009186296723783016,
+              "rank": 15
+            }
+          ]
+        },
+        {
+          "head": "maker",
+          "token_id": 16009,
+          "probability": 0.021996837481856345,
+          "rank": 7,
+          "prompts": [
+            {
+              "prompt": "The coffee",
+              "probability": 0.023752635344862938,
+              "rank": 7
+            },
+            {
+              "prompt": "A coffee",
+              "probability": 0.02742666006088257,
+              "rank": 3
+            },
+            {
+              "prompt": "This coffee",
+              "probability": 0.041047658771276474,
+              "rank": 5
+            },
+            {
+              "prompt": "Their coffee",
+              "probability": 0.0076592229306697845,
+              "rank": 14
+            },
+            {
+              "prompt": "Our coffee",
+              "probability": 0.010098010301589966,
+              "rank": 13
+            }
+          ]
+        }
+      ],
+      "unrelated_heads": [
+        {
+          "head": "river",
+          "token_id": 7850,
+          "probability": 3.151297732983949e-05,
+          "rank": 1763,
+          "prompts": [
+            {
+              "prompt": "The coffee",
+              "probability": 6.982478953432292e-05,
+              "rank": 970
+            },
+            {
+              "prompt": "A coffee",
+              "probability": 1.453746881452389e-05,
+              "rank": 1763
+            },
+            {
+              "prompt": "This coffee",
+              "probability": 1.4990599993325304e-05,
+              "rank": 2407
+            },
+            {
+              "prompt": "Their coffee",
+              "probability": 1.6387168216169812e-05,
+              "rank": 2842
+            },
+            {
+              "prompt": "Our coffee",
+              "probability": 4.182486009085551e-05,
+              "rank": 1688
+            }
+          ]
+        },
+        {
+          "head": "helmet",
+          "token_id": 14335,
+          "probability": 9.980385311791905e-06,
+          "rank": 3233,
+          "prompts": [
+            {
+              "prompt": "The coffee",
+              "probability": 1.3663535355590284e-05,
+              "rank": 3197
+            },
+            {
+              "prompt": "A coffee",
+              "probability": 1.278270337934373e-05,
+              "rank": 1907
+            },
+            {
+              "prompt": "This coffee",
+              "probability": 9.48964589042589e-06,
+              "rank": 3233
+            },
+            {
+              "prompt": "Their coffee",
+              "probability": 7.395276952593122e-06,
+              "rank": 4619
+            },
+            {
+              "prompt": "Our coffee",
+              "probability": 6.570764981006505e-06,
+              "rank": 5311
+            }
+          ]
+        },
+        {
+          "head": "password",
+          "token_id": 9206,
+          "probability": 1.9941895175179525e-06,
+          "rank": 9019,
+          "prompts": [
+            {
+              "prompt": "The coffee",
+              "probability": 1.7602573052499793e-06,
+              "rank": 9551
+            },
+            {
+              "prompt": "A coffee",
+              "probability": 8.125827548610687e-07,
+              "rank": 8719
+            },
+            {
+              "prompt": "This coffee",
+              "probability": 1.100024292099988e-06,
+              "rank": 9233
+            },
+            {
+              "prompt": "Their coffee",
+              "probability": 2.0138779746048385e-06,
+              "rank": 9019
+            },
+            {
+              "prompt": "Our coffee",
+              "probability": 4.284205260773888e-06,
+              "rank": 6568
+            }
+          ]
+        }
+      ],
+      "best_minority_head": {
+        "head": "shop",
+        "token_id": 6128,
+        "probability": 0.18844329863786696,
+        "rank": 1,
+        "prompts": [
+          {
+            "prompt": "The coffee",
+            "probability": 0.15526731312274933,
+            "rank": 1
+          },
+          {
+            "prompt": "A coffee",
+            "probability": 0.5678399205207825,
+            "rank": 1
+          },
+          {
+            "prompt": "This coffee",
+            "probability": 0.1104174479842186,
+            "rank": 1
+          },
+          {
+            "prompt": "Their coffee",
+            "probability": 0.04573926329612732,
+            "rank": 3
+          },
+          {
+            "prompt": "Our coffee",
+            "probability": 0.06295254826545715,
+            "rank": 2
+          }
+        ]
+      },
+      "best_unrelated_head": {
+        "head": "river",
+        "token_id": 7850,
+        "probability": 3.151297732983949e-05,
+        "rank": 1763,
+        "prompts": [
+          {
+            "prompt": "The coffee",
+            "probability": 6.982478953432292e-05,
+            "rank": 970
+          },
+          {
+            "prompt": "A coffee",
+            "probability": 1.453746881452389e-05,
+            "rank": 1763
+          },
+          {
+            "prompt": "This coffee",
+            "probability": 1.4990599993325304e-05,
+            "rank": 2407
+          },
+          {
+            "prompt": "Their coffee",
+            "probability": 1.6387168216169812e-05,
+            "rank": 2842
+          },
+          {
+            "prompt": "Our coffee",
+            "probability": 4.182486009085551e-05,
+            "rank": 1688
+          }
+        ]
+      },
+      "target_vs_best_minority_ratio": 0.04769545801753169,
+      "log10_target_margin_over_best_minority": -1.321522976298401,
+      "minority_heads_beating_target": [
+        "cup",
+        "shop",
+        "table",
+        "maker"
+      ],
+      "minority_vs_unrelated_ratio": 5979.863364399749,
+      "top_predictions_after_first_prompt": [
+        {
+          "token": " shop",
+          "token_id": 6128,
+          "probability": 0.15526731312274933
+        },
+        {
+          "token": " industry",
+          "token_id": 2831,
+          "probability": 0.03963673859834671
+        },
+        {
+          "token": " is",
+          "token_id": 318,
+          "probability": 0.03787759318947792
+        },
+        {
+          "token": "-",
+          "token_id": 12,
+          "probability": 0.03569057583808899
+        },
+        {
+          "token": " chain",
+          "token_id": 6333,
+          "probability": 0.024803636595606804
+        },
+        {
+          "token": " giant",
+          "token_id": 6175,
+          "probability": 0.024563107639551163
+        },
+        {
+          "token": " maker",
+          "token_id": 16009,
+          "probability": 0.023752635344862938
+        },
+        {
+          "token": " shops",
+          "token_id": 12437,
+          "probability": 0.022702520713210106
+        },
+        {
+          "token": " table",
+          "token_id": 3084,
+          "probability": 0.020382631570100784
+        },
+        {
+          "token": " house",
+          "token_id": 2156,
+          "probability": 0.019367005676031113
+        }
+      ],
+      "skipped_heads": []
+    },
+    {
+      "compound": "sewing machine",
+      "modifier": "sewing",
+      "category": "appliance_craft",
+      "prompts": [
+        "The sewing",
+        "A sewing",
+        "This sewing",
+        "Their sewing",
+        "Our sewing"
+      ],
+      "target": {
+        "head": "machine",
+        "token_id": 4572,
+        "probability": 0.34788878858089445,
+        "rank": 1,
+        "prompts": [
+          {
+            "prompt": "The sewing",
+            "probability": 0.43995893001556396,
+            "rank": 1
+          },
+          {
+            "prompt": "A sewing",
+            "probability": 0.7968456745147705,
+            "rank": 1
+          },
+          {
+            "prompt": "This sewing",
+            "probability": 0.10580421984195709,
+            "rank": 2
+          },
+          {
+            "prompt": "Their sewing",
+            "probability": 0.1556423008441925,
+            "rank": 1
+          },
+          {
+            "prompt": "Our sewing",
+            "probability": 0.24119281768798828,
+            "rank": 1
+          }
+        ]
+      },
+      "minority_heads": [
+        {
+          "head": "needle",
+          "token_id": 17598,
+          "probability": 0.008793375035747886,
+          "rank": 13,
+          "prompts": [
+            {
+              "prompt": "The sewing",
+              "probability": 0.010327106341719627,
+              "rank": 10
+            },
+            {
+              "prompt": "A sewing",
+              "probability": 0.017796339467167854,
+              "rank": 3
+            },
+            {
+              "prompt": "This sewing",
+              "probability": 0.0025032355915755033,
+              "rank": 16
+            },
+            {
+              "prompt": "Their sewing",
+              "probability": 0.005480567924678326,
+              "rank": 19
+            },
+            {
+              "prompt": "Our sewing",
+              "probability": 0.007859625853598118,
+              "rank": 13
+            }
+          ]
+        },
+        {
+          "head": "thread",
+          "token_id": 4704,
+          "probability": 0.004709100024774671,
+          "rank": 16,
+          "prompts": [
+            {
+              "prompt": "The sewing",
+              "probability": 0.006580993998795748,
+              "rank": 16
+            },
+            {
+              "prompt": "A sewing",
+              "probability": 0.002020209329202771,
+              "rank": 10
+            },
+            {
+              "prompt": "This sewing",
+              "probability": 0.009370190091431141,
+              "rank": 7
+            },
+            {
+              "prompt": "Their sewing",
+              "probability": 0.002588629722595215,
+              "rank": 38
+            },
+            {
+              "prompt": "Our sewing",
+              "probability": 0.0029854769818484783,
+              "rank": 46
+            }
+          ]
+        },
+        {
+          "head": "kit",
+          "token_id": 6220,
+          "probability": 0.02395236804150045,
+          "rank": 7,
+          "prompts": [
+            {
+              "prompt": "The sewing",
+              "probability": 0.015173755586147308,
+              "rank": 7
+            },
+            {
+              "prompt": "A sewing",
+              "probability": 0.011885506100952625,
+              "rank": 4
+            },
+            {
+              "prompt": "This sewing",
+              "probability": 0.08037715405225754,
+              "rank": 4
+            },
+            {
+              "prompt": "Their sewing",
+              "probability": 0.003778929589316249,
+              "rank": 27
+            },
+            {
+              "prompt": "Our sewing",
+              "probability": 0.008546494878828526,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "head": "pattern",
+          "token_id": 3912,
+          "probability": 0.11941687427461148,
+          "rank": 4,
+          "prompts": [
+            {
+              "prompt": "The sewing",
+              "probability": 0.028901582583785057,
+              "rank": 4
+            },
+            {
+              "prompt": "A sewing",
+              "probability": 0.026650380343198776,
+              "rank": 2
+            },
+            {
+              "prompt": "This sewing",
+              "probability": 0.4926835298538208,
+              "rank": 1
+            },
+            {
+              "prompt": "Their sewing",
+              "probability": 0.006533578038215637,
+              "rank": 17
+            },
+            {
+              "prompt": "Our sewing",
+              "probability": 0.042315300554037094,
+              "rank": 4
+            }
+          ]
+        },
+        {
+          "head": "room",
+          "token_id": 2119,
+          "probability": 0.0032368341548135505,
+          "rank": 31,
+          "prompts": [
+            {
+              "prompt": "The sewing",
+              "probability": 0.007109503727406263,
+              "rank": 14
+            },
+            {
+              "prompt": "A sewing",
+              "probability": 0.0008629889343865216,
+              "rank": 31
+            },
+            {
+              "prompt": "This sewing",
+              "probability": 0.00017913592455442995,
+              "rank": 129
+            },
+            {
+              "prompt": "Their sewing",
+              "probability": 0.004168410319834948,
+              "rank": 25
+            },
+            {
+              "prompt": "Our sewing",
+              "probability": 0.0038641318678855896,
+              "rank": 36
+            }
+          ]
+        }
+      ],
+      "unrelated_heads": [
+        {
+          "head": "lawyer",
+          "token_id": 6853,
+          "probability": 5.384332041558082e-07,
+          "rank": 10253,
+          "prompts": [
+            {
+              "prompt": "The sewing",
+              "probability": 8.53536732847715e-07,
+              "rank": 9386
+            },
+            {
+              "prompt": "A sewing",
+              "probability": 6.051221816960606e-07,
+              "rank": 5457
+            },
+            {
+              "prompt": "This sewing",
+              "probability": 2.9526802336476976e-08,
+              "rank": 15762
+            },
+            {
+              "prompt": "Their sewing",
+              "probability": 7.510433306379127e-07,
+              "rank": 10253
+            },
+            {
+              "prompt": "Our sewing",
+              "probability": 4.529369732608757e-07,
+              "rank": 10488
+            }
+          ]
+        },
+        {
+          "head": "mountain",
+          "token_id": 8598,
+          "probability": 2.0728491904264957e-06,
+          "rank": 4953,
+          "prompts": [
+            {
+              "prompt": "The sewing",
+              "probability": 2.8265724267839687e-06,
+              "rank": 5437
+            },
+            {
+              "prompt": "A sewing",
+              "probability": 1.3972370425108238e-06,
+              "rank": 3701
+            },
+            {
+              "prompt": "This sewing",
+              "probability": 8.838404141897627e-07,
+              "rank": 4126
+            },
+            {
+              "prompt": "Their sewing",
+              "probability": 2.4225901142926887e-06,
+              "rank": 6301
+            },
+            {
+              "prompt": "Our sewing",
+              "probability": 2.8340059543552343e-06,
+              "rank": 4953
+            }
+          ]
+        },
+        {
+          "head": "airport",
+          "token_id": 9003,
+          "probability": 3.9770193325239236e-07,
+          "rank": 10105,
+          "prompts": [
+            {
+              "prompt": "The sewing",
+              "probability": 7.133470489861793e-07,
+              "rank": 10105
+            },
+            {
+              "prompt": "A sewing",
+              "probability": 3.734433562385675e-07,
+              "rank": 6775
+            },
+            {
+              "prompt": "This sewing",
+              "probability": 1.6788067114248406e-07,
+              "rank": 8368
+            },
+            {
+              "prompt": "Their sewing",
+              "probability": 2.59964366478016e-07,
+              "rank": 14921
+            },
+            {
+              "prompt": "Our sewing",
+              "probability": 4.738742234167148e-07,
+              "rank": 10298
+            }
+          ]
+        }
+      ],
+      "best_minority_head": {
+        "head": "pattern",
+        "token_id": 3912,
+        "probability": 0.11941687427461148,
+        "rank": 4,
+        "prompts": [
+          {
+            "prompt": "The sewing",
+            "probability": 0.028901582583785057,
+            "rank": 4
+          },
+          {
+            "prompt": "A sewing",
+            "probability": 0.026650380343198776,
+            "rank": 2
+          },
+          {
+            "prompt": "This sewing",
+            "probability": 0.4926835298538208,
+            "rank": 1
+          },
+          {
+            "prompt": "Their sewing",
+            "probability": 0.006533578038215637,
+            "rank": 17
+          },
+          {
+            "prompt": "Our sewing",
+            "probability": 0.042315300554037094,
+            "rank": 4
+          }
+        ]
+      },
+      "best_unrelated_head": {
+        "head": "mountain",
+        "token_id": 8598,
+        "probability": 2.0728491904264957e-06,
+        "rank": 4953,
+        "prompts": [
+          {
+            "prompt": "The sewing",
+            "probability": 2.8265724267839687e-06,
+            "rank": 5437
+          },
+          {
+            "prompt": "A sewing",
+            "probability": 1.3972370425108238e-06,
+            "rank": 3701
+          },
+          {
+            "prompt": "This sewing",
+            "probability": 8.838404141897627e-07,
+            "rank": 4126
+          },
+          {
+            "prompt": "Their sewing",
+            "probability": 2.4225901142926887e-06,
+            "rank": 6301
+          },
+          {
+            "prompt": "Our sewing",
+            "probability": 2.8340059543552343e-06,
+            "rank": 4953
+          }
+        ]
+      },
+      "target_vs_best_minority_ratio": 2.913229731510876,
+      "log10_target_margin_over_best_minority": 0.4643747335760213,
+      "minority_heads_beating_target": [],
+      "minority_vs_unrelated_ratio": 57610.01563748159,
+      "top_predictions_after_first_prompt": [
+        {
+          "token": " machine",
+          "token_id": 4572,
+          "probability": 0.43995893001556396
+        },
+        {
+          "token": " of",
+          "token_id": 286,
+          "probability": 0.04189779981970787
+        },
+        {
+          "token": " machines",
+          "token_id": 8217,
+          "probability": 0.02907666750252247
+        },
+        {
+          "token": " pattern",
+          "token_id": 3912,
+          "probability": 0.028901582583785057
+        },
+        {
+          "token": " patterns",
+          "token_id": 7572,
+          "probability": 0.018951572477817535
+        },
+        {
+          "token": " industry",
+          "token_id": 2831,
+          "probability": 0.016846027225255966
+        },
+        {
+          "token": " kit",
+          "token_id": 6220,
+          "probability": 0.015173755586147308
+        },
+        {
+          "token": "-",
+          "token_id": 12,
+          "probability": 0.011766131967306137
+        },
+        {
+          "token": " and",
+          "token_id": 290,
+          "probability": 0.010977914556860924
+        },
+        {
+          "token": " needle",
+          "token_id": 17598,
+          "probability": 0.010327106341719627
+        }
+      ],
+      "skipped_heads": []
+    },
+    {
+      "compound": "vending machine",
+      "modifier": "vending",
+      "category": "retail",
+      "prompts": [
+        "The vending",
+        "A vending",
+        "This vending",
+        "Their vending",
+        "Our vending"
+      ],
+      "target": {
+        "head": "machine",
+        "token_id": 4572,
+        "probability": 0.6615497410297394,
+        "rank": 1,
+        "prompts": [
+          {
+            "prompt": "The vending",
+            "probability": 0.701631486415863,
+            "rank": 1
+          },
+          {
+            "prompt": "A vending",
+            "probability": 0.9377115368843079,
+            "rank": 1
+          },
+          {
+            "prompt": "This vending",
+            "probability": 0.8939256072044373,
+            "rank": 1
+          },
+          {
+            "prompt": "Their vending",
+            "probability": 0.42034903168678284,
+            "rank": 2
+          },
+          {
+            "prompt": "Our vending",
+            "probability": 0.3541310429573059,
+            "rank": 2
+          }
+        ]
+      },
+      "minority_heads": [
+        {
+          "head": "area",
+          "token_id": 1989,
+          "probability": 0.00038498512003570795,
+          "rank": 47,
+          "prompts": [
+            {
+              "prompt": "The vending",
+              "probability": 0.00044684766908176243,
+              "rank": 19
+            },
+            {
+              "prompt": "A vending",
+              "probability": 0.0001645956072025001,
+              "rank": 47
+            },
+            {
+              "prompt": "This vending",
+              "probability": 0.0003202097723260522,
+              "rank": 47
+            },
+            {
+              "prompt": "Their vending",
+              "probability": 0.0002514243533369154,
+              "rank": 48
+            },
+            {
+              "prompt": "Our vending",
+              "probability": 0.0007418481982313097,
+              "rank": 36
+            }
+          ]
+        },
+        {
+          "head": "business",
+          "token_id": 1597,
+          "probability": 0.001360758615192026,
+          "rank": 10,
+          "prompts": [
+            {
+              "prompt": "The vending",
+              "probability": 0.001225054613314569,
+              "rank": 10
+            },
+            {
+              "prompt": "A vending",
+              "probability": 0.0007116537308320403,
+              "rank": 10
+            },
+            {
+              "prompt": "This vending",
+              "probability": 0.000924292195122689,
+              "rank": 12
+            },
+            {
+              "prompt": "Their vending",
+              "probability": 0.001273792702704668,
+              "rank": 8
+            },
+            {
+              "prompt": "Our vending",
+              "probability": 0.002668999833986163,
+              "rank": 11
+            }
+          ]
+        },
+        {
+          "head": "service",
+          "token_id": 2139,
+          "probability": 0.00046029250079300256,
+          "rank": 45,
+          "prompts": [
+            {
+              "prompt": "The vending",
+              "probability": 0.0002244565257569775,
+              "rank": 46
+            },
+            {
+              "prompt": "A vending",
+              "probability": 0.00018628283578436822,
+              "rank": 39
+            },
+            {
+              "prompt": "This vending",
+              "probability": 0.0003415481187403202,
+              "rank": 45
+            },
+            {
+              "prompt": "Their vending",
+              "probability": 0.00017988427134696394,
+              "rank": 70
+            },
+            {
+              "prompt": "Our vending",
+              "probability": 0.0013692907523363829,
+              "rank": 17
+            }
+          ]
+        },
+        {
+          "head": "operator",
+          "token_id": 10088,
+          "probability": 0.0001640944668906741,
+          "rank": 133,
+          "prompts": [
+            {
+              "prompt": "The vending",
+              "probability": 0.00020880249212495983,
+              "rank": 51
+            },
+            {
+              "prompt": "A vending",
+              "probability": 0.0002789487480185926,
+              "rank": 20
+            },
+            {
+              "prompt": "This vending",
+              "probability": 7.105814438546076e-05,
+              "rank": 217
+            },
+            {
+              "prompt": "Their vending",
+              "probability": 1.713815436232835e-05,
+              "rank": 700
+            },
+            {
+              "prompt": "Our vending",
+              "probability": 0.0002445247955620289,
+              "rank": 133
+            }
+          ]
+        }
+      ],
+      "unrelated_heads": [
+        {
+          "head": "banana",
+          "token_id": 25996,
+          "probability": 1.7620781363802962e-05,
+          "rank": 727,
+          "prompts": [
+            {
+              "prompt": "The vending",
+              "probability": 1.531863017589785e-05,
+              "rank": 727
+            },
+            {
+              "prompt": "A vending",
+              "probability": 1.108672222471796e-05,
+              "rank": 563
+            },
+            {
+              "prompt": "This vending",
+              "probability": 4.5551299990620464e-05,
+              "rank": 303
+            },
+            {
+              "prompt": "Their vending",
+              "probability": 5.245413376542274e-06,
+              "rank": 1585
+            },
+            {
+              "prompt": "Our vending",
+              "probability": 1.090184105123626e-05,
+              "rank": 1603
+            }
+          ]
+        },
+        {
+          "head": "court",
+          "token_id": 2184,
+          "probability": 2.3271405916602815e-05,
+          "rank": 730,
+          "prompts": [
+            {
+              "prompt": "The vending",
+              "probability": 3.294256021035835e-05,
+              "rank": 400
+            },
+            {
+              "prompt": "A vending",
+              "probability": 2.564633723523002e-05,
+              "rank": 293
+            },
+            {
+              "prompt": "This vending",
+              "probability": 1.0815193490998354e-05,
+              "rank": 904
+            },
+            {
+              "prompt": "Their vending",
+              "probability": 1.4900682799634524e-05,
+              "rank": 773
+            },
+            {
+              "prompt": "Our vending",
+              "probability": 3.205225584679283e-05,
+              "rank": 730
+            }
+          ]
+        },
+        {
+          "head": "cloud",
+          "token_id": 6279,
+          "probability": 1.912503205403482e-06,
+          "rank": 3340,
+          "prompts": [
+            {
+              "prompt": "The vending",
+              "probability": 1.6333468693119357e-06,
+              "rank": 3509
+            },
+            {
+              "prompt": "A vending",
+              "probability": 1.2940638498548651e-06,
+              "rank": 2457
+            },
+            {
+              "prompt": "This vending",
+              "probability": 2.4719456632738e-06,
+              "rank": 2410
+            },
+            {
+              "prompt": "Their vending",
+              "probability": 8.045237223086588e-07,
+              "rank": 4851
+            },
+            {
+              "prompt": "Our vending",
+              "probability": 3.3586359222681494e-06,
+              "rank": 3340
+            }
+          ]
+        }
+      ],
+      "best_minority_head": {
+        "head": "business",
+        "token_id": 1597,
+        "probability": 0.001360758615192026,
+        "rank": 10,
+        "prompts": [
+          {
+            "prompt": "The vending",
+            "probability": 0.001225054613314569,
+            "rank": 10
+          },
+          {
+            "prompt": "A vending",
+            "probability": 0.0007116537308320403,
+            "rank": 10
+          },
+          {
+            "prompt": "This vending",
+            "probability": 0.000924292195122689,
+            "rank": 12
+          },
+          {
+            "prompt": "Their vending",
+            "probability": 0.001273792702704668,
+            "rank": 8
+          },
+          {
+            "prompt": "Our vending",
+            "probability": 0.002668999833986163,
+            "rank": 11
+          }
+        ]
+      },
+      "best_unrelated_head": {
+        "head": "court",
+        "token_id": 2184,
+        "probability": 2.3271405916602815e-05,
+        "rank": 730,
+        "prompts": [
+          {
+            "prompt": "The vending",
+            "probability": 3.294256021035835e-05,
+            "rank": 400
+          },
+          {
+            "prompt": "A vending",
+            "probability": 2.564633723523002e-05,
+            "rank": 293
+          },
+          {
+            "prompt": "This vending",
+            "probability": 1.0815193490998354e-05,
+            "rank": 904
+          },
+          {
+            "prompt": "Their vending",
+            "probability": 1.4900682799634524e-05,
+            "rank": 773
+          },
+          {
+            "prompt": "Our vending",
+            "probability": 3.205225584679283e-05,
+            "rank": 730
+          }
+        ]
+      },
+      "target_vs_best_minority_ratio": 486.16244912502987,
+      "log10_target_margin_over_best_minority": 2.6867814108577006,
+      "minority_heads_beating_target": [],
+      "minority_vs_unrelated_ratio": 58.47341669293829,
+      "top_predictions_after_first_prompt": [
+        {
+          "token": " machine",
+          "token_id": 4572,
+          "probability": 0.701631486415863
+        },
+        {
+          "token": " machines",
+          "token_id": 8217,
+          "probability": 0.21197792887687683
+        },
+        {
+          "token": " system",
+          "token_id": 1080,
+          "probability": 0.003972164820879698
+        },
+        {
+          "token": "-",
+          "token_id": 12,
+          "probability": 0.0034970890264958143
+        },
+        {
+          "token": " of",
+          "token_id": 286,
+          "probability": 0.002640453865751624
+        },
+        {
+          "token": " cart",
+          "token_id": 6383,
+          "probability": 0.002087454544380307
+        },
+        {
+          "token": " robot",
+          "token_id": 9379,
+          "probability": 0.0014189825160428882
+        },
+        {
+          "token": " industry",
+          "token_id": 2831,
+          "probability": 0.0013600513339042664
+        },
+        {
+          "token": " company",
+          "token_id": 1664,
+          "probability": 0.001330471714027226
+        },
+        {
+          "token": " business",
+          "token_id": 1597,
+          "probability": 0.001225054613314569
+        }
+      ],
+      "skipped_heads": [
+        {
+          "head": "kiosk",
+          "reason": "multi_token"
+        }
+      ]
+    },
+    {
+      "compound": "swimming pool",
+      "modifier": "swimming",
+      "category": "activity_structure",
+      "prompts": [
+        "The swimming",
+        "A swimming",
+        "This swimming",
+        "Their swimming",
+        "Our swimming"
+      ],
+      "target": {
+        "head": "pool",
+        "token_id": 5933,
+        "probability": 0.4055117338895798,
+        "rank": 1,
+        "prompts": [
+          {
+            "prompt": "The swimming",
+            "probability": 0.40838193893432617,
+            "rank": 1
+          },
+          {
+            "prompt": "A swimming",
+            "probability": 0.6450532674789429,
+            "rank": 1
+          },
+          {
+            "prompt": "This swimming",
+            "probability": 0.33436936140060425,
+            "rank": 1
+          },
+          {
+            "prompt": "Their swimming",
+            "probability": 0.2043791264295578,
+            "rank": 1
+          },
+          {
+            "prompt": "Our swimming",
+            "probability": 0.4353749752044678,
+            "rank": 1
+          }
+        ]
+      },
+      "minority_heads": [
+        {
+          "head": "lessons",
+          "token_id": 11658,
+          "probability": 0.01721761703956872,
+          "rank": 6,
+          "prompts": [
+            {
+              "prompt": "The swimming",
+              "probability": 0.012109815143048763,
+              "rank": 5
+            },
+            {
+              "prompt": "A swimming",
+              "probability": 0.0008120498387143016,
+              "rank": 60
+            },
+            {
+              "prompt": "This swimming",
+              "probability": 0.0014259282033890486,
+              "rank": 63
+            },
+            {
+              "prompt": "Their swimming",
+              "probability": 0.01807478442788124,
+              "rank": 6
+            },
+            {
+              "prompt": "Our swimming",
+              "probability": 0.05366550758481026,
+              "rank": 3
+            }
+          ]
+        },
+        {
+          "head": "team",
+          "token_id": 1074,
+          "probability": 0.005487906909547746,
+          "rank": 12,
+          "prompts": [
+            {
+              "prompt": "The swimming",
+              "probability": 0.009563823230564594,
+              "rank": 6
+            },
+            {
+              "prompt": "A swimming",
+              "probability": 0.003678923472762108,
+              "rank": 12
+            },
+            {
+              "prompt": "This swimming",
+              "probability": 0.0012190541019663215,
+              "rank": 74
+            },
+            {
+              "prompt": "Their swimming",
+              "probability": 0.007247989997267723,
+              "rank": 15
+            },
+            {
+              "prompt": "Our swimming",
+              "probability": 0.005729743745177984,
+              "rank": 8
+            }
+          ]
+        },
+        {
+          "head": "race",
+          "token_id": 3234,
+          "probability": 0.0008877409913111478,
+          "rank": 90,
+          "prompts": [
+            {
+              "prompt": "The swimming",
+              "probability": 0.0015033907257020473,
+              "rank": 47
+            },
+            {
+              "prompt": "A swimming",
+              "probability": 0.0009087504004128277,
+              "rank": 54
+            },
+            {
+              "prompt": "This swimming",
+              "probability": 0.0010487317340448499,
+              "rank": 90
+            },
+            {
+              "prompt": "Their swimming",
+              "probability": 0.0007188332383520901,
+              "rank": 157
+            },
+            {
+              "prompt": "Our swimming",
+              "probability": 0.000258998858043924,
+              "rank": 242
+            }
+          ]
+        },
+        {
+          "head": "coach",
+          "token_id": 3985,
+          "probability": 0.0048971853218972685,
+          "rank": 11,
+          "prompts": [
+            {
+              "prompt": "The swimming",
+              "probability": 0.006020959932357073,
+              "rank": 11
+            },
+            {
+              "prompt": "A swimming",
+              "probability": 0.00865757092833519,
+              "rank": 6
+            },
+            {
+              "prompt": "This swimming",
+              "probability": 0.0009885597974061966,
+              "rank": 97
+            },
+            {
+              "prompt": "Their swimming",
+              "probability": 0.0044534411281347275,
+              "rank": 21
+            },
+            {
+              "prompt": "Our swimming",
+              "probability": 0.004365394823253155,
+              "rank": 11
+            }
+          ]
+        },
+        {
+          "head": "gear",
+          "token_id": 7733,
+          "probability": 0.004023991851136088,
+          "rank": 43,
+          "prompts": [
+            {
+              "prompt": "The swimming",
+              "probability": 0.0011438491055741906,
+              "rank": 69
+            },
+            {
+              "prompt": "A swimming",
+              "probability": 0.00021292653400450945,
+              "rank": 229
+            },
+            {
+              "prompt": "This swimming",
+              "probability": 0.00205101165920496,
+              "rank": 43
+            },
+            {
+              "prompt": "Their swimming",
+              "probability": 0.009165560826659203,
+              "rank": 14
+            },
+            {
+              "prompt": "Our swimming",
+              "probability": 0.007546611130237579,
+              "rank": 7
+            }
+          ]
+        }
+      ],
+      "unrelated_heads": [
+        {
+          "head": "engine",
+          "token_id": 3113,
+          "probability": 9.489217554801144e-05,
+          "rank": 820,
+          "prompts": [
+            {
+              "prompt": "The swimming",
+              "probability": 0.0001613003551028669,
+              "rank": 534
+            },
+            {
+              "prompt": "A swimming",
+              "probability": 3.5110355383949354e-05,
+              "rank": 1049
+            },
+            {
+              "prompt": "This swimming",
+              "probability": 9.057612624019384e-05,
+              "rank": 820
+            },
+            {
+              "prompt": "Their swimming",
+              "probability": 0.0001321856107097119,
+              "rank": 691
+            },
+            {
+              "prompt": "Our swimming",
+              "probability": 5.528843030333519e-05,
+              "rank": 902
+            }
+          ]
+        },
+        {
+          "head": "invoice",
+          "token_id": 45458,
+          "probability": 1.0212359455863406e-07,
+          "rank": 23937,
+          "prompts": [
+            {
+              "prompt": "The swimming",
+              "probability": 5.839741490376582e-08,
+              "rank": 26920
+            },
+            {
+              "prompt": "A swimming",
+              "probability": 7.789382294731695e-08,
+              "rank": 18446
+            },
+            {
+              "prompt": "This swimming",
+              "probability": 2.8717235522890405e-07,
+              "rank": 14901
+            },
+            {
+              "prompt": "Their swimming",
+              "probability": 4.171522505203029e-08,
+              "rank": 26571
+            },
+            {
+              "prompt": "Our swimming",
+              "probability": 4.5439154661153225e-08,
+              "rank": 23937
+            }
+          ]
+        },
+        {
+          "head": "castle",
+          "token_id": 16669,
+          "probability": 1.6449036320409504e-05,
+          "rank": 2463,
+          "prompts": [
+            {
+              "prompt": "The swimming",
+              "probability": 2.212242725363467e-05,
+              "rank": 2463
+            },
+            {
+              "prompt": "A swimming",
+              "probability": 1.3238200153864454e-05,
+              "rank": 2011
+            },
+            {
+              "prompt": "This swimming",
+              "probability": 3.0443452487816103e-05,
+              "rank": 1751
+            },
+            {
+              "prompt": "Their swimming",
+              "probability": 9.872473128780257e-06,
+              "rank": 3824
+            },
+            {
+              "prompt": "Our swimming",
+              "probability": 6.56862857795204e-06,
+              "rank": 3670
+            }
+          ]
+        }
+      ],
+      "best_minority_head": {
+        "head": "lessons",
+        "token_id": 11658,
+        "probability": 0.01721761703956872,
+        "rank": 6,
+        "prompts": [
+          {
+            "prompt": "The swimming",
+            "probability": 0.012109815143048763,
+            "rank": 5
+          },
+          {
+            "prompt": "A swimming",
+            "probability": 0.0008120498387143016,
+            "rank": 60
+          },
+          {
+            "prompt": "This swimming",
+            "probability": 0.0014259282033890486,
+            "rank": 63
+          },
+          {
+            "prompt": "Their swimming",
+            "probability": 0.01807478442788124,
+            "rank": 6
+          },
+          {
+            "prompt": "Our swimming",
+            "probability": 0.05366550758481026,
+            "rank": 3
+          }
+        ]
+      },
+      "best_unrelated_head": {
+        "head": "engine",
+        "token_id": 3113,
+        "probability": 9.489217554801144e-05,
+        "rank": 820,
+        "prompts": [
+          {
+            "prompt": "The swimming",
+            "probability": 0.0001613003551028669,
+            "rank": 534
+          },
+          {
+            "prompt": "A swimming",
+            "probability": 3.5110355383949354e-05,
+            "rank": 1049
+          },
+          {
+            "prompt": "This swimming",
+            "probability": 9.057612624019384e-05,
+            "rank": 820
+          },
+          {
+            "prompt": "Their swimming",
+            "probability": 0.0001321856107097119,
+            "rank": 691
+          },
+          {
+            "prompt": "Our swimming",
+            "probability": 5.528843030333519e-05,
+            "rank": 902
+          }
+        ]
+      },
+      "target_vs_best_minority_ratio": 23.552140401174665,
+      "log10_target_margin_over_best_minority": 1.3720303815969774,
+      "minority_heads_beating_target": [],
+      "minority_vs_unrelated_ratio": 181.4440120076848,
+      "top_predictions_after_first_prompt": [
+        {
+          "token": " pool",
+          "token_id": 5933,
+          "probability": 0.40838193893432617
+        },
+        {
+          "token": " pools",
+          "token_id": 20354,
+          "probability": 0.031224075704813004
+        },
+        {
+          "token": " hole",
+          "token_id": 7604,
+          "probability": 0.02800913155078888
+        },
+        {
+          "token": "-",
+          "token_id": 12,
+          "probability": 0.015331587754189968
+        },
+        {
+          "token": " lessons",
+          "token_id": 11658,
+          "probability": 0.012109815143048763
+        },
+        {
+          "token": " team",
+          "token_id": 1074,
+          "probability": 0.009563823230564594
+        },
+        {
+          "token": " club",
+          "token_id": 3430,
+          "probability": 0.008250666782259941
+        },
+        {
+          "token": " scene",
+          "token_id": 3715,
+          "probability": 0.007077955640852451
+        },
+        {
+          "token": " and",
+          "token_id": 290,
+          "probability": 0.006722486112266779
+        },
+        {
+          "token": " suit",
+          "token_id": 6050,
+          "probability": 0.0065039051696658134
+        }
+      ],
+      "skipped_heads": []
+    },
+    {
+      "compound": "parking lot",
+      "modifier": "parking",
+      "category": "location",
+      "prompts": [
+        "The parking",
+        "A parking",
+        "This parking",
+        "Their parking",
+        "Our parking"
+      ],
+      "target": {
+        "head": "lot",
+        "token_id": 1256,
+        "probability": 0.2755847811698914,
+        "rank": 1,
+        "prompts": [
+          {
+            "prompt": "The parking",
+            "probability": 0.34553128480911255,
+            "rank": 1
+          },
+          {
+            "prompt": "A parking",
+            "probability": 0.2441372275352478,
+            "rank": 1
+          },
+          {
+            "prompt": "This parking",
+            "probability": 0.2893827557563782,
+            "rank": 1
+          },
+          {
+            "prompt": "Their parking",
+            "probability": 0.307681143283844,
+            "rank": 1
+          },
+          {
+            "prompt": "Our parking",
+            "probability": 0.19119149446487427,
+            "rank": 1
+          }
+        ]
+      },
+      "minority_heads": [
+        {
+          "head": "space",
+          "token_id": 2272,
+          "probability": 0.03523886017501354,
+          "rank": 5,
+          "prompts": [
+            {
+              "prompt": "The parking",
+              "probability": 0.020320862531661987,
+              "rank": 5
+            },
+            {
+              "prompt": "A parking",
+              "probability": 0.060168568044900894,
+              "rank": 5
+            },
+            {
+              "prompt": "This parking",
+              "probability": 0.031645093113183975,
+              "rank": 4
+            },
+            {
+              "prompt": "Their parking",
+              "probability": 0.04464725777506828,
+              "rank": 4
+            },
+            {
+              "prompt": "Our parking",
+              "probability": 0.01941251941025257,
+              "rank": 8
+            }
+          ]
+        },
+        {
+          "head": "garage",
+          "token_id": 15591,
+          "probability": 0.05329090058803558,
+          "rank": 3,
+          "prompts": [
+            {
+              "prompt": "The parking",
+              "probability": 0.06701400876045227,
+              "rank": 2
+            },
+            {
+              "prompt": "A parking",
+              "probability": 0.06904902309179306,
+              "rank": 4
+            },
+            {
+              "prompt": "This parking",
+              "probability": 0.07695527374744415,
+              "rank": 2
+            },
+            {
+              "prompt": "Their parking",
+              "probability": 0.011317029595375061,
+              "rank": 11
+            },
+            {
+              "prompt": "Our parking",
+              "probability": 0.04211916774511337,
+              "rank": 3
+            }
+          ]
+        },
+        {
+          "head": "ticket",
+          "token_id": 7846,
+          "probability": 0.017475553671829402,
+          "rank": 23,
+          "prompts": [
+            {
+              "prompt": "The parking",
+              "probability": 0.00530173210427165,
+              "rank": 23
+            },
+            {
+              "prompt": "A parking",
+              "probability": 0.07113958150148392,
+              "rank": 3
+            },
+            {
+              "prompt": "This parking",
+              "probability": 0.007233475334942341,
+              "rank": 17
+            },
+            {
+              "prompt": "Their parking",
+              "probability": 0.0027918482664972544,
+              "rank": 35
+            },
+            {
+              "prompt": "Our parking",
+              "probability": 0.0009111311519518495,
+              "rank": 102
+            }
+          ]
+        },
+        {
+          "head": "meter",
+          "token_id": 16430,
+          "probability": 0.03865625187754631,
+          "rank": 6,
+          "prompts": [
+            {
+              "prompt": "The parking",
+              "probability": 0.056342292577028275,
+              "rank": 3
+            },
+            {
+              "prompt": "A parking",
+              "probability": 0.058844421058893204,
+              "rank": 6
+            },
+            {
+              "prompt": "This parking",
+              "probability": 0.035514138638973236,
+              "rank": 3
+            },
+            {
+              "prompt": "Their parking",
+              "probability": 0.015793941915035248,
+              "rank": 8
+            },
+            {
+              "prompt": "Our parking",
+              "probability": 0.02678646519780159,
+              "rank": 6
+            }
+          ]
+        },
+        {
+          "head": "permit",
+          "token_id": 8749,
+          "probability": 0.013415673095732928,
+          "rank": 10,
+          "prompts": [
+            {
+              "prompt": "The parking",
+              "probability": 0.004638598766177893,
+              "rank": 26
+            },
+            {
+              "prompt": "A parking",
+              "probability": 0.019520334899425507,
+              "rank": 9
+            },
+            {
+              "prompt": "This parking",
+              "probability": 0.015309193171560764,
+              "rank": 9
+            },
+            {
+              "prompt": "Their parking",
+              "probability": 0.011348512023687363,
+              "rank": 10
+            },
+            {
+              "prompt": "Our parking",
+              "probability": 0.01626172661781311,
+              "rank": 10
+            }
+          ]
+        }
+      ],
+      "unrelated_heads": [
+        {
+          "head": "poem",
+          "token_id": 21247,
+          "probability": 2.65814162503375e-07,
+          "rank": 20097,
+          "prompts": [
+            {
+              "prompt": "The parking",
+              "probability": 1.0840464170769337e-07,
+              "rank": 20097
+            },
+            {
+              "prompt": "A parking",
+              "probability": 2.0572178982547484e-07,
+              "rank": 13360
+            },
+            {
+              "prompt": "This parking",
+              "probability": 8.726383384782821e-07,
+              "rank": 8276
+            },
+            {
+              "prompt": "Their parking",
+              "probability": 6.888883774536225e-08,
+              "rank": 21630
+            },
+            {
+              "prompt": "Our parking",
+              "probability": 7.34172047600623e-08,
+              "rank": 22351
+            }
+          ]
+        },
+        {
+          "head": "soup",
+          "token_id": 17141,
+          "probability": 4.7478095552833113e-07,
+          "rank": 13220,
+          "prompts": [
+            {
+              "prompt": "The parking",
+              "probability": 3.98245589394719e-07,
+              "rank": 12696
+            },
+            {
+              "prompt": "A parking",
+              "probability": 2.1137059036391292e-07,
+              "rank": 13220
+            },
+            {
+              "prompt": "This parking",
+              "probability": 1.3097629789626808e-06,
+              "rank": 6941
+            },
+            {
+              "prompt": "Their parking",
+              "probability": 1.535656366513649e-07,
+              "rank": 16923
+            },
+            {
+              "prompt": "Our parking",
+              "probability": 3.009599822689779e-07,
+              "rank": 14034
+            }
+          ]
+        },
+        {
+          "head": "window",
+          "token_id": 4324,
+          "probability": 0.00014021411625435575,
+          "rank": 372,
+          "prompts": [
+            {
+              "prompt": "The parking",
+              "probability": 0.00015142282063607126,
+              "rank": 372
+            },
+            {
+              "prompt": "A parking",
+              "probability": 0.00014557488611899316,
+              "rank": 339
+            },
+            {
+              "prompt": "This parking",
+              "probability": 0.00021399706020019948,
+              "rank": 319
+            },
+            {
+              "prompt": "Their parking",
+              "probability": 7.218446262413636e-05,
+              "rank": 577
+            },
+            {
+              "prompt": "Our parking",
+              "probability": 0.00011789135169237852,
+              "rank": 505
+            }
+          ]
+        }
+      ],
+      "best_minority_head": {
+        "head": "garage",
+        "token_id": 15591,
+        "probability": 0.05329090058803558,
+        "rank": 3,
+        "prompts": [
+          {
+            "prompt": "The parking",
+            "probability": 0.06701400876045227,
+            "rank": 2
+          },
+          {
+            "prompt": "A parking",
+            "probability": 0.06904902309179306,
+            "rank": 4
+          },
+          {
+            "prompt": "This parking",
+            "probability": 0.07695527374744415,
+            "rank": 2
+          },
+          {
+            "prompt": "Their parking",
+            "probability": 0.011317029595375061,
+            "rank": 11
+          },
+          {
+            "prompt": "Our parking",
+            "probability": 0.04211916774511337,
+            "rank": 3
+          }
+        ]
+      },
+      "best_unrelated_head": {
+        "head": "window",
+        "token_id": 4324,
+        "probability": 0.00014021411625435575,
+        "rank": 372,
+        "prompts": [
+          {
+            "prompt": "The parking",
+            "probability": 0.00015142282063607126,
+            "rank": 372
+          },
+          {
+            "prompt": "A parking",
+            "probability": 0.00014557488611899316,
+            "rank": 339
+          },
+          {
+            "prompt": "This parking",
+            "probability": 0.00021399706020019948,
+            "rank": 319
+          },
+          {
+            "prompt": "Their parking",
+            "probability": 7.218446262413636e-05,
+            "rank": 577
+          },
+          {
+            "prompt": "Our parking",
+            "probability": 0.00011789135169237852,
+            "rank": 505
+          }
+        ]
+      },
+      "target_vs_best_minority_ratio": 5.171329028576472,
+      "log10_target_margin_over_best_minority": 0.7136021708633803,
+      "minority_heads_beating_target": [],
+      "minority_vs_unrelated_ratio": 380.068013204627,
+      "top_predictions_after_first_prompt": [
+        {
+          "token": " lot",
+          "token_id": 1256,
+          "probability": 0.34553128480911255
+        },
+        {
+          "token": " garage",
+          "token_id": 15591,
+          "probability": 0.06701400876045227
+        },
+        {
+          "token": " meter",
+          "token_id": 16430,
+          "probability": 0.056342292577028275
+        },
+        {
+          "token": " lots",
+          "token_id": 6041,
+          "probability": 0.022969815880060196
+        },
+        {
+          "token": " space",
+          "token_id": 2272,
+          "probability": 0.020320862531661987
+        },
+        {
+          "token": " meters",
+          "token_id": 10700,
+          "probability": 0.019481182098388672
+        },
+        {
+          "token": " situation",
+          "token_id": 3074,
+          "probability": 0.015039155259728432
+        },
+        {
+          "token": " deck",
+          "token_id": 6203,
+          "probability": 0.014384894631803036
+        },
+        {
+          "token": " enforcement",
+          "token_id": 5394,
+          "probability": 0.012607877142727375
+        },
+        {
+          "token": " spaces",
+          "token_id": 9029,
+          "probability": 0.01211626548320055
+        }
+      ],
+      "skipped_heads": []
+    },
+    {
+      "compound": "hot dog",
+      "modifier": "hot",
+      "category": "food_or_adjective",
+      "prompts": [
+        "The hot",
+        "A hot",
+        "This hot",
+        "Their hot",
+        "Our hot"
+      ],
+      "target": {
+        "head": "dog",
+        "token_id": 3290,
+        "probability": 0.0369577694684267,
+        "rank": 9,
+        "prompts": [
+          {
+            "prompt": "The hot",
+            "probability": 0.04341829568147659,
+            "rank": 4
+          },
+          {
+            "prompt": "A hot",
+            "probability": 0.1023193821310997,
+            "rank": 1
+          },
+          {
+            "prompt": "This hot",
+            "probability": 0.005370659753680229,
+            "rank": 20
+          },
+          {
+            "prompt": "Their hot",
+            "probability": 0.016540342941880226,
+            "rank": 11
+          },
+          {
+            "prompt": "Our hot",
+            "probability": 0.017140166833996773,
+            "rank": 9
+          }
+        ]
+      },
+      "minority_heads": [
+        {
+          "head": "water",
+          "token_id": 1660,
+          "probability": 0.00690549478167668,
+          "rank": 21,
+          "prompts": [
+            {
+              "prompt": "The hot",
+              "probability": 0.013068190775811672,
+              "rank": 13
+            },
+            {
+              "prompt": "A hot",
+              "probability": 0.0049415817484259605,
+              "rank": 24
+            },
+            {
+              "prompt": "This hot",
+              "probability": 0.0007577983778901398,
+              "rank": 127
+            },
+            {
+              "prompt": "Their hot",
+              "probability": 0.010427814908325672,
+              "rank": 14
+            },
+            {
+              "prompt": "Our hot",
+              "probability": 0.0053320880979299545,
+              "rank": 21
+            }
+          ]
+        },
+        {
+          "head": "sauce",
+          "token_id": 10746,
+          "probability": 0.020469605457037687,
+          "rank": 5,
+          "prompts": [
+            {
+              "prompt": "The hot",
+              "probability": 0.0346272774040699,
+              "rank": 5
+            },
+            {
+              "prompt": "A hot",
+              "probability": 0.007021749392151833,
+              "rank": 16
+            },
+            {
+              "prompt": "This hot",
+              "probability": 0.002501023467630148,
+              "rank": 36
+            },
+            {
+              "prompt": "Their hot",
+              "probability": 0.026227528229355812,
+              "rank": 5
+            },
+            {
+              "prompt": "Our hot",
+              "probability": 0.03197044879198074,
+              "rank": 3
+            }
+          ]
+        },
+        {
+          "head": "coffee",
+          "token_id": 6891,
+          "probability": 0.001673064025817439,
+          "rank": 64,
+          "prompts": [
+            {
+              "prompt": "The hot",
+              "probability": 0.0013797357678413391,
+              "rank": 64
+            },
+            {
+              "prompt": "A hot",
+              "probability": 0.0018088995711877942,
+              "rank": 60
+            },
+            {
+              "prompt": "This hot",
+              "probability": 0.00047604189603589475,
+              "rank": 203
+            },
+            {
+              "prompt": "Their hot",
+              "probability": 0.0013788108481094241,
+              "rank": 69
+            },
+            {
+              "prompt": "Our hot",
+              "probability": 0.0033218320459127426,
+              "rank": 28
+            }
+          ]
+        },
+        {
+          "head": "food",
+          "token_id": 2057,
+          "probability": 0.0014459949161391705,
+          "rank": 49,
+          "prompts": [
+            {
+              "prompt": "The hot",
+              "probability": 0.0022913231514394283,
+              "rank": 38
+            },
+            {
+              "prompt": "A hot",
+              "probability": 0.0007646387093700469,
+              "rank": 132
+            },
+            {
+              "prompt": "This hot",
+              "probability": 0.00029324161005206406,
+              "rank": 335
+            },
+            {
+              "prompt": "Their hot",
+              "probability": 0.0020637556444853544,
+              "rank": 41
+            },
+            {
+              "prompt": "Our hot",
+              "probability": 0.001817015465348959,
+              "rank": 49
+            }
+          ]
+        },
+        {
+          "head": "air",
+          "token_id": 1633,
+          "probability": 0.020152729633264244,
+          "rank": 8,
+          "prompts": [
+            {
+              "prompt": "The hot",
+              "probability": 0.025591254234313965,
+              "rank": 8
+            },
+            {
+              "prompt": "A hot",
+              "probability": 0.04568854346871376,
+              "rank": 3
+            },
+            {
+              "prompt": "This hot",
+              "probability": 0.001803107443265617,
+              "rank": 58
+            },
+            {
+              "prompt": "Their hot",
+              "probability": 0.02010090835392475,
+              "rank": 8
+            },
+            {
+              "prompt": "Our hot",
+              "probability": 0.007579834666103125,
+              "rank": 16
+            }
+          ]
+        }
+      ],
+      "unrelated_heads": [
+        {
+          "head": "notebook",
+          "token_id": 20922,
+          "probability": 6.16297093074536e-06,
+          "rank": 7290,
+          "prompts": [
+            {
+              "prompt": "The hot",
+              "probability": 4.835361778532388e-06,
+              "rank": 7764
+            },
+            {
+              "prompt": "A hot",
+              "probability": 1.1323043509037234e-05,
+              "rank": 4293
+            },
+            {
+              "prompt": "This hot",
+              "probability": 5.730167686124332e-06,
+              "rank": 6852
+            },
+            {
+              "prompt": "Their hot",
+              "probability": 2.4946389203250874e-06,
+              "rank": 11086
+            },
+            {
+              "prompt": "Our hot",
+              "probability": 6.431642759707756e-06,
+              "rank": 7290
+            }
+          ]
+        },
+        {
+          "head": "tractor",
+          "token_id": 38278,
+          "probability": 1.4714931603521109e-05,
+          "rank": 3725,
+          "prompts": [
+            {
+              "prompt": "The hot",
+              "probability": 1.6173104086192325e-05,
+              "rank": 3725
+            },
+            {
+              "prompt": "A hot",
+              "probability": 2.2396612621378154e-05,
+              "rank": 2785
+            },
+            {
+              "prompt": "This hot",
+              "probability": 1.8660772184375674e-05,
+              "rank": 3269
+            },
+            {
+              "prompt": "Their hot",
+              "probability": 2.162043529096991e-06,
+              "rank": 11787
+            },
+            {
+              "prompt": "Our hot",
+              "probability": 1.41821255965624e-05,
+              "rank": 4531
+            }
+          ]
+        },
+        {
+          "head": "museum",
+          "token_id": 13257,
+          "probability": 6.809370916016633e-06,
+          "rank": 5892,
+          "prompts": [
+            {
+              "prompt": "The hot",
+              "probability": 4.352790710981935e-06,
+              "rank": 8246
+            },
+            {
+              "prompt": "A hot",
+              "probability": 6.437116098823026e-06,
+              "rank": 5892
+            },
+            {
+              "prompt": "This hot",
+              "probability": 8.755512681091204e-06,
+              "rank": 5343
+            },
+            {
+              "prompt": "Their hot",
+              "probability": 4.573485512082698e-06,
+              "rank": 8329
+            },
+            {
+              "prompt": "Our hot",
+              "probability": 9.9279495771043e-06,
+              "rank": 5690
+            }
+          ]
+        }
+      ],
+      "best_minority_head": {
+        "head": "sauce",
+        "token_id": 10746,
+        "probability": 0.020469605457037687,
+        "rank": 5,
+        "prompts": [
+          {
+            "prompt": "The hot",
+            "probability": 0.0346272774040699,
+            "rank": 5
+          },
+          {
+            "prompt": "A hot",
+            "probability": 0.007021749392151833,
+            "rank": 16
+          },
+          {
+            "prompt": "This hot",
+            "probability": 0.002501023467630148,
+            "rank": 36
+          },
+          {
+            "prompt": "Their hot",
+            "probability": 0.026227528229355812,
+            "rank": 5
+          },
+          {
+            "prompt": "Our hot",
+            "probability": 0.03197044879198074,
+            "rank": 3
+          }
+        ]
+      },
+      "best_unrelated_head": {
+        "head": "tractor",
+        "token_id": 38278,
+        "probability": 1.4714931603521109e-05,
+        "rank": 3725,
+        "prompts": [
+          {
+            "prompt": "The hot",
+            "probability": 1.6173104086192325e-05,
+            "rank": 3725
+          },
+          {
+            "prompt": "A hot",
+            "probability": 2.2396612621378154e-05,
+            "rank": 2785
+          },
+          {
+            "prompt": "This hot",
+            "probability": 1.8660772184375674e-05,
+            "rank": 3269
+          },
+          {
+            "prompt": "Their hot",
+            "probability": 2.162043529096991e-06,
+            "rank": 11787
+          },
+          {
+            "prompt": "Our hot",
+            "probability": 1.41821255965624e-05,
+            "rank": 4531
+          }
+        ]
+      },
+      "target_vs_best_minority_ratio": 1.805494959147842,
+      "log10_target_margin_over_best_minority": 0.25659628022647185,
+      "minority_heads_beating_target": [],
+      "minority_vs_unrelated_ratio": 1391.0771730763297,
+      "top_predictions_after_first_prompt": [
+        {
+          "token": " new",
+          "token_id": 649,
+          "probability": 0.055532634258270264
+        },
+        {
+          "token": "-",
+          "token_id": 12,
+          "probability": 0.05017950385808945
+        },
+        {
+          "token": " weather",
+          "token_id": 6193,
+          "probability": 0.043645549565553665
+        },
+        {
+          "token": " dog",
+          "token_id": 3290,
+          "probability": 0.04341829568147659
+        },
+        {
+          "token": " sauce",
+          "token_id": 10746,
+          "probability": 0.0346272774040699
+        },
+        {
+          "token": " topic",
+          "token_id": 7243,
+          "probability": 0.033492907881736755
+        },
+        {
+          "token": ",",
+          "token_id": 11,
+          "probability": 0.03039248287677765
+        },
+        {
+          "token": " air",
+          "token_id": 1633,
+          "probability": 0.025591254234313965
+        },
+        {
+          "token": " dogs",
+          "token_id": 6844,
+          "probability": 0.018776442855596542
+        },
+        {
+          "token": " and",
+          "token_id": 290,
+          "probability": 0.01740209199488163
+        }
+      ],
+      "skipped_heads": []
+    },
+    {
+      "compound": "school bus",
+      "modifier": "school",
+      "category": "institution_vehicle",
+      "prompts": [
+        "The school",
+        "A school",
+        "This school",
+        "Their school",
+        "Our school"
+      ],
+      "target": {
+        "head": "bus",
+        "token_id": 1323,
+        "probability": 0.03187989355064928,
+        "rank": 7,
+        "prompts": [
+          {
+            "prompt": "The school",
+            "probability": 0.035361140966415405,
+            "rank": 6
+          },
+          {
+            "prompt": "A school",
+            "probability": 0.09855837374925613,
+            "rank": 2
+          },
+          {
+            "prompt": "This school",
+            "probability": 0.002778509398922324,
+            "rank": 27
+          },
+          {
+            "prompt": "Their school",
+            "probability": 0.01689503900706768,
+            "rank": 7
+          },
+          {
+            "prompt": "Our school",
+            "probability": 0.005806404631584883,
+            "rank": 16
+          }
+        ]
+      },
+      "minority_heads": [
+        {
+          "head": "year",
+          "token_id": 614,
+          "probability": 0.08189701426308602,
+          "rank": 10,
+          "prompts": [
+            {
+              "prompt": "The school",
+              "probability": 0.019283490255475044,
+              "rank": 10
+            },
+            {
+              "prompt": "A school",
+              "probability": 0.0012418305268511176,
+              "rank": 62
+            },
+            {
+              "prompt": "This school",
+              "probability": 0.34498345851898193,
+              "rank": 1
+            },
+            {
+              "prompt": "Their school",
+              "probability": 0.007866572588682175,
+              "rank": 18
+            },
+            {
+              "prompt": "Our school",
+              "probability": 0.036109719425439835,
+              "rank": 6
+            }
+          ]
+        },
+        {
+          "head": "board",
+          "token_id": 3096,
+          "probability": 0.0209292387124151,
+          "rank": 8,
+          "prompts": [
+            {
+              "prompt": "The school",
+              "probability": 0.05709870532155037,
+              "rank": 3
+            },
+            {
+              "prompt": "A school",
+              "probability": 0.021504279226064682,
+              "rank": 8
+            },
+            {
+              "prompt": "This school",
+              "probability": 0.0031085589434951544,
+              "rank": 24
+            },
+            {
+              "prompt": "Their school",
+              "probability": 0.005230615846812725,
+              "rank": 20
+            },
+            {
+              "prompt": "Our school",
+              "probability": 0.017704034224152565,
+              "rank": 8
+            }
+          ]
+        },
+        {
+          "head": "day",
+          "token_id": 1110,
+          "probability": 0.005216379906050861,
+          "rank": 24,
+          "prompts": [
+            {
+              "prompt": "The school",
+              "probability": 0.006598948035389185,
+              "rank": 24
+            },
+            {
+              "prompt": "A school",
+              "probability": 0.0014074709033593535,
+              "rank": 56
+            },
+            {
+              "prompt": "This school",
+              "probability": 0.008567141368985176,
+              "rank": 8
+            },
+            {
+              "prompt": "Their school",
+              "probability": 0.004207108169794083,
+              "rank": 26
+            },
+            {
+              "prompt": "Our school",
+              "probability": 0.005301231052726507,
+              "rank": 20
+            }
+          ]
+        },
+        {
+          "head": "district",
+          "token_id": 4783,
+          "probability": 0.042793476954102516,
+          "rank": 6,
+          "prompts": [
+            {
+              "prompt": "The school",
+              "probability": 0.08727004379034042,
+              "rank": 1
+            },
+            {
+              "prompt": "A school",
+              "probability": 0.0435132272541523,
+              "rank": 6
+            },
+            {
+              "prompt": "This school",
+              "probability": 0.009695935063064098,
+              "rank": 7
+            },
+            {
+              "prompt": "Their school",
+              "probability": 0.013477853499352932,
+              "rank": 10
+            },
+            {
+              "prompt": "Our school",
+              "probability": 0.06001032516360283,
+              "rank": 3
+            }
+          ]
+        },
+        {
+          "head": "teacher",
+          "token_id": 4701,
+          "probability": 0.022251134424004705,
+          "rank": 26,
+          "prompts": [
+            {
+              "prompt": "The school",
+              "probability": 0.0050429305993020535,
+              "rank": 26
+            },
+            {
+              "prompt": "A school",
+              "probability": 0.09675952792167664,
+              "rank": 3
+            },
+            {
+              "prompt": "This school",
+              "probability": 0.00029572268249467015,
+              "rank": 208
+            },
+            {
+              "prompt": "Their school",
+              "probability": 0.0064946492202579975,
+              "rank": 19
+            },
+            {
+              "prompt": "Our school",
+              "probability": 0.002662841696292162,
+              "rank": 34
+            }
+          ]
+        }
+      ],
+      "unrelated_heads": [
+        {
+          "head": "mirror",
+          "token_id": 10162,
+          "probability": 5.294007451084326e-06,
+          "rank": 5904,
+          "prompts": [
+            {
+              "prompt": "The school",
+              "probability": 3.841124907921767e-06,
+              "rank": 6815
+            },
+            {
+              "prompt": "A school",
+              "probability": 4.22735183747136e-06,
+              "rank": 4612
+            },
+            {
+              "prompt": "This school",
+              "probability": 2.0652094008255517e-06,
+              "rank": 6658
+            },
+            {
+              "prompt": "Their school",
+              "probability": 1.109414552047383e-05,
+              "rank": 4814
+            },
+            {
+              "prompt": "Our school",
+              "probability": 5.242205588729121e-06,
+              "rank": 5904
+            }
+          ]
+        },
+        {
+          "head": "oxygen",
+          "token_id": 11863,
+          "probability": 1.0221203922355927e-06,
+          "rank": 12600,
+          "prompts": [
+            {
+              "prompt": "The school",
+              "probability": 6.338433422570233e-07,
+              "rank": 15337
+            },
+            {
+              "prompt": "A school",
+              "probability": 4.563293884984887e-07,
+              "rank": 12941
+            },
+            {
+              "prompt": "This school",
+              "probability": 7.559667096757039e-07,
+              "rank": 10503
+            },
+            {
+              "prompt": "Their school",
+              "probability": 2.2158433239383157e-06,
+              "rank": 10887
+            },
+            {
+              "prompt": "Our school",
+              "probability": 1.0486191968084313e-06,
+              "rank": 12600
+            }
+          ]
+        },
+        {
+          "head": "shoe",
+          "token_id": 17292,
+          "probability": 3.3910483034560456e-05,
+          "rank": 1732,
+          "prompts": [
+            {
+              "prompt": "The school",
+              "probability": 4.4571792386705056e-05,
+              "rank": 1432
+            },
+            {
+              "prompt": "A school",
+              "probability": 2.0229690562700853e-05,
+              "rank": 1739
+            },
+            {
+              "prompt": "This school",
+              "probability": 2.4403383577009663e-05,
+              "rank": 1579
+            },
+            {
+              "prompt": "Their school",
+              "probability": 5.1500672270776704e-05,
+              "rank": 1732
+            },
+            {
+              "prompt": "Our school",
+              "probability": 2.884687637561001e-05,
+              "rank": 2137
+            }
+          ]
+        }
+      ],
+      "best_minority_head": {
+        "head": "year",
+        "token_id": 614,
+        "probability": 0.08189701426308602,
+        "rank": 10,
+        "prompts": [
+          {
+            "prompt": "The school",
+            "probability": 0.019283490255475044,
+            "rank": 10
+          },
+          {
+            "prompt": "A school",
+            "probability": 0.0012418305268511176,
+            "rank": 62
+          },
+          {
+            "prompt": "This school",
+            "probability": 0.34498345851898193,
+            "rank": 1
+          },
+          {
+            "prompt": "Their school",
+            "probability": 0.007866572588682175,
+            "rank": 18
+          },
+          {
+            "prompt": "Our school",
+            "probability": 0.036109719425439835,
+            "rank": 6
+          }
+        ]
+      },
+      "best_unrelated_head": {
+        "head": "shoe",
+        "token_id": 17292,
+        "probability": 3.3910483034560456e-05,
+        "rank": 1732,
+        "prompts": [
+          {
+            "prompt": "The school",
+            "probability": 4.4571792386705056e-05,
+            "rank": 1432
+          },
+          {
+            "prompt": "A school",
+            "probability": 2.0229690562700853e-05,
+            "rank": 1739
+          },
+          {
+            "prompt": "This school",
+            "probability": 2.4403383577009663e-05,
+            "rank": 1579
+          },
+          {
+            "prompt": "Their school",
+            "probability": 5.1500672270776704e-05,
+            "rank": 1732
+          },
+          {
+            "prompt": "Our school",
+            "probability": 2.884687637561001e-05,
+            "rank": 2137
+          }
+        ]
+      },
+      "target_vs_best_minority_ratio": 0.38926808061937757,
+      "log10_target_margin_over_best_minority": -0.40975120628945105,
+      "minority_heads_beating_target": [
+        "year",
+        "district"
+      ],
+      "minority_vs_unrelated_ratio": 2415.094299294388,
+      "top_predictions_after_first_prompt": [
+        {
+          "token": " district",
+          "token_id": 4783,
+          "probability": 0.08727004379034042
+        },
+        {
+          "token": "'s",
+          "token_id": 338,
+          "probability": 0.07904338091611862
+        },
+        {
+          "token": " board",
+          "token_id": 3096,
+          "probability": 0.05709870532155037
+        },
+        {
+          "token": " of",
+          "token_id": 286,
+          "probability": 0.04011300951242447
+        },
+        {
+          "token": " is",
+          "token_id": 318,
+          "probability": 0.03631474822759628
+        },
+        {
+          "token": " bus",
+          "token_id": 1323,
+          "probability": 0.035361140966415405
+        },
+        {
+          "token": " has",
+          "token_id": 468,
+          "probability": 0.03479502722620964
+        },
+        {
+          "token": " was",
+          "token_id": 373,
+          "probability": 0.025042112916707993
+        },
+        {
+          "token": " system",
+          "token_id": 1080,
+          "probability": 0.020007893443107605
+        },
+        {
+          "token": " year",
+          "token_id": 614,
+          "probability": 0.019283490255475044
+        }
+      ],
+      "skipped_heads": []
+    },
+    {
+      "compound": "fire truck",
+      "modifier": "fire",
+      "category": "emergency_vehicle",
+      "prompts": [
+        "The fire",
+        "A fire",
+        "This fire",
+        "Their fire",
+        "Our fire"
+      ],
+      "target": {
+        "head": "truck",
+        "token_id": 7779,
+        "probability": 0.006497345748357475,
+        "rank": 26,
+        "prompts": [
+          {
+            "prompt": "The fire",
+            "probability": 0.003977331332862377,
+            "rank": 36
+          },
+          {
+            "prompt": "A fire",
+            "probability": 0.014392326585948467,
+            "rank": 12
+          },
+          {
+            "prompt": "This fire",
+            "probability": 0.006308550480753183,
+            "rank": 26
+          },
+          {
+            "prompt": "Their fire",
+            "probability": 0.0009335050126537681,
+            "rank": 129
+          },
+          {
+            "prompt": "Our fire",
+            "probability": 0.006875015329569578,
+            "rank": 24
+          }
+        ]
+      },
+      "minority_heads": [
+        {
+          "head": "alarm",
+          "token_id": 10436,
+          "probability": 0.01171606509014964,
+          "rank": 16,
+          "prompts": [
+            {
+              "prompt": "The fire",
+              "probability": 0.013302466832101345,
+              "rank": 16
+            },
+            {
+              "prompt": "A fire",
+              "probability": 0.0068259406834840775,
+              "rank": 23
+            },
+            {
+              "prompt": "This fire",
+              "probability": 0.020349496975541115,
+              "rank": 9
+            },
+            {
+              "prompt": "Their fire",
+              "probability": 0.004014815669506788,
+              "rank": 34
+            },
+            {
+              "prompt": "Our fire",
+              "probability": 0.01408760529011488,
+              "rank": 10
+            }
+          ]
+        },
+        {
+          "head": "station",
+          "token_id": 4429,
+          "probability": 0.004396269680000842,
+          "rank": 39,
+          "prompts": [
+            {
+              "prompt": "The fire",
+              "probability": 0.0030402946285903454,
+              "rank": 39
+            },
+            {
+              "prompt": "A fire",
+              "probability": 0.002136490074917674,
+              "rank": 49
+            },
+            {
+              "prompt": "This fire",
+              "probability": 0.00677829934284091,
+              "rank": 21
+            },
+            {
+              "prompt": "Their fire",
+              "probability": 0.001513632363639772,
+              "rank": 90
+            },
+            {
+              "prompt": "Our fire",
+              "probability": 0.008512631990015507,
+              "rank": 19
+            }
+          ]
+        },
+        {
+          "head": "fighter",
+          "token_id": 10543,
+          "probability": 0.0012299415073357522,
+          "rank": 122,
+          "prompts": [
+            {
+              "prompt": "The fire",
+              "probability": 0.0006368362228386104,
+              "rank": 156
+            },
+            {
+              "prompt": "A fire",
+              "probability": 0.0015498255379498005,
+              "rank": 63
+            },
+            {
+              "prompt": "This fire",
+              "probability": 0.0009986594086512923,
+              "rank": 122
+            },
+            {
+              "prompt": "Their fire",
+              "probability": 0.0005020987009629607,
+              "rank": 209
+            },
+            {
+              "prompt": "Our fire",
+              "probability": 0.0024622876662760973,
+              "rank": 60
+            }
+          ]
+        },
+        {
+          "head": "engine",
+          "token_id": 3113,
+          "probability": 0.005274473922327161,
+          "rank": 37,
+          "prompts": [
+            {
+              "prompt": "The fire",
+              "probability": 0.002896844642236829,
+              "rank": 40
+            },
+            {
+              "prompt": "A fire",
+              "probability": 0.0038686618208885193,
+              "rank": 37
+            },
+            {
+              "prompt": "This fire",
+              "probability": 0.004137765616178513,
+              "rank": 37
+            },
+            {
+              "prompt": "Their fire",
+              "probability": 0.004124792292714119,
+              "rank": 33
+            },
+            {
+              "prompt": "Our fire",
+              "probability": 0.011344305239617825,
+              "rank": 11
+            }
+          ]
+        },
+        {
+          "head": "drill",
+          "token_id": 16007,
+          "probability": 0.004287214996293187,
+          "rank": 50,
+          "prompts": [
+            {
+              "prompt": "The fire",
+              "probability": 0.0022641585674136877,
+              "rank": 50
+            },
+            {
+              "prompt": "A fire",
+              "probability": 0.0018408828182145953,
+              "rank": 56
+            },
+            {
+              "prompt": "This fire",
+              "probability": 0.010535907000303268,
+              "rank": 13
+            },
+            {
+              "prompt": "Their fire",
+              "probability": 0.0017617886187508702,
+              "rank": 84
+            },
+            {
+              "prompt": "Our fire",
+              "probability": 0.005033337976783514,
+              "rank": 32
+            }
+          ]
+        }
+      ],
+      "unrelated_heads": [
+        {
+          "head": "wallet",
+          "token_id": 13008,
+          "probability": 7.629302444911446e-07,
+          "rank": 15188,
+          "prompts": [
+            {
+              "prompt": "The fire",
+              "probability": 3.6117404533797526e-07,
+              "rank": 16974
+            },
+            {
+              "prompt": "A fire",
+              "probability": 1.81004850219324e-07,
+              "rank": 15188
+            },
+            {
+              "prompt": "This fire",
+              "probability": 1.700494067335967e-06,
+              "rank": 10091
+            },
+            {
+              "prompt": "Their fire",
+              "probability": 5.921617685089586e-07,
+              "rank": 18050
+            },
+            {
+              "prompt": "Our fire",
+              "probability": 9.798164910534979e-07,
+              "rank": 14164
+            }
+          ]
+        },
+        {
+          "head": "keyboard",
+          "token_id": 10586,
+          "probability": 1.5631870141419312e-06,
+          "rank": 12097,
+          "prompts": [
+            {
+              "prompt": "The fire",
+              "probability": 3.026099761882506e-07,
+              "rank": 18126
+            },
+            {
+              "prompt": "A fire",
+              "probability": 1.027082632276688e-07,
+              "rank": 18653
+            },
+            {
+              "prompt": "This fire",
+              "probability": 3.896102043654537e-06,
+              "rank": 6759
+            },
+            {
+              "prompt": "Their fire",
+              "probability": 2.0903617041767575e-06,
+              "rank": 10900
+            },
+            {
+              "prompt": "Our fire",
+              "probability": 1.4241530834624427e-06,
+              "rank": 12097
+            }
+          ]
+        },
+        {
+          "head": "garden",
+          "token_id": 11376,
+          "probability": 2.640785810399393e-05,
+          "rank": 2908,
+          "prompts": [
+            {
+              "prompt": "The fire",
+              "probability": 6.782261152693536e-06,
+              "rank": 4014
+            },
+            {
+              "prompt": "A fire",
+              "probability": 2.495839225957752e-06,
+              "rank": 4703
+            },
+            {
+              "prompt": "This fire",
+              "probability": 3.0802177207078785e-05,
+              "rank": 1872
+            },
+            {
+              "prompt": "Their fire",
+              "probability": 2.129667336703278e-05,
+              "rank": 2908
+            },
+            {
+              "prompt": "Our fire",
+              "probability": 7.06623395672068e-05,
+              "rank": 1041
+            }
+          ]
+        }
+      ],
+      "best_minority_head": {
+        "head": "alarm",
+        "token_id": 10436,
+        "probability": 0.01171606509014964,
+        "rank": 16,
+        "prompts": [
+          {
+            "prompt": "The fire",
+            "probability": 0.013302466832101345,
+            "rank": 16
+          },
+          {
+            "prompt": "A fire",
+            "probability": 0.0068259406834840775,
+            "rank": 23
+          },
+          {
+            "prompt": "This fire",
+            "probability": 0.020349496975541115,
+            "rank": 9
+          },
+          {
+            "prompt": "Their fire",
+            "probability": 0.004014815669506788,
+            "rank": 34
+          },
+          {
+            "prompt": "Our fire",
+            "probability": 0.01408760529011488,
+            "rank": 10
+          }
+        ]
+      },
+      "best_unrelated_head": {
+        "head": "garden",
+        "token_id": 11376,
+        "probability": 2.640785810399393e-05,
+        "rank": 2908,
+        "prompts": [
+          {
+            "prompt": "The fire",
+            "probability": 6.782261152693536e-06,
+            "rank": 4014
+          },
+          {
+            "prompt": "A fire",
+            "probability": 2.495839225957752e-06,
+            "rank": 4703
+          },
+          {
+            "prompt": "This fire",
+            "probability": 3.0802177207078785e-05,
+            "rank": 1872
+          },
+          {
+            "prompt": "Their fire",
+            "probability": 2.129667336703278e-05,
+            "rank": 2908
+          },
+          {
+            "prompt": "Our fire",
+            "probability": 7.06623395672068e-05,
+            "rank": 1041
+          }
+        ]
+      },
+      "target_vs_best_minority_ratio": 0.5545672287037874,
+      "log10_target_margin_over_best_minority": -0.2560457979336168,
+      "minority_heads_beating_target": [
+        "alarm"
+      ],
+      "minority_vs_unrelated_ratio": 443.65828701486777,
+      "top_predictions_after_first_prompt": [
+        {
+          "token": " department",
+          "token_id": 5011,
+          "probability": 0.07996977120637894
+        },
+        {
+          "token": " that",
+          "token_id": 326,
+          "probability": 0.05318855494260788
+        },
+        {
+          "token": " at",
+          "token_id": 379,
+          "probability": 0.04764300584793091
+        },
+        {
+          "token": " was",
+          "token_id": 373,
+          "probability": 0.04552626609802246
+        },
+        {
+          "token": " in",
+          "token_id": 287,
+          "probability": 0.03430226072669029
+        },
+        {
+          "token": "storm",
+          "token_id": 12135,
+          "probability": 0.028928736224770546
+        },
+        {
+          "token": " started",
+          "token_id": 2067,
+          "probability": 0.028611015528440475
+        },
+        {
+          "token": " broke",
+          "token_id": 6265,
+          "probability": 0.024649307131767273
+        },
+        {
+          "token": " is",
+          "token_id": 318,
+          "probability": 0.023886416107416153
+        },
+        {
+          "token": " of",
+          "token_id": 286,
+          "probability": 0.02147354558110237
+        }
+      ],
+      "skipped_heads": []
+    },
+    {
+      "compound": "ice cream",
+      "modifier": "ice",
+      "category": "food_or_material",
+      "prompts": [
+        "The ice",
+        "A ice",
+        "This ice",
+        "Their ice",
+        "Our ice"
+      ],
+      "target": {
+        "head": "cream",
+        "token_id": 8566,
+        "probability": 0.3602681696414948,
+        "rank": 1,
+        "prompts": [
+          {
+            "prompt": "The ice",
+            "probability": 0.15510839223861694,
+            "rank": 1
+          },
+          {
+            "prompt": "A ice",
+            "probability": 0.2912489175796509,
+            "rank": 1
+          },
+          {
+            "prompt": "This ice",
+            "probability": 0.6205134987831116,
+            "rank": 1
+          },
+          {
+            "prompt": "Their ice",
+            "probability": 0.2680568993091583,
+            "rank": 1
+          },
+          {
+            "prompt": "Our ice",
+            "probability": 0.46641314029693604,
+            "rank": 1
+          }
+        ]
+      },
+      "minority_heads": [
+        {
+          "head": "water",
+          "token_id": 1660,
+          "probability": 0.002339815953746438,
+          "rank": 31,
+          "prompts": [
+            {
+              "prompt": "The ice",
+              "probability": 0.00262642465531826,
+              "rank": 38
+            },
+            {
+              "prompt": "A ice",
+              "probability": 0.002251511672511697,
+              "rank": 31
+            },
+            {
+              "prompt": "This ice",
+              "probability": 0.002066265558823943,
+              "rank": 24
+            },
+            {
+              "prompt": "Their ice",
+              "probability": 0.0024291565641760826,
+              "rank": 32
+            },
+            {
+              "prompt": "Our ice",
+              "probability": 0.0023257213179022074,
+              "rank": 27
+            }
+          ]
+        },
+        {
+          "head": "cube",
+          "token_id": 23441,
+          "probability": 0.013133054040372372,
+          "rank": 10,
+          "prompts": [
+            {
+              "prompt": "The ice",
+              "probability": 0.010985827073454857,
+              "rank": 10
+            },
+            {
+              "prompt": "A ice",
+              "probability": 0.01883649080991745,
+              "rank": 6
+            },
+            {
+              "prompt": "This ice",
+              "probability": 0.02814534492790699,
+              "rank": 3
+            },
+            {
+              "prompt": "Their ice",
+              "probability": 0.0032183886505663395,
+              "rank": 20
+            },
+            {
+              "prompt": "Our ice",
+              "probability": 0.004479218740016222,
+              "rank": 19
+            }
+          ]
+        },
+        {
+          "head": "hockey",
+          "token_id": 12217,
+          "probability": 0.0076763132121413944,
+          "rank": 12,
+          "prompts": [
+            {
+              "prompt": "The ice",
+              "probability": 0.00580174196511507,
+              "rank": 22
+            },
+            {
+              "prompt": "A ice",
+              "probability": 0.008359056897461414,
+              "rank": 12
+            },
+            {
+              "prompt": "This ice",
+              "probability": 0.00176136358641088,
+              "rank": 29
+            },
+            {
+              "prompt": "Their ice",
+              "probability": 0.009798186831176281,
+              "rank": 6
+            },
+            {
+              "prompt": "Our ice",
+              "probability": 0.012661216780543327,
+              "rank": 4
+            }
+          ]
+        },
+        {
+          "head": "storm",
+          "token_id": 6388,
+          "probability": 0.01502575189806521,
+          "rank": 14,
+          "prompts": [
+            {
+              "prompt": "The ice",
+              "probability": 0.01795998029410839,
+              "rank": 5
+            },
+            {
+              "prompt": "A ice",
+              "probability": 0.04753913730382919,
+              "rank": 3
+            },
+            {
+              "prompt": "This ice",
+              "probability": 0.003890795400366187,
+              "rank": 14
+            },
+            {
+              "prompt": "Their ice",
+              "probability": 0.002666642190888524,
+              "rank": 27
+            },
+            {
+              "prompt": "Our ice",
+              "probability": 0.003072204301133752,
+              "rank": 23
+            }
+          ]
+        }
+      ],
+      "unrelated_heads": [
+        {
+          "head": "committee",
+          "token_id": 5583,
+          "probability": 4.339944462117274e-06,
+          "rank": 6101,
+          "prompts": [
+            {
+              "prompt": "The ice",
+              "probability": 1.0262474461342208e-05,
+              "rank": 4619
+            },
+            {
+              "prompt": "A ice",
+              "probability": 3.5550979191611987e-06,
+              "rank": 5477
+            },
+            {
+              "prompt": "This ice",
+              "probability": 1.1634238035185263e-06,
+              "rank": 8031
+            },
+            {
+              "prompt": "Their ice",
+              "probability": 2.2390913727576844e-06,
+              "rank": 9049
+            },
+            {
+              "prompt": "Our ice",
+              "probability": 4.479634753806749e-06,
+              "rank": 6101
+            }
+          ]
+        },
+        {
+          "head": "pencil",
+          "token_id": 21613,
+          "probability": 5.395691096055088e-06,
+          "rank": 5969,
+          "prompts": [
+            {
+              "prompt": "The ice",
+              "probability": 6.429256245610304e-06,
+              "rank": 5969
+            },
+            {
+              "prompt": "A ice",
+              "probability": 4.195982000965159e-06,
+              "rank": 5009
+            },
+            {
+              "prompt": "This ice",
+              "probability": 7.531983555963961e-06,
+              "rank": 2955
+            },
+            {
+              "prompt": "Their ice",
+              "probability": 4.597245151671814e-06,
+              "rank": 6430
+            },
+            {
+              "prompt": "Our ice",
+              "probability": 4.223988526064204e-06,
+              "rank": 6295
+            }
+          ]
+        },
+        {
+          "head": "piano",
+          "token_id": 19132,
+          "probability": 2.7633694662654308e-05,
+          "rank": 2008,
+          "prompts": [
+            {
+              "prompt": "The ice",
+              "probability": 2.3055472411215305e-05,
+              "rank": 2774
+            },
+            {
+              "prompt": "A ice",
+              "probability": 5.532511931960471e-05,
+              "rank": 994
+            },
+            {
+              "prompt": "This ice",
+              "probability": 2.1577056031674147e-05,
+              "rank": 1418
+            },
+            {
+              "prompt": "Their ice",
+              "probability": 1.2497225725383032e-05,
+              "rank": 3616
+            },
+            {
+              "prompt": "Our ice",
+              "probability": 2.571359982539434e-05,
+              "rank": 2008
+            }
+          ]
+        }
+      ],
+      "best_minority_head": {
+        "head": "storm",
+        "token_id": 6388,
+        "probability": 0.01502575189806521,
+        "rank": 14,
+        "prompts": [
+          {
+            "prompt": "The ice",
+            "probability": 0.01795998029410839,
+            "rank": 5
+          },
+          {
+            "prompt": "A ice",
+            "probability": 0.04753913730382919,
+            "rank": 3
+          },
+          {
+            "prompt": "This ice",
+            "probability": 0.003890795400366187,
+            "rank": 14
+          },
+          {
+            "prompt": "Their ice",
+            "probability": 0.002666642190888524,
+            "rank": 27
+          },
+          {
+            "prompt": "Our ice",
+            "probability": 0.003072204301133752,
+            "rank": 23
+          }
+        ]
+      },
+      "best_unrelated_head": {
+        "head": "piano",
+        "token_id": 19132,
+        "probability": 2.7633694662654308e-05,
+        "rank": 2008,
+        "prompts": [
+          {
+            "prompt": "The ice",
+            "probability": 2.3055472411215305e-05,
+            "rank": 2774
+          },
+          {
+            "prompt": "A ice",
+            "probability": 5.532511931960471e-05,
+            "rank": 994
+          },
+          {
+            "prompt": "This ice",
+            "probability": 2.1577056031674147e-05,
+            "rank": 1418
+          },
+          {
+            "prompt": "Their ice",
+            "probability": 1.2497225725383032e-05,
+            "rank": 3616
+          },
+          {
+            "prompt": "Our ice",
+            "probability": 2.571359982539434e-05,
+            "rank": 2008
+          }
+        ]
+      },
+      "target_vs_best_minority_ratio": 23.976714914871227,
+      "log10_target_margin_over_best_minority": 1.3797896794825757,
+      "minority_heads_beating_target": [],
+      "minority_vs_unrelated_ratio": 543.7474822493366,
+      "top_predictions_after_first_prompt": [
+        {
+          "token": " cream",
+          "token_id": 8566,
+          "probability": 0.15510839223861694
+        },
+        {
+          "token": "-",
+          "token_id": 12,
+          "probability": 0.05607195198535919
+        },
+        {
+          "token": " is",
+          "token_id": 318,
+          "probability": 0.03965671360492706
+        },
+        {
+          "token": " age",
+          "token_id": 2479,
+          "probability": 0.03346482291817665
+        },
+        {
+          "token": " storm",
+          "token_id": 6388,
+          "probability": 0.01795998029410839
+        },
+        {
+          "token": "breaker",
+          "token_id": 25766,
+          "probability": 0.017210202291607857
+        },
+        {
+          "token": " was",
+          "token_id": 373,
+          "probability": 0.01612812839448452
+        },
+        {
+          "token": " rink",
+          "token_id": 47925,
+          "probability": 0.014713270589709282
+        },
+        {
+          "token": " in",
+          "token_id": 287,
+          "probability": 0.013476597145199776
+        },
+        {
+          "token": " cube",
+          "token_id": 23441,
+          "probability": 0.010985827073454857
+        }
+      ],
+      "skipped_heads": [
+        {
+          "head": "skates",
+          "reason": "multi_token"
+        }
+      ]
+    },
+    {
+      "compound": "red herring",
+      "modifier": "red",
+      "category": "idiom_or_color",
+      "prompts": [
+        "The red",
+        "A red",
+        "This red",
+        "Their red",
+        "Our red"
+      ],
+      "target": null,
+      "minority_heads": [
+        {
+          "head": "car",
+          "token_id": 1097,
+          "probability": 0.005144266947172582,
+          "rank": 22,
+          "prompts": [
+            {
+              "prompt": "The red",
+              "probability": 0.005388525780290365,
+              "rank": 22
+            },
+            {
+              "prompt": "A red",
+              "probability": 0.011057334952056408,
+              "rank": 11
+            },
+            {
+              "prompt": "This red",
+              "probability": 0.0010539040667936206,
+              "rank": 129
+            },
+            {
+              "prompt": "Their red",
+              "probability": 0.004150739870965481,
+              "rank": 19
+            },
+            {
+              "prompt": "Our red",
+              "probability": 0.004070830065757036,
+              "rank": 26
+            }
+          ]
+        },
+        {
+          "head": "wine",
+          "token_id": 8237,
+          "probability": 0.01137480502948165,
+          "rank": 21,
+          "prompts": [
+            {
+              "prompt": "The red",
+              "probability": 0.002866826020181179,
+              "rank": 38
+            },
+            {
+              "prompt": "A red",
+              "probability": 0.004398404620587826,
+              "rank": 21
+            },
+            {
+              "prompt": "This red",
+              "probability": 0.028095360845327377,
+              "rank": 2
+            },
+            {
+              "prompt": "Their red",
+              "probability": 0.003409541677683592,
+              "rank": 26
+            },
+            {
+              "prompt": "Our red",
+              "probability": 0.018103891983628273,
+              "rank": 6
+            }
+          ]
+        },
+        {
+          "head": "flag",
+          "token_id": 6056,
+          "probability": 0.00958432089537382,
+          "rank": 38,
+          "prompts": [
+            {
+              "prompt": "The red",
+              "probability": 0.01963740400969982,
+              "rank": 6
+            },
+            {
+              "prompt": "A red",
+              "probability": 0.020807059481739998,
+              "rank": 4
+            },
+            {
+              "prompt": "This red",
+              "probability": 0.0030864381697028875,
+              "rank": 38
+            },
+            {
+              "prompt": "Their red",
+              "probability": 0.0022564148530364037,
+              "rank": 47
+            },
+            {
+              "prompt": "Our red",
+              "probability": 0.0021342879626899958,
+              "rank": 49
+            }
+          ]
+        },
+        {
+          "head": "light",
+          "token_id": 1657,
+          "probability": 0.02350066611543298,
+          "rank": 11,
+          "prompts": [
+            {
+              "prompt": "The red",
+              "probability": 0.042520634829998016,
+              "rank": 2
+            },
+            {
+              "prompt": "A red",
+              "probability": 0.0537165142595768,
+              "rank": 2
+            },
+            {
+              "prompt": "This red",
+              "probability": 0.008141374215483665,
+              "rank": 15
+            },
+            {
+              "prompt": "Their red",
+              "probability": 0.005565247498452663,
+              "rank": 11
+            },
+            {
+              "prompt": "Our red",
+              "probability": 0.007559559773653746,
+              "rank": 14
+            }
+          ]
+        },
+        {
+          "head": "dress",
+          "token_id": 6576,
+          "probability": 0.0012856305751483888,
+          "rank": 121,
+          "prompts": [
+            {
+              "prompt": "The red",
+              "probability": 0.0003054811095353216,
+              "rank": 352
+            },
+            {
+              "prompt": "A red",
+              "probability": 0.0005793932941742241,
+              "rank": 185
+            },
+            {
+              "prompt": "This red",
+              "probability": 0.0020665102638304234,
+              "rank": 58
+            },
+            {
+              "prompt": "Their red",
+              "probability": 0.0025484615471214056,
+              "rank": 42
+            },
+            {
+              "prompt": "Our red",
+              "probability": 0.000928306661080569,
+              "rank": 121
+            }
+          ]
+        }
+      ],
+      "unrelated_heads": [
+        {
+          "head": "calculator",
+          "token_id": 28260,
+          "probability": 2.975730217258388e-06,
+          "rank": 12317,
+          "prompts": [
+            {
+              "prompt": "The red",
+              "probability": 2.2630722469330067e-06,
+              "rank": 12317
+            },
+            {
+              "prompt": "A red",
+              "probability": 1.0551021887295065e-06,
+              "rank": 14177
+            },
+            {
+              "prompt": "This red",
+              "probability": 5.023914582125144e-06,
+              "rank": 8039
+            },
+            {
+              "prompt": "Their red",
+              "probability": 1.097493168344954e-06,
+              "rank": 18001
+            },
+            {
+              "prompt": "Our red",
+              "probability": 5.439068900159327e-06,
+              "rank": 8914
+            }
+          ]
+        },
+        {
+          "head": "subway",
+          "token_id": 19612,
+          "probability": 2.2473926946986467e-05,
+          "rank": 3131,
+          "prompts": [
+            {
+              "prompt": "The red",
+              "probability": 3.559414471965283e-05,
+              "rank": 2273
+            },
+            {
+              "prompt": "A red",
+              "probability": 2.7397862140787765e-05,
+              "rank": 2323
+            },
+            {
+              "prompt": "This red",
+              "probability": 1.1056369658035692e-05,
+              "rank": 5033
+            },
+            {
+              "prompt": "Their red",
+              "probability": 2.464429780957289e-05,
+              "rank": 3131
+            },
+            {
+              "prompt": "Our red",
+              "probability": 1.3676960406883154e-05,
+              "rank": 5135
+            }
+          ]
+        },
+        {
+          "head": "blanket",
+          "token_id": 18447,
+          "probability": 0.0006401540071237832,
+          "rank": 302,
+          "prompts": [
+            {
+              "prompt": "The red",
+              "probability": 0.0003588029358070344,
+              "rank": 302
+            },
+            {
+              "prompt": "A red",
+              "probability": 0.0013018434401601553,
+              "rank": 84
+            },
+            {
+              "prompt": "This red",
+              "probability": 0.0010544565739110112,
+              "rank": 128
+            },
+            {
+              "prompt": "Their red",
+              "probability": 0.00025543521041981876,
+              "rank": 448
+            },
+            {
+              "prompt": "Our red",
+              "probability": 0.0002302318753208965,
+              "rank": 529
+            }
+          ]
+        }
+      ],
+      "best_minority_head": {
+        "head": "light",
+        "token_id": 1657,
+        "probability": 0.02350066611543298,
+        "rank": 11,
+        "prompts": [
+          {
+            "prompt": "The red",
+            "probability": 0.042520634829998016,
+            "rank": 2
+          },
+          {
+            "prompt": "A red",
+            "probability": 0.0537165142595768,
+            "rank": 2
+          },
+          {
+            "prompt": "This red",
+            "probability": 0.008141374215483665,
+            "rank": 15
+          },
+          {
+            "prompt": "Their red",
+            "probability": 0.005565247498452663,
+            "rank": 11
+          },
+          {
+            "prompt": "Our red",
+            "probability": 0.007559559773653746,
+            "rank": 14
+          }
+        ]
+      },
+      "best_unrelated_head": {
+        "head": "blanket",
+        "token_id": 18447,
+        "probability": 0.0006401540071237832,
+        "rank": 302,
+        "prompts": [
+          {
+            "prompt": "The red",
+            "probability": 0.0003588029358070344,
+            "rank": 302
+          },
+          {
+            "prompt": "A red",
+            "probability": 0.0013018434401601553,
+            "rank": 84
+          },
+          {
+            "prompt": "This red",
+            "probability": 0.0010544565739110112,
+            "rank": 128
+          },
+          {
+            "prompt": "Their red",
+            "probability": 0.00025543521041981876,
+            "rank": 448
+          },
+          {
+            "prompt": "Our red",
+            "probability": 0.0002302318753208965,
+            "rank": 529
+          }
+        ]
+      },
+      "target_vs_best_minority_ratio": null,
+      "log10_target_margin_over_best_minority": null,
+      "minority_heads_beating_target": [],
+      "minority_vs_unrelated_ratio": 36.71095682275215,
+      "top_predictions_after_first_prompt": [
+        {
+          "token": "-",
+          "token_id": 12,
+          "probability": 0.11562187969684601
+        },
+        {
+          "token": " light",
+          "token_id": 1657,
+          "probability": 0.042520634829998016
+        },
+        {
+          "token": " carpet",
+          "token_id": 20710,
+          "probability": 0.036156073212623596
+        },
+        {
+          "token": "iscovery",
+          "token_id": 40821,
+          "probability": 0.022044232115149498
+        },
+        {
+          "token": " and",
+          "token_id": 290,
+          "probability": 0.020819252356886864
+        },
+        {
+          "token": " flag",
+          "token_id": 6056,
+          "probability": 0.01963740400969982
+        },
+        {
+          "token": ",",
+          "token_id": 11,
+          "probability": 0.017672356218099594
+        },
+        {
+          "token": "oub",
+          "token_id": 12944,
+          "probability": 0.016150591894984245
+        },
+        {
+          "token": "head",
+          "token_id": 2256,
+          "probability": 0.012193233706057072
+        },
+        {
+          "token": " tape",
+          "token_id": 9154,
+          "probability": 0.011534593068063259
+        }
+      ],
+      "skipped_heads": [
+        {
+          "head": "herring",
+          "reason": "multi_token"
+        }
+      ]
+    },
+    {
+      "compound": "dark horse",
+      "modifier": "dark",
+      "category": "idiom_or_adjective",
+      "prompts": [
+        "The dark",
+        "A dark",
+        "This dark",
+        "Their dark",
+        "Our dark"
+      ],
+      "target": {
+        "head": "horse",
+        "token_id": 8223,
+        "probability": 0.017132818652316927,
+        "rank": 8,
+        "prompts": [
+          {
+            "prompt": "The dark",
+            "probability": 0.027044929563999176,
+            "rank": 3
+          },
+          {
+            "prompt": "A dark",
+            "probability": 0.02903101220726967,
+            "rank": 5
+          },
+          {
+            "prompt": "This dark",
+            "probability": 0.013638963922858238,
+            "rank": 8
+          },
+          {
+            "prompt": "Their dark",
+            "probability": 0.002891081152483821,
+            "rank": 28
+          },
+          {
+            "prompt": "Our dark",
+            "probability": 0.013058106414973736,
+            "rank": 9
+          }
+        ]
+      },
+      "minority_heads": [
+        {
+          "head": "room",
+          "token_id": 2119,
+          "probability": 0.003218662249855697,
+          "rank": 56,
+          "prompts": [
+            {
+              "prompt": "The dark",
+              "probability": 0.0019623239059001207,
+              "rank": 56
+            },
+            {
+              "prompt": "A dark",
+              "probability": 0.007084714248776436,
+              "rank": 13
+            },
+            {
+              "prompt": "This dark",
+              "probability": 0.0037405809853225946,
+              "rank": 26
+            },
+            {
+              "prompt": "Their dark",
+              "probability": 0.0011405657278373837,
+              "rank": 93
+            },
+            {
+              "prompt": "Our dark",
+              "probability": 0.002165126381441951,
+              "rank": 56
+            }
+          ]
+        },
+        {
+          "head": "matter",
+          "token_id": 2300,
+          "probability": 0.01343944096006453,
+          "rank": 9,
+          "prompts": [
+            {
+              "prompt": "The dark",
+              "probability": 0.01902184449136257,
+              "rank": 7
+            },
+            {
+              "prompt": "A dark",
+              "probability": 0.010372276417911053,
+              "rank": 9
+            },
+            {
+              "prompt": "This dark",
+              "probability": 0.0030719160567969084,
+              "rank": 31
+            },
+            {
+              "prompt": "Their dark",
+              "probability": 0.0017997431568801403,
+              "rank": 50
+            },
+            {
+              "prompt": "Our dark",
+              "probability": 0.03293142467737198,
+              "rank": 4
+            }
+          ]
+        },
+        {
+          "head": "side",
+          "token_id": 1735,
+          "probability": 0.04353426189627498,
+          "rank": 8,
+          "prompts": [
+            {
+              "prompt": "The dark",
+              "probability": 0.17513194680213928,
+              "rank": 1
+            },
+            {
+              "prompt": "A dark",
+              "probability": 0.00653123389929533,
+              "rank": 15
+            },
+            {
+              "prompt": "This dark",
+              "probability": 0.001922944444231689,
+              "rank": 47
+            },
+            {
+              "prompt": "Their dark",
+              "probability": 0.012209482491016388,
+              "rank": 8
+            },
+            {
+              "prompt": "Our dark",
+              "probability": 0.02187570184469223,
+              "rank": 6
+            }
+          ]
+        },
+        {
+          "head": "sky",
+          "token_id": 6766,
+          "probability": 0.003315561544150114,
+          "rank": 32,
+          "prompts": [
+            {
+              "prompt": "The dark",
+              "probability": 0.002956350799649954,
+              "rank": 32
+            },
+            {
+              "prompt": "A dark",
+              "probability": 0.003918648697435856,
+              "rank": 28
+            },
+            {
+              "prompt": "This dark",
+              "probability": 0.0026821924839168787,
+              "rank": 34
+            },
+            {
+              "prompt": "Their dark",
+              "probability": 0.0012008349876850843,
+              "rank": 87
+            },
+            {
+              "prompt": "Our dark",
+              "probability": 0.0058197807520627975,
+              "rank": 20
+            }
+          ]
+        },
+        {
+          "head": "color",
+          "token_id": 3124,
+          "probability": 0.002112751395907253,
+          "rank": 66,
+          "prompts": [
+            {
+              "prompt": "The dark",
+              "probability": 0.0007576565840281546,
+              "rank": 132
+            },
+            {
+              "prompt": "A dark",
+              "probability": 0.001549876993522048,
+              "rank": 67
+            },
+            {
+              "prompt": "This dark",
+              "probability": 0.0021817595697939396,
+              "rank": 41
+            },
+            {
+              "prompt": "Their dark",
+              "probability": 0.004203699063509703,
+              "rank": 19
+            },
+            {
+              "prompt": "Our dark",
+              "probability": 0.0018707647686824203,
+              "rank": 66
+            }
+          ]
+        }
+      ],
+      "unrelated_heads": [
+        {
+          "head": "receipt",
+          "token_id": 14507,
+          "probability": 2.6804552817338844e-07,
+          "rank": 21667,
+          "prompts": [
+            {
+              "prompt": "The dark",
+              "probability": 2.0959785729246505e-07,
+              "rank": 24911
+            },
+            {
+              "prompt": "A dark",
+              "probability": 2.561267820055946e-07,
+              "rank": 21667
+            },
+            {
+              "prompt": "This dark",
+              "probability": 5.066650601293077e-07,
+              "rank": 17787
+            },
+            {
+              "prompt": "Their dark",
+              "probability": 2.704990151869424e-07,
+              "rank": 21484
+            },
+            {
+              "prompt": "Our dark",
+              "probability": 9.733892625263252e-08,
+              "rank": 30148
+            }
+          ]
+        },
+        {
+          "head": "ladder",
+          "token_id": 18002,
+          "probability": 6.383837489920552e-06,
+          "rank": 6372,
+          "prompts": [
+            {
+              "prompt": "The dark",
+              "probability": 6.730644599883817e-06,
+              "rank": 6372
+            },
+            {
+              "prompt": "A dark",
+              "probability": 1.2554301974887494e-05,
+              "rank": 4404
+            },
+            {
+              "prompt": "This dark",
+              "probability": 6.596003458980704e-06,
+              "rank": 6060
+            },
+            {
+              "prompt": "Their dark",
+              "probability": 2.0161808151897276e-06,
+              "rank": 11677
+            },
+            {
+              "prompt": "Our dark",
+              "probability": 4.022056600661017e-06,
+              "rank": 9366
+            }
+          ]
+        },
+        {
+          "head": "butter",
+          "token_id": 9215,
+          "probability": 2.0322701038821835e-05,
+          "rank": 5312,
+          "prompts": [
+            {
+              "prompt": "The dark",
+              "probability": 6.528916856041178e-06,
+              "rank": 6466
+            },
+            {
+              "prompt": "A dark",
+              "probability": 8.914193131204229e-06,
+              "rank": 5312
+            },
+            {
+              "prompt": "This dark",
+              "probability": 5.782697189715691e-05,
+              "rank": 1509
+            },
+            {
+              "prompt": "Their dark",
+              "probability": 6.205312729434809e-06,
+              "rank": 7109
+            },
+            {
+              "prompt": "Our dark",
+              "probability": 2.213811058027204e-05,
+              "rank": 3643
+            }
+          ]
+        }
+      ],
+      "best_minority_head": {
+        "head": "side",
+        "token_id": 1735,
+        "probability": 0.04353426189627498,
+        "rank": 8,
+        "prompts": [
+          {
+            "prompt": "The dark",
+            "probability": 0.17513194680213928,
+            "rank": 1
+          },
+          {
+            "prompt": "A dark",
+            "probability": 0.00653123389929533,
+            "rank": 15
+          },
+          {
+            "prompt": "This dark",
+            "probability": 0.001922944444231689,
+            "rank": 47
+          },
+          {
+            "prompt": "Their dark",
+            "probability": 0.012209482491016388,
+            "rank": 8
+          },
+          {
+            "prompt": "Our dark",
+            "probability": 0.02187570184469223,
+            "rank": 6
+          }
+        ]
+      },
+      "best_unrelated_head": {
+        "head": "butter",
+        "token_id": 9215,
+        "probability": 2.0322701038821835e-05,
+        "rank": 5312,
+        "prompts": [
+          {
+            "prompt": "The dark",
+            "probability": 6.528916856041178e-06,
+            "rank": 6466
+          },
+          {
+            "prompt": "A dark",
+            "probability": 8.914193131204229e-06,
+            "rank": 5312
+          },
+          {
+            "prompt": "This dark",
+            "probability": 5.782697189715691e-05,
+            "rank": 1509
+          },
+          {
+            "prompt": "Their dark",
+            "probability": 6.205312729434809e-06,
+            "rank": 7109
+          },
+          {
+            "prompt": "Our dark",
+            "probability": 2.213811058027204e-05,
+            "rank": 3643
+          }
+        ]
+      },
+      "target_vs_best_minority_ratio": 0.39354792997611154,
+      "log10_target_margin_over_best_minority": -0.405002367593168,
+      "minority_heads_beating_target": [
+        "side"
+      ],
+      "minority_vs_unrelated_ratio": 2142.1494029318646,
+      "top_predictions_after_first_prompt": [
+        {
+          "token": " side",
+          "token_id": 1735,
+          "probability": 0.17513194680213928
+        },
+        {
+          "token": ",",
+          "token_id": 11,
+          "probability": 0.029385004192590714
+        },
+        {
+          "token": " horse",
+          "token_id": 8223,
+          "probability": 0.027044929563999176
+        },
+        {
+          "token": "-",
+          "token_id": 12,
+          "probability": 0.025713812559843063
+        },
+        {
+          "token": " web",
+          "token_id": 3992,
+          "probability": 0.02455970272421837
+        },
+        {
+          "token": " and",
+          "token_id": 290,
+          "probability": 0.02259998954832554
+        },
+        {
+          "token": " matter",
+          "token_id": 2300,
+          "probability": 0.01902184449136257
+        },
+        {
+          "token": "ening",
+          "token_id": 3101,
+          "probability": 0.018824364989995956
+        },
+        {
+          "token": " cloud",
+          "token_id": 6279,
+          "probability": 0.018338385969400406
+        },
+        {
+          "token": " clouds",
+          "token_id": 15114,
+          "probability": 0.01524075586348772
+        }
+      ],
+      "skipped_heads": []
+    },
+    {
+      "compound": "time machine",
+      "modifier": "time",
+      "category": "fiction_or_abstract",
+      "prompts": [
+        "The time",
+        "A time",
+        "This time",
+        "Their time",
+        "Our time"
+      ],
+      "target": {
+        "head": "machine",
+        "token_id": 4572,
+        "probability": 0.007496117912523914,
+        "rank": 41,
+        "prompts": [
+          {
+            "prompt": "The time",
+            "probability": 0.0011527974857017398,
+            "rank": 43
+          },
+          {
+            "prompt": "A time",
+            "probability": 0.029207365587353706,
+            "rank": 8
+          },
+          {
+            "prompt": "This time",
+            "probability": 0.00011278686724836007,
+            "rank": 174
+          },
+          {
+            "prompt": "Their time",
+            "probability": 0.001657275715842843,
+            "rank": 41
+          },
+          {
+            "prompt": "Our time",
+            "probability": 0.005350363906472921,
+            "rank": 22
+          }
+        ]
+      },
+      "minority_heads": [
+        {
+          "head": "period",
+          "token_id": 2278,
+          "probability": 0.002690375642850995,
+          "rank": 28,
+          "prompts": [
+            {
+              "prompt": "The time",
+              "probability": 0.0019869529642164707,
+              "rank": 28
+            },
+            {
+              "prompt": "A time",
+              "probability": 0.0036622206680476665,
+              "rank": 27
+            },
+            {
+              "prompt": "This time",
+              "probability": 0.002238565357401967,
+              "rank": 27
+            },
+            {
+              "prompt": "Their time",
+              "probability": 0.0028338683769106865,
+              "rank": 33
+            },
+            {
+              "prompt": "Our time",
+              "probability": 0.0027302708476781845,
+              "rank": 28
+            }
+          ]
+        },
+        {
+          "head": "line",
+          "token_id": 1627,
+          "probability": 0.0017889765309519134,
+          "rank": 52,
+          "prompts": [
+            {
+              "prompt": "The time",
+              "probability": 0.0007452516001649201,
+              "rank": 52
+            },
+            {
+              "prompt": "A time",
+              "probability": 0.005164731293916702,
+              "rank": 21
+            },
+            {
+              "prompt": "This time",
+              "probability": 7.273017399711534e-05,
+              "rank": 264
+            },
+            {
+              "prompt": "Their time",
+              "probability": 0.0005452876212075353,
+              "rank": 100
+            },
+            {
+              "prompt": "Our time",
+              "probability": 0.0024168819654732943,
+              "rank": 30
+            }
+          ]
+        },
+        {
+          "head": "frame",
+          "token_id": 5739,
+          "probability": 0.003998877666890621,
+          "rank": 37,
+          "prompts": [
+            {
+              "prompt": "The time",
+              "probability": 0.0012183181243017316,
+              "rank": 41
+            },
+            {
+              "prompt": "A time",
+              "probability": 0.002361154416576028,
+              "rank": 37
+            },
+            {
+              "prompt": "This time",
+              "probability": 0.0007470959099009633,
+              "rank": 49
+            },
+            {
+              "prompt": "Their time",
+              "probability": 0.00469727860763669,
+              "rank": 25
+            },
+            {
+              "prompt": "Our time",
+              "probability": 0.010970541276037693,
+              "rank": 15
+            }
+          ]
+        },
+        {
+          "head": "zone",
+          "token_id": 6516,
+          "probability": 0.0014888388992403633,
+          "rank": 67,
+          "prompts": [
+            {
+              "prompt": "The time",
+              "probability": 0.00048614564002491534,
+              "rank": 67
+            },
+            {
+              "prompt": "A time",
+              "probability": 0.0008510870975442231,
+              "rank": 78
+            },
+            {
+              "prompt": "This time",
+              "probability": 8.32533769425936e-05,
+              "rank": 231
+            },
+            {
+              "prompt": "Their time",
+              "probability": 0.0012866934994235635,
+              "rank": 55
+            },
+            {
+              "prompt": "Our time",
+              "probability": 0.0047370148822665215,
+              "rank": 23
+            }
+          ]
+        },
+        {
+          "head": "limit",
+          "token_id": 4179,
+          "probability": 0.002224168482644018,
+          "rank": 35,
+          "prompts": [
+            {
+              "prompt": "The time",
+              "probability": 0.0013645451981574297,
+              "rank": 35
+            },
+            {
+              "prompt": "A time",
+              "probability": 0.005784015171229839,
+              "rank": 20
+            },
+            {
+              "prompt": "This time",
+              "probability": 0.0001167675873148255,
+              "rank": 170
+            },
+            {
+              "prompt": "Their time",
+              "probability": 0.0016049315454438329,
+              "rank": 42
+            },
+            {
+              "prompt": "Our time",
+              "probability": 0.0022505829110741615,
+              "rank": 33
+            }
+          ]
+        }
+      ],
+      "unrelated_heads": [
+        {
+          "head": "cabbage",
+          "token_id": 41266,
+          "probability": 9.78328152712038e-08,
+          "rank": 27177,
+          "prompts": [
+            {
+              "prompt": "The time",
+              "probability": 3.806858828170334e-08,
+              "rank": 27824
+            },
+            {
+              "prompt": "A time",
+              "probability": 1.3328592274319817e-07,
+              "rank": 21581
+            },
+            {
+              "prompt": "This time",
+              "probability": 1.881099080947024e-07,
+              "rank": 20234
+            },
+            {
+              "prompt": "Their time",
+              "probability": 3.888922606165579e-08,
+              "rank": 27177
+            },
+            {
+              "prompt": "Our time",
+              "probability": 9.081043117475929e-08,
+              "rank": 29263
+            }
+          ]
+        },
+        {
+          "head": "violin",
+          "token_id": 38283,
+          "probability": 1.1302490065645543e-06,
+          "rank": 10644,
+          "prompts": [
+            {
+              "prompt": "The time",
+              "probability": 4.32332569744176e-07,
+              "rank": 10644
+            },
+            {
+              "prompt": "A time",
+              "probability": 2.760351662800531e-06,
+              "rank": 5377
+            },
+            {
+              "prompt": "This time",
+              "probability": 4.819555101676087e-07,
+              "rank": 13273
+            },
+            {
+              "prompt": "Their time",
+              "probability": 4.56269845017232e-07,
+              "rank": 11299
+            },
+            {
+              "prompt": "Our time",
+              "probability": 1.5203354450932238e-06,
+              "rank": 9194
+            }
+          ]
+        },
+        {
+          "head": "garage",
+          "token_id": 15591,
+          "probability": 2.0307892043547326e-07,
+          "rank": 19519,
+          "prompts": [
+            {
+              "prompt": "The time",
+              "probability": 3.689410021934236e-08,
+              "rank": 28040
+            },
+            {
+              "prompt": "A time",
+              "probability": 2.1426197349683207e-07,
+              "rank": 18212
+            },
+            {
+              "prompt": "This time",
+              "probability": 1.2574551533361955e-07,
+              "rank": 23400
+            },
+            {
+              "prompt": "Their time",
+              "probability": 1.1575507841143917e-07,
+              "rank": 19519
+            },
+            {
+              "prompt": "Our time",
+              "probability": 5.227379347161332e-07,
+              "rank": 15514
+            }
+          ]
+        }
+      ],
+      "best_minority_head": {
+        "head": "frame",
+        "token_id": 5739,
+        "probability": 0.003998877666890621,
+        "rank": 37,
+        "prompts": [
+          {
+            "prompt": "The time",
+            "probability": 0.0012183181243017316,
+            "rank": 41
+          },
+          {
+            "prompt": "A time",
+            "probability": 0.002361154416576028,
+            "rank": 37
+          },
+          {
+            "prompt": "This time",
+            "probability": 0.0007470959099009633,
+            "rank": 49
+          },
+          {
+            "prompt": "Their time",
+            "probability": 0.00469727860763669,
+            "rank": 25
+          },
+          {
+            "prompt": "Our time",
+            "probability": 0.010970541276037693,
+            "rank": 15
+          }
+        ]
+      },
+      "best_unrelated_head": {
+        "head": "violin",
+        "token_id": 38283,
+        "probability": 1.1302490065645543e-06,
+        "rank": 10644,
+        "prompts": [
+          {
+            "prompt": "The time",
+            "probability": 4.32332569744176e-07,
+            "rank": 10644
+          },
+          {
+            "prompt": "A time",
+            "probability": 2.760351662800531e-06,
+            "rank": 5377
+          },
+          {
+            "prompt": "This time",
+            "probability": 4.819555101676087e-07,
+            "rank": 13273
+          },
+          {
+            "prompt": "Their time",
+            "probability": 4.56269845017232e-07,
+            "rank": 11299
+          },
+          {
+            "prompt": "Our time",
+            "probability": 1.5203354450932238e-06,
+            "rank": 9194
+          }
+        ]
+      },
+      "target_vs_best_minority_ratio": 1.874555447041874,
+      "log10_target_margin_over_best_minority": 0.2728982907928903,
+      "minority_heads_beating_target": [],
+      "minority_vs_unrelated_ratio": 3538.050149714708,
+      "top_predictions_after_first_prompt": [
+        {
+          "token": " has",
+          "token_id": 468,
+          "probability": 0.48901069164276123
+        },
+        {
+          "token": " is",
+          "token_id": 318,
+          "probability": 0.11196720600128174
+        },
+        {
+          "token": " for",
+          "token_id": 329,
+          "probability": 0.05733557045459747
+        },
+        {
+          "token": " of",
+          "token_id": 286,
+          "probability": 0.03655654937028885
+        },
+        {
+          "token": " to",
+          "token_id": 284,
+          "probability": 0.03545758128166199
+        },
+        {
+          "token": " it",
+          "token_id": 340,
+          "probability": 0.01886918395757675
+        },
+        {
+          "token": " was",
+          "token_id": 373,
+          "probability": 0.016676820814609528
+        },
+        {
+          "token": "-",
+          "token_id": 12,
+          "probability": 0.016023602336645126
+        },
+        {
+          "token": " had",
+          "token_id": 550,
+          "probability": 0.010673428885638714
+        },
+        {
+          "token": " I",
+          "token_id": 314,
+          "probability": 0.008984440937638283
+        }
+      ],
+      "skipped_heads": []
+    },
+    {
+      "compound": "kitchen chair",
+      "modifier": "kitchen",
+      "category": "furniture_room",
+      "prompts": [
+        "The kitchen",
+        "A kitchen",
+        "This kitchen",
+        "Their kitchen",
+        "Our kitchen"
+      ],
+      "target": {
+        "head": "chair",
+        "token_id": 5118,
+        "probability": 0.00045647254883078857,
+        "rank": 232,
+        "prompts": [
+          {
+            "prompt": "The kitchen",
+            "probability": 0.00041430635610595345,
+            "rank": 196
+          },
+          {
+            "prompt": "A kitchen",
+            "probability": 0.0011711128754541278,
+            "rank": 98
+          },
+          {
+            "prompt": "This kitchen",
+            "probability": 0.0005109988269396126,
+            "rank": 232
+          },
+          {
+            "prompt": "Their kitchen",
+            "probability": 0.0001300618314417079,
+            "rank": 501
+          },
+          {
+            "prompt": "Our kitchen",
+            "probability": 5.588285421254113e-05,
+            "rank": 1012
+          }
+        ]
+      },
+      "minority_heads": [
+        {
+          "head": "table",
+          "token_id": 3084,
+          "probability": 0.012384688947349787,
+          "rank": 7,
+          "prompts": [
+            {
+              "prompt": "The kitchen",
+              "probability": 0.017733324319124222,
+              "rank": 7
+            },
+            {
+              "prompt": "A kitchen",
+              "probability": 0.01753702387213707,
+              "rank": 7
+            },
+            {
+              "prompt": "This kitchen",
+              "probability": 0.007027752697467804,
+              "rank": 16
+            },
+            {
+              "prompt": "Their kitchen",
+              "probability": 0.015575926750898361,
+              "rank": 6
+            },
+            {
+              "prompt": "Our kitchen",
+              "probability": 0.004049417097121477,
+              "rank": 18
+            }
+          ]
+        },
+        {
+          "head": "sink",
+          "token_id": 14595,
+          "probability": 0.025905576162040235,
+          "rank": 7,
+          "prompts": [
+            {
+              "prompt": "The kitchen",
+              "probability": 0.04339556768536568,
+              "rank": 3
+            },
+            {
+              "prompt": "A kitchen",
+              "probability": 0.058921970427036285,
+              "rank": 1
+            },
+            {
+              "prompt": "This kitchen",
+              "probability": 0.01837230660021305,
+              "rank": 7
+            },
+            {
+              "prompt": "Their kitchen",
+              "probability": 0.005849707871675491,
+              "rank": 15
+            },
+            {
+              "prompt": "Our kitchen",
+              "probability": 0.0029883282259106636,
+              "rank": 30
+            }
+          ]
+        },
+        {
+          "head": "cabinet",
+          "token_id": 13447,
+          "probability": 0.0024092474137432872,
+          "rank": 51,
+          "prompts": [
+            {
+              "prompt": "The kitchen",
+              "probability": 0.002744565485045314,
+              "rank": 32
+            },
+            {
+              "prompt": "A kitchen",
+              "probability": 0.005504535045474768,
+              "rank": 26
+            },
+            {
+              "prompt": "This kitchen",
+              "probability": 0.002068061614409089,
+              "rank": 51
+            },
+            {
+              "prompt": "Their kitchen",
+              "probability": 0.001126656192354858,
+              "rank": 84
+            },
+            {
+              "prompt": "Our kitchen",
+              "probability": 0.0006024187314324081,
+              "rank": 147
+            }
+          ]
+        },
+        {
+          "head": "floor",
+          "token_id": 4314,
+          "probability": 0.003136805514805019,
+          "rank": 46,
+          "prompts": [
+            {
+              "prompt": "The kitchen",
+              "probability": 0.006468822713941336,
+              "rank": 14
+            },
+            {
+              "prompt": "A kitchen",
+              "probability": 0.002577390754595399,
+              "rank": 46
+            },
+            {
+              "prompt": "This kitchen",
+              "probability": 0.0015258066123351455,
+              "rank": 76
+            },
+            {
+              "prompt": "Their kitchen",
+              "probability": 0.003542887745425105,
+              "rank": 29
+            },
+            {
+              "prompt": "Our kitchen",
+              "probability": 0.0015691197477281094,
+              "rank": 55
+            }
+          ]
+        },
+        {
+          "head": "counter",
+          "token_id": 3753,
+          "probability": 0.00522887809202075,
+          "rank": 23,
+          "prompts": [
+            {
+              "prompt": "The kitchen",
+              "probability": 0.00640620244666934,
+              "rank": 15
+            },
+            {
+              "prompt": "A kitchen",
+              "probability": 0.009580790065228939,
+              "rank": 10
+            },
+            {
+              "prompt": "This kitchen",
+              "probability": 0.005228128749877214,
+              "rank": 23
+            },
+            {
+              "prompt": "Their kitchen",
+              "probability": 0.0038150325417518616,
+              "rank": 26
+            },
+            {
+              "prompt": "Our kitchen",
+              "probability": 0.001114236656576395,
+              "rank": 80
+            }
+          ]
+        }
+      ],
+      "unrelated_heads": [
+        {
+          "head": "galaxy",
+          "token_id": 16161,
+          "probability": 1.1763973077449919e-06,
+          "rank": 11346,
+          "prompts": [
+            {
+              "prompt": "The kitchen",
+              "probability": 2.793650310195517e-06,
+              "rank": 8182
+            },
+            {
+              "prompt": "A kitchen",
+              "probability": 7.065798399708001e-07,
+              "rank": 16083
+            },
+            {
+              "prompt": "This kitchen",
+              "probability": 4.2829614699257945e-07,
+              "rank": 16693
+            },
+            {
+              "prompt": "Their kitchen",
+              "probability": 9.766313269210514e-07,
+              "rank": 11346
+            },
+            {
+              "prompt": "Our kitchen",
+              "probability": 9.768289146450115e-07,
+              "rank": 11014
+            }
+          ]
+        },
+        {
+          "head": "ticket",
+          "token_id": 7846,
+          "probability": 8.214960317332043e-07,
+          "rank": 18170,
+          "prompts": [
+            {
+              "prompt": "The kitchen",
+              "probability": 3.284783076651365e-07,
+              "rank": 20266
+            },
+            {
+              "prompt": "A kitchen",
+              "probability": 3.0575688469980378e-06,
+              "rank": 8836
+            },
+            {
+              "prompt": "This kitchen",
+              "probability": 3.429298374157952e-07,
+              "rank": 18013
+            },
+            {
+              "prompt": "Their kitchen",
+              "probability": 2.8176731348139583e-07,
+              "rank": 18170
+            },
+            {
+              "prompt": "Our kitchen",
+              "probability": 9.673585310565613e-08,
+              "rank": 24610
+            }
+          ]
+        },
+        {
+          "head": "sweater",
+          "token_id": 35685,
+          "probability": 6.10892127497209e-06,
+          "rank": 7073,
+          "prompts": [
+            {
+              "prompt": "The kitchen",
+              "probability": 3.714145577760064e-06,
+              "rank": 7073
+            },
+            {
+              "prompt": "A kitchen",
+              "probability": 1.611745756235905e-05,
+              "rank": 3769
+            },
+            {
+              "prompt": "This kitchen",
+              "probability": 9.172198588203173e-06,
+              "rank": 4552
+            },
+            {
+              "prompt": "Their kitchen",
+              "probability": 7.117032509995624e-07,
+              "rank": 12889
+            },
+            {
+              "prompt": "Our kitchen",
+              "probability": 8.291013955386006e-07,
+              "rank": 11801
+            }
+          ]
+        }
+      ],
+      "best_minority_head": {
+        "head": "sink",
+        "token_id": 14595,
+        "probability": 0.025905576162040235,
+        "rank": 7,
+        "prompts": [
+          {
+            "prompt": "The kitchen",
+            "probability": 0.04339556768536568,
+            "rank": 3
+          },
+          {
+            "prompt": "A kitchen",
+            "probability": 0.058921970427036285,
+            "rank": 1
+          },
+          {
+            "prompt": "This kitchen",
+            "probability": 0.01837230660021305,
+            "rank": 7
+          },
+          {
+            "prompt": "Their kitchen",
+            "probability": 0.005849707871675491,
+            "rank": 15
+          },
+          {
+            "prompt": "Our kitchen",
+            "probability": 0.0029883282259106636,
+            "rank": 30
+          }
+        ]
+      },
+      "best_unrelated_head": {
+        "head": "sweater",
+        "token_id": 35685,
+        "probability": 6.10892127497209e-06,
+        "rank": 7073,
+        "prompts": [
+          {
+            "prompt": "The kitchen",
+            "probability": 3.714145577760064e-06,
+            "rank": 7073
+          },
+          {
+            "prompt": "A kitchen",
+            "probability": 1.611745756235905e-05,
+            "rank": 3769
+          },
+          {
+            "prompt": "This kitchen",
+            "probability": 9.172198588203173e-06,
+            "rank": 4552
+          },
+          {
+            "prompt": "Their kitchen",
+            "probability": 7.117032509995624e-07,
+            "rank": 12889
+          },
+          {
+            "prompt": "Our kitchen",
+            "probability": 8.291013955386006e-07,
+            "rank": 11801
+          }
+        ]
+      },
+      "target_vs_best_minority_ratio": 0.017620629086785706,
+      "log10_target_margin_over_best_minority": -1.7539785896520568,
+      "minority_heads_beating_target": [
+        "table",
+        "sink",
+        "cabinet",
+        "floor",
+        "counter"
+      ],
+      "minority_vs_unrelated_ratio": 4240.613849154341,
+      "top_predictions_after_first_prompt": [
+        {
+          "token": " is",
+          "token_id": 318,
+          "probability": 0.19760523736476898
+        },
+        {
+          "token": " of",
+          "token_id": 286,
+          "probability": 0.08322661370038986
+        },
+        {
+          "token": " sink",
+          "token_id": 14595,
+          "probability": 0.04339556768536568
+        },
+        {
+          "token": " was",
+          "token_id": 373,
+          "probability": 0.039423998445272446
+        },
+        {
+          "token": " has",
+          "token_id": 468,
+          "probability": 0.037477415055036545
+        },
+        {
+          "token": "ette",
+          "token_id": 5857,
+          "probability": 0.018831856548786163
+        },
+        {
+          "token": " table",
+          "token_id": 3084,
+          "probability": 0.017733324319124222
+        },
+        {
+          "token": " and",
+          "token_id": 290,
+          "probability": 0.016357874497771263
+        },
+        {
+          "token": ",",
+          "token_id": 11,
+          "probability": 0.013986174948513508
+        },
+        {
+          "token": " at",
+          "token_id": 379,
+          "probability": 0.013978267088532448
+        }
+      ],
+      "skipped_heads": []
+    },
+    {
+      "compound": "office desk",
+      "modifier": "office",
+      "category": "furniture_workplace",
+      "prompts": [
+        "The office",
+        "A office",
+        "This office",
+        "Their office",
+        "Our office"
+      ],
+      "target": {
+        "head": "desk",
+        "token_id": 6915,
+        "probability": 0.0004150912951445207,
+        "rank": 160,
+        "prompts": [
+          {
+            "prompt": "The office",
+            "probability": 0.0001367339282296598,
+            "rank": 152
+          },
+          {
+            "prompt": "A office",
+            "probability": 0.0008658887818455696,
+            "rank": 81
+          },
+          {
+            "prompt": "This office",
+            "probability": 0.0003573121502995491,
+            "rank": 266
+          },
+          {
+            "prompt": "Their office",
+            "probability": 0.0004891809076070786,
+            "rank": 160
+          },
+          {
+            "prompt": "Our office",
+            "probability": 0.00022634070774074644,
+            "rank": 281
+          }
+        ]
+      },
+      "minority_heads": [
+        {
+          "head": "chair",
+          "token_id": 5118,
+          "probability": 0.001260930873104371,
+          "rank": 74,
+          "prompts": [
+            {
+              "prompt": "The office",
+              "probability": 0.0003759718674700707,
+              "rank": 52
+            },
+            {
+              "prompt": "A office",
+              "probability": 0.004093956667929888,
+              "rank": 26
+            },
+            {
+              "prompt": "This office",
+              "probability": 0.0012545689241960645,
+              "rank": 74
+            },
+            {
+              "prompt": "Their office",
+              "probability": 0.00038718065479770303,
+              "rank": 196
+            },
+            {
+              "prompt": "Our office",
+              "probability": 0.00019297625112812966,
+              "rank": 319
+            }
+          ]
+        },
+        {
+          "head": "door",
+          "token_id": 3420,
+          "probability": 0.0014758837758563458,
+          "rank": 37,
+          "prompts": [
+            {
+              "prompt": "The office",
+              "probability": 0.0005767791881226003,
+              "rank": 35
+            },
+            {
+              "prompt": "A office",
+              "probability": 0.0036730796564370394,
+              "rank": 28
+            },
+            {
+              "prompt": "This office",
+              "probability": 0.00047928193816915154,
+              "rank": 203
+            },
+            {
+              "prompt": "Their office",
+              "probability": 0.002243685768917203,
+              "rank": 37
+            },
+            {
+              "prompt": "Our office",
+              "probability": 0.0004065923276357353,
+              "rank": 179
+            }
+          ]
+        },
+        {
+          "head": "space",
+          "token_id": 2272,
+          "probability": 0.004125826631207019,
+          "rank": 18,
+          "prompts": [
+            {
+              "prompt": "The office",
+              "probability": 0.0005926634767092764,
+              "rank": 32
+            },
+            {
+              "prompt": "A office",
+              "probability": 0.007895011454820633,
+              "rank": 17
+            },
+            {
+              "prompt": "This office",
+              "probability": 0.00250663748010993,
+              "rank": 33
+            },
+            {
+              "prompt": "Their office",
+              "probability": 0.005247206427156925,
+              "rank": 17
+            },
+            {
+              "prompt": "Our office",
+              "probability": 0.004387614317238331,
+              "rank": 18
+            }
+          ]
+        },
+        {
+          "head": "manager",
+          "token_id": 4706,
+          "probability": 0.007398172677494585,
+          "rank": 13,
+          "prompts": [
+            {
+              "prompt": "The office",
+              "probability": 0.00281685683876276,
+              "rank": 13
+            },
+            {
+              "prompt": "A office",
+              "probability": 0.02326262556016445,
+              "rank": 5
+            },
+            {
+              "prompt": "This office",
+              "probability": 0.0009707583812996745,
+              "rank": 96
+            },
+            {
+              "prompt": "Their office",
+              "probability": 0.007214468903839588,
+              "rank": 13
+            },
+            {
+              "prompt": "Our office",
+              "probability": 0.002726153703406453,
+              "rank": 33
+            }
+          ]
+        },
+        {
+          "head": "building",
+          "token_id": 2615,
+          "probability": 0.033062625688035044,
+          "rank": 19,
+          "prompts": [
+            {
+              "prompt": "The office",
+              "probability": 0.0030900260899215937,
+              "rank": 12
+            },
+            {
+              "prompt": "A office",
+              "probability": 0.1529311239719391,
+              "rank": 2
+            },
+            {
+              "prompt": "This office",
+              "probability": 0.003630776656791568,
+              "rank": 19
+            },
+            {
+              "prompt": "Their office",
+              "probability": 0.004806056153029203,
+              "rank": 19
+            },
+            {
+              "prompt": "Our office",
+              "probability": 0.0008551455684937537,
+              "rank": 98
+            }
+          ]
+        }
+      ],
+      "unrelated_heads": [
+        {
+          "head": "river",
+          "token_id": 7850,
+          "probability": 1.146128215623321e-06,
+          "rank": 9259,
+          "prompts": [
+            {
+              "prompt": "The office",
+              "probability": 1.331369503532187e-07,
+              "rank": 18354
+            },
+            {
+              "prompt": "A office",
+              "probability": 1.3792338222629041e-06,
+              "rank": 9259
+            },
+            {
+              "prompt": "This office",
+              "probability": 1.9210303889849456e-06,
+              "rank": 7998
+            },
+            {
+              "prompt": "Their office",
+              "probability": 1.2045455832776497e-06,
+              "rank": 10707
+            },
+            {
+              "prompt": "Our office",
+              "probability": 1.092694333237887e-06,
+              "rank": 8937
+            }
+          ]
+        },
+        {
+          "head": "cheese",
+          "token_id": 9891,
+          "probability": 1.4137453320017811e-06,
+          "rank": 10851,
+          "prompts": [
+            {
+              "prompt": "The office",
+              "probability": 4.482756992274517e-07,
+              "rank": 10700
+            },
+            {
+              "prompt": "A office",
+              "probability": 4.488732884055935e-06,
+              "rank": 5263
+            },
+            {
+              "prompt": "This office",
+              "probability": 9.830882845562883e-07,
+              "rank": 10851
+            },
+            {
+              "prompt": "Their office",
+              "probability": 5.587166924669873e-07,
+              "rank": 14939
+            },
+            {
+              "prompt": "Our office",
+              "probability": 5.899130997022439e-07,
+              "rank": 11918
+            }
+          ]
+        },
+        {
+          "head": "moon",
+          "token_id": 8824,
+          "probability": 1.8707542221818584e-05,
+          "rank": 1765,
+          "prompts": [
+            {
+              "prompt": "The office",
+              "probability": 8.61078569869278e-06,
+              "rank": 1684
+            },
+            {
+              "prompt": "A office",
+              "probability": 9.297926226281561e-06,
+              "rank": 3533
+            },
+            {
+              "prompt": "This office",
+              "probability": 3.9550151996081695e-05,
+              "rank": 1462
+            },
+            {
+              "prompt": "Their office",
+              "probability": 1.6923535440582782e-05,
+              "rank": 2507
+            },
+            {
+              "prompt": "Our office",
+              "probability": 1.9155311747454107e-05,
+              "rank": 1765
+            }
+          ]
+        }
+      ],
+      "best_minority_head": {
+        "head": "building",
+        "token_id": 2615,
+        "probability": 0.033062625688035044,
+        "rank": 19,
+        "prompts": [
+          {
+            "prompt": "The office",
+            "probability": 0.0030900260899215937,
+            "rank": 12
+          },
+          {
+            "prompt": "A office",
+            "probability": 0.1529311239719391,
+            "rank": 2
+          },
+          {
+            "prompt": "This office",
+            "probability": 0.003630776656791568,
+            "rank": 19
+          },
+          {
+            "prompt": "Their office",
+            "probability": 0.004806056153029203,
+            "rank": 19
+          },
+          {
+            "prompt": "Our office",
+            "probability": 0.0008551455684937537,
+            "rank": 98
+          }
+        ]
+      },
+      "best_unrelated_head": {
+        "head": "moon",
+        "token_id": 8824,
+        "probability": 1.8707542221818584e-05,
+        "rank": 1765,
+        "prompts": [
+          {
+            "prompt": "The office",
+            "probability": 8.61078569869278e-06,
+            "rank": 1684
+          },
+          {
+            "prompt": "A office",
+            "probability": 9.297926226281561e-06,
+            "rank": 3533
+          },
+          {
+            "prompt": "This office",
+            "probability": 3.9550151996081695e-05,
+            "rank": 1462
+          },
+          {
+            "prompt": "Their office",
+            "probability": 1.6923535440582782e-05,
+            "rank": 2507
+          },
+          {
+            "prompt": "Our office",
+            "probability": 1.9155311747454107e-05,
+            "rank": 1765
+          }
+        ]
+      },
+      "target_vs_best_minority_ratio": 0.012554698439898473,
+      "log10_target_margin_over_best_minority": -1.9011937134162131,
+      "minority_heads_beating_target": [
+        "chair",
+        "door",
+        "space",
+        "manager",
+        "building"
+      ],
+      "minority_vs_unrelated_ratio": 1767.3420322138386,
+      "top_predictions_after_first_prompt": [
+        {
+          "token": " of",
+          "token_id": 286,
+          "probability": 0.7932571768760681
+        },
+        {
+          "token": " is",
+          "token_id": 318,
+          "probability": 0.01608882285654545
+        },
+        {
+          "token": " for",
+          "token_id": 329,
+          "probability": 0.013702386058866978
+        },
+        {
+          "token": " has",
+          "token_id": 468,
+          "probability": 0.012294212356209755
+        },
+        {
+          "token": " was",
+          "token_id": 373,
+          "probability": 0.008706825785338879
+        },
+        {
+          "token": " and",
+          "token_id": 290,
+          "probability": 0.00690438412129879
+        },
+        {
+          "token": "'s",
+          "token_id": 338,
+          "probability": 0.005994635168462992
+        },
+        {
+          "token": " that",
+          "token_id": 326,
+          "probability": 0.005911300890147686
+        },
+        {
+          "token": " in",
+          "token_id": 287,
+          "probability": 0.004397357348352671
+        },
+        {
+          "token": ",",
+          "token_id": 11,
+          "probability": 0.0033878996036946774
+        }
+      ],
+      "skipped_heads": []
+    }
+  ]
+}

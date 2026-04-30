@@ -175,10 +175,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Abstra
-# Abstra is an AI-powered process automation framework.
-# Ignore directories containing user credentials, local state, and settings.
-# Learn more at https://abstra.io/docs
+# Abstra local state
 .abstra/
 
 # Visual Studio Code
@@ -194,10 +191,7 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-# Cursor
-#  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
-#  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
-#  refer to https://docs.cursor.com/context/ignore-files
+# Editor local index files
 .cursorignore
 .cursorindexingignore
 
@@ -207,8 +201,7 @@ marimo/_lsp/
 __marimo__/
 
 # =============================================================================
-# .gitignore for neurico research workspaces
-# Merged with GitHub's Python template at workspace creation time.
+# Project-specific research outputs and local workspace files.
 # =============================================================================
 
 # -----------------------------------------------------------------------------
@@ -237,6 +230,8 @@ __marimo__/
 # Paper examples (reference-only, not part of research output)
 # -----------------------------------------------------------------------------
 paper_examples/
+papers/
+paper_search_results/
 
 # -----------------------------------------------------------------------------
 # Model weights and large binary files
@@ -326,3 +321,14 @@ Thumbs.db
 # -----------------------------------------------------------------------------
 # Logs
 # -----------------------------------------------------------------------------
+logs/
+
+# -----------------------------------------------------------------------------
+# Local workspace artifacts
+# -----------------------------------------------------------------------------
+.claude/
+.codex/
+.gemini/
+.idea-explorer/
+.neurico/
+.resource_finder_complete

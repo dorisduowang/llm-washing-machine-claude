@@ -11,7 +11,8 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-RESULTS_DIR = Path("/data/hypogenicai/workspaces/llm-washing-machine-claude/results")
+REPO_ROOT = Path(__file__).resolve().parents[1]
+RESULTS_DIR = REPO_ROOT / "results"
 PLOTS_DIR = RESULTS_DIR / "plots"
 
 

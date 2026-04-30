@@ -36,7 +36,8 @@ torch.manual_seed(SEED)
 torch.cuda.manual_seed_all(SEED)
 
 DEVICE = "cuda:0" if torch.cuda.is_available() else "cpu"
-RESULTS_DIR = Path("/data/hypogenicai/workspaces/llm-washing-machine-claude/results")
+REPO_ROOT = Path(__file__).resolve().parents[1]
+RESULTS_DIR = REPO_ROOT / "results"
 PLOTS_DIR = RESULTS_DIR / "plots"
 PLOTS_DIR.mkdir(parents=True, exist_ok=True)
 
