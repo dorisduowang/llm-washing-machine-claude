@@ -1,14 +1,14 @@
 # Dataset Download Summary
 
 **Date:** 2026-02-07
-**Working Directory:** `/data/hypogenicai/workspaces/llm-washing-machine-claude/datasets/`
+**Dataset Directory:** `datasets/`
 
 ## Successfully Downloaded Datasets
 
 ### Dataset 1: Noun Compound Senses (NCS) - SUCCESS
 - **Status:** Fully downloaded and verified
 - **Source:** https://github.com/marcospln/noun_compound_senses
-- **Location:** `/data/hypogenicai/workspaces/llm-washing-machine-claude/datasets/noun_compound_senses/`
+- **Location:** `datasets/noun_compound_senses/`
 - **Size:** 567 KB
 - **Contents:**
   - 280 English noun compounds with compositionality ratings
@@ -40,7 +40,7 @@ application form          4.8   (highly compositional)
 ### Dataset 2: Reddy et al. Compositionality Ratings - SUCCESS (via NCS)
 - **Status:** Available within NCS dataset
 - **Source:** Included in `noun_compound_senses/input/sentids_en.csv`
-- **Location:** `/data/hypogenicai/workspaces/llm-washing-machine-claude/datasets/noun_compound_senses/input/sentids_en.csv`
+- **Location:** `datasets/noun_compound_senses/input/sentids_en.csv`
 - **Size:** 282 entries (281 compounds + header)
 - **Contents:**
   - 280+ noun-noun compounds
@@ -58,7 +58,7 @@ The standalone HuggingFace dataset `LanguageToolsLab/compound_compositionality` 
 ### Dataset 3: MAGPIE Idiom Dataset - SUCCESS
 - **Status:** Fully downloaded and verified
 - **Source:** https://github.com/hslh/magpie-corpus
-- **Location:** `/data/hypogenicai/workspaces/llm-washing-machine-claude/datasets/magpie/`
+- **Location:** `datasets/magpie/`
 - **Size:** 92 MB
 - **Contents:**
   - 56,622 total instances of potentially idiomatic expressions
@@ -108,7 +108,7 @@ The HuggingFace version `gsarti/magpie` exists but uses deprecated dataset scrip
 
 ### Dataset 4: Custom Compound Nouns Test Set - SUCCESS
 - **Status:** Created successfully
-- **Location:** `/data/hypogenicai/workspaces/llm-washing-machine-claude/datasets/compound_nouns_test.jsonl`
+- **Location:** `datasets/compound_nouns_test.jsonl`
 - **Size:** 4.5 KB (35 compounds)
 - **Contents:**
   - 35 carefully selected compound nouns
@@ -230,9 +230,9 @@ Suggested research workflows:
 
 ---
 
-## File Locations (Absolute Paths)
+## File Locations
 
-All files are located under: `/data/hypogenicai/workspaces/llm-washing-machine-claude/datasets/`
+All dataset paths are relative to the repository root.
 
 **Key files:**
 - Reddy compositionality data: `noun_compound_senses/input/sentids_en.csv`
